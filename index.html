@@ -1,5 +1,4 @@
-
-<html class="no-js" lang="ko-kr">
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -30,7 +29,7 @@
   <script src="/js/canvas-renderer.js"></script>
   <script src="/js/projector.js"></script>
   <script src="/js/canvas-renderer.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/color.js"></script>
   <script src="/js/projector.js"></script>
   <script src="/js/canvas-renderer.js"></script>
@@ -40,18 +39,17 @@
 <body>
 
   <section id="banner" class="banner" role="banner">
-    <script>
-        var mouseX = 0, mouseY = 0,
-            windowHalfX = window.innerWidth / 2,
-            windowHalfY = window.innerHeight / 2,
-            SEPARATION = 100,
-            AMOUNTX = 10000,
-            AMOUNTY = 10000,
-            camera, scene, renderer;
-        init();
-        animate();
-    </script>
     <div class="fullscreen-bg">
+      <script>
+          var mouseX = 0, mouseY = 0,
+              windowHalfX = window.innerWidth / 2,
+              //windowHalfY = 100000,
+              windowHalfY = window.innerHeight / 2,
+              //SEPARATION = 100, AMOUNTX = 10000, AMOUNTY = 10000,
+              camera, scene, renderer;
+          init();
+          animate();
+      </script>
     </div>
     <header id="header">
       <div class="header-content clearfix">
@@ -77,6 +75,29 @@
           </div>
           <h1><span style="color: #ff5e00;"></span></h1><h1 style="margin-top: 30px;">Cryptocoin banking services</h1>
           <p>이더리움과 비트코인 기반의 가상화폐 관리를 더욱 심플하고 안전하게 보관하는 금융(파이낸셜) 플랫폼</p>
+
+          <div class="no-box">
+            <div class="box__title">Token PreSale Event will start in:</div>
+            <div class="box-container">
+              <div class="box-container__box">
+                <span id="clock-day" class="box-container__digit">00</span>
+                <div class="box-container__description">days</div>
+              </div>
+              <div class="box-container__box">
+                <span id="clock-hour" class="box-container__digit">00</span>
+                <div class="box-container__description">hours</div>
+              </div>
+              <div class="box-container__box">
+                <span id="clock-min" class="box-container__digit">00</span>
+                <div class="box-container__description">minutes</div>
+              </div>
+              <div class="box-container__box">
+                <span id="clock-sec" class="box-container__digit box-container__digit-last">00</span>
+                <div class="box-container__description">seconds</div>
+              </div>
+            </div>
+          </div>
+
           <div>
             <a href="#teamVideo" class="teamVideo-btn teamVideo-btn-large"  style="margin-bottom:10px">WhitePaper</a>
             <a href="#contact" class="readMore-btn readMore-btn-large">Sign In</a>
@@ -346,12 +367,12 @@
         <div class="row top-box">
           <div class="col-md-6 top-left"> <!--left-->
             <div class="row">
-              <p class="col-4 top-left-text">TARGET</p>
-              <p class="col-8 top-right-text">150,000 ETH</p>
+              <p class="col-md-4 top-left-text">TARGET</p>
+              <p class="col-md-8 top-right-text">150,000 ETH</p>
             </div>
             <div class="row">
-              <p class="col-4 top-left-text">TOKEN SUPPLY</p>
-              <p class="col-8 top-right-text">800,000,000 ABLE</p>
+              <p class="col-md-4 top-left-text">TOKEN SUPPLY</p>
+              <p class="col-md-8 top-right-text">800,000,000 ABLE</p>
             </div>
           </div>
           <div class="col-md-6 top-right"> <!--right-->
@@ -365,16 +386,16 @@
     <div class="container bottom-box">
       <div class="row">
         <div class="col-md-6 limit-per-zone">
-          <h4>USE OF PROCEEDS</h4>
+          <h3>USE OF PROCEEDS</h3>
           <div class="row limit-box">
-            <div class="col-4">
+            <div class="col-md-4">
               <div style="color:#2d3033;background-color:#1f2537;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
               <div style="color:#2d3033;background-color:#30384f;width:80%;height:20px;line-height:25px;text-align:center">5%</div>
               <div style="color:#2d3033;background-color:#5b74b9;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
               <div style="color:#2d3033;background-color:#394f74;width:80%;height:60px;line-height:60px;text-align:center">15%</div>
               <div style="color:#2d3033;background-color:#1dc5c8;width:80%;height:240px;line-height:240px;text-align:center">60%</div>
             </div>
-            <div class="col-8 color-define-zone">
+            <div class="col-md-8 color-define-zone">
               <div>
                 <span style="display:inline-block;width:20px;height:20px;background-color:#1f2537;"></span>
                 <span class="color-box-text">FOUNDATION</span>
@@ -399,9 +420,9 @@
           </div>
         </div>
         <div class="col-md-6 limit-per-zone">
-          <h4>TOKEN ALLCATION</h4>
+          <h3>TOKEN ALLCATION</h3>
           <div class="row limit-box">
-            <div class="col-4">
+            <div class="col-md-4">
               <div style="color:#2d3033;background-color:#1dc5c8;width:80%;height:120px;line-height:120px;text-align:center">30%</div>
               <div style="color:#2d3033;background-color:#6f7d8f;width:80%;height:120px;line-height:120px;text-align:center">30%</div>
               <div style="color:#2d3033;background-color:#5b74b9;width:80%;height:40px;line-height:45px;text-align:center">10%</div>
@@ -410,7 +431,7 @@
               <div style="color:#2d3033;background-color:#636b81;width:80%;height:20px;line-height:25px;text-align:center">5%</div>
               <div style="color:#2d3033;background-color:#1f2537;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
             </div>
-            <div class="col-8 color-define-zone">
+            <div class="col-md-8 color-define-zone">
               <div>
                 <span style="display:inline-block;width:20px;height:20px;background-color:#1dc5c8;"></span>
                 <span class="color-box-text">MINING</span>
@@ -697,7 +718,7 @@
       <div class="col-md-12  text-center">
         <h2>COMMUNITY</h2>
         <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
-          <a href="https://www.facebook.com/Kblockchains/" target="_blank">
+          <a href="http://blog.naver.com/kblockchain/221115119554" target="_blank">
             <img src="/images/socials/blog.jpg" alt="Blog"  />
           </a>
         </div>
@@ -731,80 +752,185 @@
          <div class="col-lg-12 ">
             <div id="1_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
-                What is the purpose of easyMINE tokens?
+                ABLE Project란 무엇인가요?
               </div>
               <div id="1_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="1_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                While easyMINE’s core features will be available free of charge, access to the more advanced, "smart" functionalities will be paid. EMT tokens will be used as the only form of payment for these premium-level services.
+                ABLE project는 블록체인상에서 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 뱅크 솔루션입니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
             <div id="2_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
-                How do I manage my EMT tokens?
+                참가자에 대한 국적 및 제한이 있습니까?
               </div>
               <div id="2_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="2_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                EMTs are ERC20 standard Ethereum tokens. They can be managed using any Ethereum wallet with custom token support. In www.myetherwallet.com, for instance, you need to do the following:
-                <br>
-                <br>1. Access your ETH address; make sure an ETH node is selected
-                <br>2. Click “Add Custom Token”
-                <br>3. In the “Address” field, enter the token contract address: <span class="long-word emt-token-address"></span>
-                <br>4. In the “Token Symbol” field, enter EMT
-                <br>5. In the “Decimals” field, enter 18
-                <br>6. Click “Save”
-                <br>
-                <br>Your wallet should now display your EMT balance.
-
+                따로 제한은 없습니다. 다만, 국가 규제에 따른 ICO 금지국가(ex. 미국, 중국 등)는 참여가 불가능합니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
             <div id="3_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
-                What cryptocurrency exchanges will EMT tokens be listed on and when?
+                Pre-Sale 참여시 ICO에 비해 어떤 혜택이 있나요?
               </div>
               <div id="3_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="3_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                easyMINE tokens should be tradeable in the fourth quarter of 2017. Our goal is to have them listed on two major exchanges by the end of the year. The details are still being negotiated. Stay tuned.
+                1차 Pre-Sale은 20%, 2차 Pre-Sale은 15%의 추가 코인을 배분 받을수 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
             <div id="4_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
-                Will there be any additional EMT tokens issued after the ICO?
+                토큰 구매 기회는 총 몇번 인가요?
               </div>
               <div id="4_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="4_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                No. EMT tokens will only be created at the beginning of the crowdsale. 33,000,000 tokens will be issued; of these, 27,000,000 will be available for purchase. Any unsold tokens will be burned.
+                Pre-Sale 2회, ICO 3회 총 5회의 구매 기회가 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
             <div id="5_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
-                What will happen with the ETC-based tokens from the pre-ICO sale?
+                ABLE PROJECT에 참여하려면 어떻게 해야 하나요?
               </div>
               <div id="5_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="5_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                Now that we’ve moved our ICO to the ETH blockchain, we will be issuing new, ETH-based tokens to all pre-ICO participants. The tokens will be created when the ICO begins and sent to the address from which the pre-ICO deposit was made. See: How do I manage my EMT tokens? for information on how to access them.
-                <br>(The original ETC-based tokens will still be available at the same address on the Ethereum Classic blockchain, only they will now be essentially worthless. Who knows, though—if easyMINE makes it really big, they might one day be sought-after collector’s items :P)
-
+                PRE SALE과 ICO를 통해 참여할 수 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
+
+           <div id="6_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               참여는 언제부터 시작하나요?
+             </div>
+             <div id="6_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="6_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               11월 중순 PRESALE을 시작으로 12월 ICO를 통해 참여가능합니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="7_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               Pre-Sale과 ico 진행시 배포되는 토큰수는 얼마인가요?
+             </div>
+             <div id="7_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="7_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               Pre-Sale로 약 1억 2천만개 ico에서 약 2억5천만개의 코인이 발행 되며, 하드캡은 1억개 정도입니다
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="8_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               코인이 모두 배포되지 않으면 어떻게 되나요?
+             </div>
+             <div id="8_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="8_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               회차별로 배포되지 않은 코인은 다음회차로 넘어가며 최종까지 배포되지 않은 코인은 소각 예정입니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="9_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               어떤 암호화폐로 ABLE PROJECT를 참여할수 있나요?
+             </div>
+             <div id="9_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="9_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               이더리움(ETH)으로만 참여 가능합니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="10_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               거래소는 언제부터 사용가능한가요?
+             </div>
+             <div id="10_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="10_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               2017년 12월 비트뱅크(BITBANK) 상장을 시작으로 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="11_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               언제 메인넷이 진행되나요?
+             </div>
+             <div id="11_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="11_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               2018년 상반기에 이더리움 기반의 뱅킹서비스 오픈을, 자체 메인넷은 2019년 예정입니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="12_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               홈페이지에서 본인인증을 할수 없게 되면 ABLE PROJECT에 참여하기 어려운가요?
+             </div>
+             <div id="12_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="12_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               본인인증 없어도 참여가능합니다. 다만, 향후 본인인증을 할 수 없을시 불이익이 있을수 있습니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="13_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               본인인증 방식은 어떻게 되나요?
+             </div>
+             <div id="13_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="13_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               E-mail이나 휴대폰 인증을 통해 본인인증을 할 수 있습니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="14_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+               비밀번호를 잊어버리면 찾을 수 있나요?
+             </div>
+             <div id="14_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="14_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+               E-mail이나 휴대폰 인증을 통해 비밀번호를 초기화 할 수 있습니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
 
          </div>
      </div>
@@ -835,7 +961,6 @@
       </div>
     </div>
   </footer>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/jquery.flexslider-min.js"></script>
   <script src="/js/jquery.waypoints.min.js"></script>
@@ -845,5 +970,44 @@
   <script src="/js/scrollSpy.js" type="text/javascript"></script>
   <script src="/js/scrollto.js" type="text/javascript"></script>
   <script src="/js/anim_scroll.js" type="text/javascript"></script>
+  <script>
+      /////////////////////
+      ////time D-day
+      ///////////////////
+      var icoDay = document.getElementById("clock-day");
+      var icoHour = document.getElementById("clock-hour");
+      var icoMin = document.getElementById("clock-min");
+      var icoSec = document.getElementById("clock-sec");
+
+      function getTimeIcoDate(){
+          var dat1 = new Date(); //현재날짜
+          var dat2 = new Date(2017, 10, 15); //월에서 1 빼줘야 함
+
+          var diff = dat2 - dat1; //날짜 빼기
+
+          var currSec = 1000; // 밀리세컨
+          var currMin = 60 * 1000; // 초 * 밀리세컨
+          var currHour = 60 * 60 * 1000; // 분 * 초 * 밀리세컨
+          var currDay = 24 * 60 * 60 * 1000; // 시 * 분 * 초 * 밀리세컨
+
+          var day = parseInt(diff/currDay); //d-day 일
+          var hour = parseInt(diff/currHour); //d-day 시
+          var min = parseInt(diff/currMin); //d-day 분
+          var sec = parseInt(diff/currSec); //d-day 초
+
+          var viewHour = hour-(day*24);
+          var viewMin = min-(hour*60);
+          var viewSec = sec-(min*60);
+
+          icoDay.innerText  = day; //날짜
+          icoHour.innerText = viewHour; //시
+          icoMin.innerText  = viewMin; //분
+          icoSec.innerText  = viewSec; //초
+
+          setTimeout(getTimeIcoDate, 1000);
+      }
+
+      getTimeIcoDate();
+  </script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 function init() {
+    var addHeightSize = 220;
     var container, separation = 100, amountX = 50, amountY = 50,
         particles, particle;
     container = document.createElement('div');
@@ -8,7 +9,8 @@ function init() {
     scene = new THREE.Scene();
     renderer = new THREE.CanvasRenderer();
     renderer.setPixelRatio( window.devicePixelRatio );
-    renderer.setSize( window.innerWidth, window.innerHeight );
+    renderer.setSize( window.innerWidth, window.innerHeight + addHeightSize );
+
     container.appendChild( renderer.domElement );
     // particles
     var PI2 = Math.PI * 2;
@@ -38,12 +40,13 @@ function init() {
     document.addEventListener( 'mousemove', onDocumentMouseMove, false );
     document.addEventListener( 'touchstart', onDocumentTouchStart, false );
     document.addEventListener( 'touchmove', onDocumentTouchMove, false );
-    //
+
     window.addEventListener( 'resize', onWindowResize, false );
 }
 function onWindowResize() {
     windowHalfX = window.innerWidth / 2;
     windowHalfY = window.innerHeight / 2;
+
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize( window.innerWidth, window.innerHeight );
@@ -75,6 +78,5 @@ function animate() {
 function render() {
     camera.position.x += ( mouseX - camera.position.x ) * .001;
     camera.position.y += ( - mouseY + 1 - camera.position.y ) * .001;
-    camera.lookAt( scene.position );
     renderer.render( scene, camera );
 }
