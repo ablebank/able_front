@@ -954,6 +954,12 @@ iframe {
   -webkit-background-size: cover;
   background-size: cover;
   min-height: 247px;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+}
+#team .imageBox:hover{
+  -webkit-filter: grayscale(0%);
+  filter: none;
 }
 #team .nameBox{
   font-size:20px;
