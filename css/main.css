@@ -113,6 +113,11 @@ ul li {
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+.img-res_80{
+  max-width: 92%;
+  height: auto;
+}
 /* ==========================================================================
 	$nawigacja
 ========================================================================== */
@@ -915,8 +920,11 @@ iframe {
 /* ==========================================================================
 	$Team
 ========================================================================== */
+#team {
+  background-color: #262b36;
+}
 #team h2 {
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
 }
 #team h4 {
@@ -924,11 +932,98 @@ iframe {
   font-weight: 300;
   margin-bottom: 50px;
 }
-#team a {
-color: #ff5e00;
-font-size: 20px;
-font-weight: 500;
+#team .section-title {
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size: 22px;
+  font-weight: 500;
+  color:#fff;
 }
+
+.img-res-100{
+  width:100%;
+  height: auto;
+}
+#team .imageBox{
+  margin-top:30px;
+  margin-bottom:30px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 247px;
+}
+#team .nameBox{
+  font-size:20px;
+  text-align:left;
+  color:white;
+}
+#team .catBox{
+  padding-top:5px;
+  font-size:18px;
+  text-align:left;
+  color:white;
+}
+#team .jobBox{
+  padding-top:20px;
+  font-size:14px;
+  text-align:left;
+  color:white;
+}
+
+#team .dev-tum{
+  margin-top:20px;
+}
+#team .ceo{
+  background-image: url("/images/member/ceo.jpg");
+}
+#team .cto{
+  background-image: url("/images/member/cto.jpg");
+}
+#team .cfo{
+  background-image: url("/images/member/cfo.jpg");
+}
+#team .cso{
+  background-image: url("/images/member/bit-cso.jpg");
+}
+#team .bit-ceo{
+  background-image: url("/images/member/bit_ceo.jpg");
+}
+#team .bit-cto{
+  background-image: url("/images/member/bit_cto.jpg");
+}
+#team .bit-cso{
+  background-image: url("/images/member/bit_cso.jpg");
+}
+
+/* ==========================================================================
+	$TEAM
+========================================================================== */
+
+#team .title {
+  font-size: 32px;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(175,175,175,1);
+  margin-top: 90px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.content-wrap .team .list .title .b {
+  background-position: -280px -484px;
+  display: inline-block;
+  width: 26px;
+  height: 15px;
+  position: absolute;
+  right: 5px;
+  top: calc(50% - 3px);
+}
+
 /* ==========================================================================
 	$Crew
 ========================================================================== */
