@@ -460,19 +460,19 @@ body canvas{
 /* ==========================================================================
 	$idea
 ========================================================================== */
-#idea {
+#about {
   background-color: #ff5e00;
 }
-#idea h2 {
+#about h2 {
   color: #fff;
   font-family: 'Lato', "Raleway", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
-#idea span {
+#about span {
   font-weight: 500;
 }
-.idea-text p {
+#about .idea-text p {
   color: #fff;
   font-size: 22px;
   font-weight: 300;
