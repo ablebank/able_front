@@ -735,11 +735,12 @@ iframe {
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
+  text-align:left;
 }
 #ableCoin .feature {
   margin-bottom: 50px;
   width: 50%;
-  min-height: 215px;
+  min-height: 235px;
   margin: auto;
 }
 #ableCoin .feature-content {
