@@ -79,7 +79,10 @@ var WebsiteHelper = {
 				var $btn = $(this);
 				var name = $btn.attr('id').replace('_btn', '');
 				$btn.click(
-					() => WebsiteHelper.activate_accordion(name, 'faq_accordion')
+					function(){
+                        WebsiteHelper.activate_accordion(name, 'faq_accordion');
+					}
+					//() => WebsiteHelper.activate_accordion(name, 'faq_accordion')
 				)
 			}
 		);
