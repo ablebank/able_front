@@ -484,6 +484,10 @@ body canvas{
 #about span {
   font-weight: 500;
 }
+#about .about-small {
+  font-size:18px;
+  color:#ddddd;
+}
 #about .idea-text p {
   color: black;
   font-size: 22px;
@@ -1039,13 +1043,13 @@ iframe {
   background-image: url("/images/member/bit-cso.jpg");
 }
 #team .bit-ceo{
-  background-image: url("/images/member/bit_ceo.jpg");
+  background-image: url("/images/member/bit_ceo.png");
 }
 #team .bit-cto{
   background-image: url("/images/member/bit_cto.jpg");
 }
 #team .bit-cso{
-  background-image: url("/images/member/bit_cso.jpg");
+  background-image: url("/images/member/bit_cso.png");
 }
 
 /* ==========================================================================
