@@ -65,18 +65,21 @@ a {
   color: #ff5e00; }
 .btn-large {
   padding: 15px 40px;}
-.readMore-btn-large {
+
+.signIn-btn-large {
   padding: 15px 40px;}
-.readMore-btn {
+
+.signIn-btn {
   background-color: #ff5e00;
   color: #fff;
-  width: 175px;
+  width: 250px;
   border: 0;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   display: inline-block;
   text-transform: uppercase;}
+
 /* ==========================================================================
 	style ogólne
 ========================================================================== */
@@ -109,7 +112,7 @@ ul li {
   margin: auto;
   height: 3px;
   width: 100px;
-  background-color: #ff5e00;
+  background-color: #3598DC;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -470,10 +473,10 @@ body canvas{
 	$idea
 ========================================================================== */
 #about {
-  background-color: #ff5e00;
+  background-color: #fff;
 }
 #about h2 {
-  color: #fff;
+  color: black;
   font-family: 'Lato', "Raleway", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -482,7 +485,7 @@ body canvas{
   font-weight: 500;
 }
 #about .idea-text p {
-  color: #fff;
+  color: black;
   font-size: 22px;
   font-weight: 300;
   line-height: 1.6;
@@ -527,10 +530,35 @@ body canvas{
   /* ==========================================================================
   	$teamVideo
   ========================================================================== */
-#teamVideo {
-  background-color: #e4e4e4;
+#kakaoTalk {
+  background-color: #fff;
+  color: #3598DC;
+  width: 250px;
+  /*border: 2px solid #ff5e00;*/
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  box-shadow:inset 0px 0px 0px 2px #fff;
+  vertical-align: bottom;
+  padding:10px;
 }
-#teamVideo h2 {
+#signIn{
+  background-color: #3598DC;
+  color: #fff;
+  width: 250px;
+  border: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  padding:20px;
+}
+#kakaoTalk h2 {
   font-family: 'Lato', "Raleway", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -539,12 +567,12 @@ body canvas{
 iframe {
   padding-top: 25px;
 }
-.teamVideo-btn-large {
+.kakaoTalk-btn-large {
   padding: 15px 40px;}
-.teamVideo-btn {
+.kakaoTalk-btn {
   background-color: #fff;
   color: #ff5e00;
-  width: 178px;
+  width: 250px;
   /*border: 2px solid #ff5e00;*/
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -552,7 +580,10 @@ iframe {
   display: inline-block;
   text-transform: uppercase;
   box-sizing: border-box;
-   box-shadow:inset 0px 0px 0px 2px #fff;
+  box-shadow:inset 0px 0px 0px 2px #fff;
+}
+.kpw{
+  font-size:11px;
 }
 .wrapper {
   text-align: center;
@@ -676,7 +707,7 @@ iframe {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 80px;
-  color: #ff5e00;
+  color: #3598DC;
 }
 #structure .st-item-title{
   text-align:left;
@@ -693,11 +724,11 @@ iframe {
   -moz-border-radius: 20%;
   border-radius: 20%;
   width: 65px;
-  background: #ff5e00;
+  background: #3598DC;
   color: #fff;
   text-align: center;
   font: 20px 'Lato', Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-weight: bold;
 }
 
 /* ==========================================================================
@@ -729,7 +760,7 @@ iframe {
   margin-top:15px;
   margin-bottom:15px;
   font-size:40px;
-  color:#ff5e00;
+    color:#3598DC;
 }
 
 /* ==========================================================================
@@ -1136,11 +1167,11 @@ iframe {
 /* ==========================================================================
 	$Contact
 ========================================================================== */
-#contact h2 {
+#signIn h2 {
   color: #000;
   text-transform: uppercase;
 }
-#contact h4 {
+#signIn h4 {
   line-height: 1.4;
   font-weight:300;
 }
