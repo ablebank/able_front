@@ -3,6 +3,8 @@
 Login page
 ***/
 /* bg color */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,400italic,500,600,700');
 .login {
   background-color: #dadada;
 }
@@ -73,8 +75,10 @@ Login page
   display: none; }
 
 .login .content .form-title {
+  color:#3598DC;
   font-weight: 300;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+}
 
 .login .content .form-actions {
   clear: both;

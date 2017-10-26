@@ -5,9 +5,9 @@
 typo
 ========================================================================== */
 p {
-  font-size: 14px;
-  line-height: 22.4px;
-  color: #6c7279;}
+                      font-size: 14px;
+                      line-height: 22.4px;
+                      color: #6c7279;}
 h1 {
   font-size: 65px;
   color: #2d3033;}
@@ -299,8 +299,14 @@ ul li {
   transform: translateY(0) rotate(-45deg); }
 
 /* ==========================================================================
-$video
+$main
 ========================================================================== */
+#mainSection{
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -484,13 +490,19 @@ body canvas{
 #about span {
   font-weight: 500;
 }
+#about .main-text {
+  font-size:22px;
+}
 #about .about-small {
-  font-size:18px;
-  color:#ddddd;
+  font-size:16px;
+  color:#6c7279;
+}
+#about .color-text{
+  color:#3598DC;
 }
 #about .idea-text p {
   color: black;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
   margin: 30px 0;
@@ -831,8 +843,8 @@ iframe {
    font-weight: 300!important;
    line-height: 1.8;
    text-align: justify;
-   -moz-text-align-last: center;
-   text-align-last: center;
+   -moz-text-align-last: left;
+   text-align-last: left;
    animation: fadein 2s;
    -moz-animation: fadein 2s; /* Firefox */
    -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -1232,41 +1244,6 @@ iframe {
 .footerSocials>div {
   padding: 10px;
 }
-/* ==========================================================================
-	$Utilities
-========================================================================== */
-.work:nth-child(1) {
-  -moz-animation-delay: 0.1s;
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s; }
-.work:nth-child(2) {
-  -moz-animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s; }
-.work:nth-child(3) {
-  -moz-animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s; }
-.work:nth-child(4) {
-  -moz-animation-delay: 0.4s;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s; }
-.work:nth-child(5) {
-  -moz-animation-delay: 0.8s;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s; }
-.work:nth-child(6) {
-  -moz-animation-delay: 0.7s;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s; }
-.work:nth-child(7) {
-  -moz-animation-delay: 0.6s;
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s; }
-.work:nth-child(8) {
-  -moz-animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s; }
 
 .animated {
   visibility: visible; }
@@ -1276,7 +1253,7 @@ iframe {
 ========================================================================== */
 @font-face {
   font-family: "elegant-theme-line";
-  src: url('../fonts/elegant-theme-line.ttf?1439850014') format('truetype'), url('../fonts/elegant-theme-line.eot?1439850014') format('embedded-opentype'), url('../fonts/elegant-theme-line.svg?1439850014') format('svg'), url('../fonts/elegant-theme-line.woff?1439850014') format('woff'); }
+  src: url('/fonts/elegant-theme-line.ttf?1439850014') format('truetype'), url('/fonts/elegant-theme-line.eot?1439850014') format('embedded-opentype'), url('/fonts/elegant-theme-line.svg?1439850014') format('svg'), url('/fonts/elegant-theme-line.woff?1439850014') format('woff'); }
 .icon {
   font-family: 'elegant-theme-line';
   speak: none;
