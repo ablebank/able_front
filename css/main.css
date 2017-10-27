@@ -45,6 +45,32 @@ a {
 .op5 {
     opacity: 0.5;
 }
+
+/*
+======================================
+text-common
+======================================*/
+.text-keyword{
+  font-weight:bold;
+}
+.text-black{
+  color:black;
+}
+.text-white{
+  color:white;
+}
+.text-cicle{
+  background-color: black;
+  display: inline-block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  text-align: left;
+}
+.text-left-padding{
+  padding-left:7px;
+}
+/*
 ==========================================================================
   buttony
   ========================================================================== */
@@ -500,6 +526,9 @@ body canvas{
 #about .color-text{
   color:#3598DC;
 }
+#about .main-font-up{
+  font-size:28px;
+}
 #about .idea-text p {
   color: black;
   font-size: 18px;
@@ -750,16 +779,19 @@ iframe {
 /* ==========================================================================
 	$coin
 ========================================================================== */
-#coin {
+#project {
   background-color: #262b36;
 }
-#coin h2{
+#project h2{
   color:white;
 }
-#coin .start-content{
+#project .main-description{
+  line-height:45px;
+}
+#project .start-content{
   margin-top:70px;
 }
-#coin .border-box{
+#project .border-box{
   border-radius: 25px;
   border: 2px solid #fff;
   padding: 20px;
@@ -770,13 +802,13 @@ iframe {
   color:white;
   margin:0 auto;
 }
-#coin .arrow-box{
+#project .arrow-box{
   width:40px;
   margin:0 auto;
   margin-top:15px;
   margin-bottom:15px;
   font-size:40px;
-    color:#3598DC;
+  color:#3598DC;
 }
 
 /* ==========================================================================
@@ -795,7 +827,7 @@ iframe {
 }
 #ableCoin .feature {
   margin-bottom: 50px;
-  width: 50%;
+  width: 60%;
   min-height: 235px;
   margin: auto;
 }
@@ -960,12 +992,20 @@ iframe {
   color: #2d3033;
   font-weight: 300;
   font-size: 14px;
+  margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 50px;
+  width: 90%;
 }
 #roadmap h3 {
   height: 47px;
   font-size: 24px;
+  border:solid 1px black;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  border-radius:35px;
+  line-height:42px;
+  margin:0 auto;
 }
 .dot {
   background-color: #ff5e00;
@@ -975,7 +1015,7 @@ iframe {
   margin: auto;
 }
 #roadmap .roadmapBox{
-  height:230px;
+  height:195px;
 }
 /* ==========================================================================
 	$Team

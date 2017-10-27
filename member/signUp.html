@@ -26,6 +26,7 @@
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/components.min.css">
     <link rel="stylesheet" type="text/css" href="/css/sign.css" />
 
 
@@ -62,10 +63,10 @@
             <div class="help-block"></div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group form-term">
             <label class="control-label visible-ie8 visible-ie9">SMS</label>
             <div class="input-group">
-                <input type="text" class="form-control placeholder-no-fix" type="text" placeholder="전화번호를 입력하세요(숫자만 입력)" name="phone">
+                <input type="text" class="form-control placeholder-no-fix" type="text" placeholder="전화번호를 입력하세요 (숫자만 입력)" name="phone">
                 <span id="sendMail" class="input-group-addon success">문자전송</span>
             </div>
             <div class="help-block"></div>
@@ -79,7 +80,26 @@
             <div class="help-block"></div>
         </div>
 
-
+        <div class="form-group form-term">
+            <label class="control-label visible-ie8 visible-ie9">PASSWORD</label>
+            <div class="input-group">
+                <input type="text" class="form-control placeholder-no-fix" type="text" placeholder="패스워드를 입력하세요(6자리 이상)" name="password">
+            </div>
+            <div class="help-block"></div>
+        </div>
+        <div class="form-group">
+            <label class="control-label visible-ie8 visible-ie9">RE-PASSWORD</label>
+            <div class="input-group">
+                <input class="form-control placeholder-no-fix" type="text" placeholder="패스워드를 한번 더 입력해주세요" name="repassword">
+                <span id="authKeyConfirm" class="input-group-addon success">확인</span>
+            </div>
+            <div class="help-block"></div>
+        </div>
+        <div class="input-group">
+                                                    <span class="input-group-addon input-circle-left">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </span>
+            <input type="text" class="form-control input-circle-right" placeholder="Email Address"> </div>
         <div class="form-actions">
             <button type="button" id="register-back-btn" class="btn green btn-outline">뒤로</button>
             <button type="submit" id="register-submit-btn" class="btn btn-success uppercase pull-right">완료</button>

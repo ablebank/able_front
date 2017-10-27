@@ -3,6 +3,10 @@
 Login page
 ***/
 /* bg color */
+
+.form-term{
+    margin-top:50px;
+}
 .login {
     background-color: white;
 }
