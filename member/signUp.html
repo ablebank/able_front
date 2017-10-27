@@ -27,7 +27,7 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/components.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/sign.css" />
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
 
 
 </head>
@@ -84,6 +84,7 @@
             <label class="control-label visible-ie8 visible-ie9">PASSWORD</label>
             <div class="input-group">
                 <input type="text" class="form-control placeholder-no-fix" type="text" placeholder="패스워드를 입력하세요(6자리 이상)" name="password">
+                <span id="authKeyConfirm" class="input-group-addon success">확인</span>
             </div>
             <div class="help-block"></div>
         </div>
@@ -95,11 +96,6 @@
             </div>
             <div class="help-block"></div>
         </div>
-        <div class="input-group">
-                                                    <span class="input-group-addon input-circle-left">
-                                                        <i class="fa fa-envelope"></i>
-                                                    </span>
-            <input type="text" class="form-control input-circle-right" placeholder="Email Address"> </div>
         <div class="form-actions">
             <button type="button" id="register-back-btn" class="btn green btn-outline">뒤로</button>
             <button type="submit" id="register-submit-btn" class="btn btn-success uppercase pull-right">완료</button>
@@ -108,12 +104,11 @@
     <!-- END REGISTRATION FORM -->
 </div>
 
-<script src="/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-<script src="/assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
-
-<script src="/assets/pages/scripts/member_email_auth.js" type="text/javascript"></script>
+<script src="/js/jquery.min.js" type="text/javascript"></script>
+<script src="/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/js/js.cookie.min.js" type="text/javascript"></script>
+<script src="/js/jquery.validate.js" type="text/javascript"></script>
+<script src="/js/member/signup.js" type="text/javascript"></script>
 </body>
 
 </html>
