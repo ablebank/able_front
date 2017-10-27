@@ -1083,25 +1083,25 @@ iframe {
   margin-top:20px;
 }
 #team .ceo{
-  background-image: url("/images/member/ceo_new.jpg");
+  background-image: url("/images/member/ceo-black.png");
 }
 #team .cto{
-  background-image: url("/images/member/cto.jpg");
+  background-image: url("/images/member/cto-black.jpeg");
 }
 #team .cfo{
-  background-image: url("/images/member/cfo.jpg");
+  background-image: url("/images/member/cfo-black.jpeg");
 }
 #team .cso{
-  background-image: url("/images/member/bit-cso.jpg");
+  background-image: url("/images/member/bit-cso-black.jpeg");
 }
 #team .bit-ceo{
-  background-image: url("/images/member/bit_ceo.png");
+  background-image: url("/images/member/bit-ceo-black.jpeg");
 }
 #team .bit-cto{
-  background-image: url("/images/member/bit_cto.jpg");
+  background-image: url("/images/member/bit-cto-black.jpeg");
 }
 #team .bit-cso{
-  background-image: url("/images/member/bit_cso.png");
+  background-image: url("/images/member/bit-cso-black.jpeg");
 }
 
 /* ==========================================================================
