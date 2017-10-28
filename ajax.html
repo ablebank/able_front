@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" />
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow">
+    <meta name="naver-site-verification" content=""/>
+
+    <meta property="og:title" content="able coin" />
+    <meta property="og:url" content="http://k-blockchains.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://k-blockchains.com/img/meta_logo.png" />
+    <meta property="og:description" content="K-Blockchain은 4차 산업의 주요 분야 중에 하나인 블록체인 선두 기업입니다." />
+
+    <meta name="twitter:title" content="k-blockchains">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="K-Blockchain은 4차 산업의 주요 분야 중에 하나인 블록체인 선두 기업입니다.">
+    <meta name="twitter:image" content="http://k-blockchains.com/img/meta_logo.png">
+    <meta name="twitter:domain" content="k-blockchains">
+
+    <title>ABLE</title>
+    <link rel="canonical" href="http://k-blockchains.com/index.html">
+    <meta name="description" content="ABLE PROJECT">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/signup.css" />
+
+
+</head>
+
+<body>
+참조사이트 https://resttesttest.com/  <---여기도 크로스 도메인 걸림<br>
+<br>
+일반적으로 restapi 테스트 사이트가 네트워크 통신까지만 보여주므로 api 되는걸로 보일수 있으나 받아온 데이터 text를 지정해놓은 dataType으로 복호화 하는 과정에서
+크로스 도메인문제가 생겨서 에러가 남
+<br>
+<br>
+jsonp 형태로 랩핑해주세요
+<br>
+<br>
+http://devapi.able-coin.io/ico/access/auth/email/chise44%40naver.com<br>
+https://api.github.com/feeds
+
+<script src="/js/jquery.min.js" type="text/javascript"></script>
+
+
+<script>
+    console.log("============ico 사이트 json 통신시작==========");
+
+    urls = "http://devapi.able-coin.io/ico/access/auth/email/chise44%40naver.com";
+    $.ajax({
+        url: urls,
+        dataType: 'json',
+        success: function(d){
+            console.log(d)
+        }
+    });
+
+
+    console.log("============test api json 통신시작==========");
+
+    urls = "https://api.github.com/feeds";
+    $.ajax({
+        url: urls,
+        dataType: 'json',
+        success: function(d){
+            console.log(d)
+        }
+    });
+
+
+
+    console.log("============ico 사이트 jsonp 통신시작==========");
+
+    urls = "http://devapi.able-coin.io/ico/access/auth/email/chise44%40naver.com";
+    $.ajax({
+        url: urls,
+        dataType: 'jsonp',
+        success: function(d){
+            console.log(d)
+        }
+    });
+
+
+    console.log("============test api jsonp 통신시작==========");
+
+    urls = "https://api.github.com/feeds";
+    $.ajax({
+        url: urls,
+        dataType: 'jsonp',
+        success: function(d){
+            console.log(d)
+        }
+    });
+
+</script>
+</body>
+
+</html>

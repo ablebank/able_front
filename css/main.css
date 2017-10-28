@@ -502,7 +502,7 @@ body canvas{
   height: 850px;
 }
 /* ==========================================================================
-	$idea
+	$about
 ========================================================================== */
 #about {
   background-color: #fff;
@@ -572,6 +572,79 @@ body canvas{
           opacity: 1;
       }
   }
+
+
+/* ==========================================================================
+  $needs
+========================================================================== */
+#needs {
+  background-color: #262b36;
+}
+#needs h2 {
+  color: white;
+  font-family: 'Lato', "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#needs span {
+  font-weight: 500;
+}
+#needs .main-text {
+  font-size:22px;
+}
+#needs .about-small {
+  font-size:16px;
+  color:#6c7279;
+}
+#needs .color-text{
+  color:#3598DC;
+}
+#needs .main-font-up{
+  font-size:28px;
+}
+#needs p {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 30px 0;
+  text-align: center;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */ }
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
+}
   /* ==========================================================================
   	$teamVideo
   ========================================================================== */
