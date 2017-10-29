@@ -1,3 +1,4 @@
+
 var SignUpJs = {
     //메일 el 모음
     mailSendInput: null,
@@ -21,9 +22,10 @@ var SignUpJs = {
     timestamp: null, //phoneTimestamp
     authKey: null, //authKey
 
-    //step by
-    step: 11,
-    //success
+    mailSendTrue: false,
+    mailAuthTrue: false,
+    smsSendTrue: false,
+    smsAuthTrue: false,
 
 
     init: function(){
@@ -48,13 +50,14 @@ var SignUpJs = {
             var targetEl = document.querySelector("#box-1");
             var inputEl = document.querySelector("#email");
 
+            //공란 체크
             if(inputEl.value.length == 0){
                 alert("email is required");
                 return false;
             }
 
-            if(targetEl.nextElementSibling.nodeName == "P"){
-
+            //정규식 성공 여부
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
                 return false;
             }
 
@@ -69,7 +72,10 @@ var SignUpJs = {
                 success: function(d){
                     if(d.resultCode == 200){
                         self.mailTmp = d.tmp;
-                        alert("send Email Success.\nWrite Email Security Key");
+                        self.mailSendTrue = true;
+                        alert("메일이 발송되었습니다.\n메일에 첨부된 인증키를 입력해주세요");
+                    }else{
+                        alert("메일 발송에 실패하였습니다.");
                     }
                 }
             });
@@ -90,8 +96,12 @@ var SignUpJs = {
                 return false;
             }
 
-            if(targetEl.nextElementSibling.nodeName == "P"){
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
+                return false;
+            }
 
+            if(!self.mailSendTrue) {
+                alert("인증메일을 받으신 후 입력해주세요");
                 return false;
             }
 
@@ -102,7 +112,8 @@ var SignUpJs = {
                 url: urls,
                 method: 'POST',
                 data: {
-                    email :self.email
+                    email :self.email,
+                    mailAuthKey :inputEl.value
                 },
                 dataType: 'json',
                 success: function(d){
@@ -110,13 +121,15 @@ var SignUpJs = {
                     if(d.resultCode == 200){
                         self.timestamp = d.timestamp;
                         self.authKey = d.authkey;
+                        self.mailAuthTrue = true;
+
                         alert("Email Security Key Success");
 
                         //change check box step todo
                         emailStepIcon.classList.remove('glyphicon-remove','red-icon');
                         emailStepIcon.classList.add('glyphicon-ok','green-icon','blinking');
                     }else{
-                        alert("이메일 인증에 실패하였습니다\n인증키를 다시 입력 해주세요");
+                        alert("이메일 인증에 실패하였습니다\n다시 입력해주세요");
                     }
                 }
             });
@@ -136,13 +149,18 @@ var SignUpJs = {
                 return false;
             }
 
-            if(targetEl.nextElementSibling.nodeName == "P"){
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
+                return false;
+            }
 
+            if(!mailAuthTrue){
+                alert("메일인증을 먼저 진행해 주세요");
                 return false;
             }
 
             //ajax
             urls = apiHost+"/ico/access/auth/phone/"+inputEl.value;
+
 
             $.ajax({
                 url: urls,
@@ -156,10 +174,14 @@ var SignUpJs = {
                     console.log(d);
                     if(d.resultCode == 200){
                         self.authKey = d.authkey;
+                        self.smsSendTrue = true;
+
                         alert("SMS Send Success\nWrite Sms Security Number");
 
                         //change check box step todo
 
+                    }else{
+                        alert("문자전송이 실패하였습니다\n다시 시도해주세요");
                     }
                 }
             });
@@ -179,8 +201,17 @@ var SignUpJs = {
                 return false;
             }
 
-            if(targetEl.nextElementSibling.nodeName == "P"){
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
+                return false;
+            }
 
+            if(!self.mailAuthTrue){
+                alert("메일인증을 먼저 진행 해주세요");
+                return false;
+            }
+
+            if(!self.smsSendTrue){
+                alert("문자를 먼저 수신 받아주세요");
                 return false;
             }
 
@@ -195,15 +226,23 @@ var SignUpJs = {
                     timestamp: self.timestamp
                 },
                 dataType: 'json',
-                success: function(d){
+                success: function(d) {
                     console.log(d);
-                    if(d.resultCode == 200){
+                    if (d.resultCode == 200) {
                         self.authkey = d.authkey;
+                        self.smsAuthTrue = true;
+
                         alert("SMS Send Success\nWrite Sms Security Number");
 
                         //change check box step todo
-                        smsStepIcon.classList.remove('glyphicon-remove','red-icon');
-                        smsStepIcon.classList.add('glyphicon-ok','green-icon','blinking');
+                        smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
+                        smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
+                    }else{
+                        alert("sms 인증이 실패하였습니다\n문자를 다시받으시거나 다시 입력해 주세요");
+
+                        //toremove
+                        smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
+                        smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
                     }
                 }
             });
