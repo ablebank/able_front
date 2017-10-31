@@ -111,6 +111,32 @@ a {
 .margin-150{
   margin-top:150px;
 }
+
+.marginb-10{
+  margin-bottom:10px;
+}
+.marginb-20{
+  margin-bottom:20px;
+}
+.marginb-30{
+  margin-bottom:30px;
+}
+.marginb-40{
+  margin-bottom:40px;
+}
+.marginb-50{
+  margin-bottom:50px;
+}
+.marginb-60{
+  margin-bottom:60px;
+}
+.marginb-70{
+  margin-bottom:70px;
+}
+.marginb-80{
+  margin-bottom:80px;
+}
+
 body .white{
   color:white;
 }
@@ -128,7 +154,7 @@ text-common
   color:white;
 }
 .text-cicle{
-  background-color: black;
+  background-color: #fff;
   display: inline-block;
   border-radius: 50%;
   width: 10px;
@@ -720,6 +746,10 @@ body canvas{
 /* ==========================================================================
   $preview
 ========================================================================== */
+#video {
+  background-color: #2B2F39;
+}
+
 .video-box{
   padding-left:5%;
 }
@@ -747,7 +777,7 @@ body canvas{
   $needs
 ========================================================================== */
 #needs {
-  background-color: #434757;
+  background-color: #2B2F39;
 }
 #needs h2 {
   color: white;
@@ -831,7 +861,7 @@ body canvas{
 
 #structure p{
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 35px;
   padding-top: 20px;
   color:black;
@@ -924,6 +954,7 @@ body canvas{
 }
 #service p {
   font-weight: 300;
+  line-height:30px;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -958,7 +989,7 @@ body canvas{
 ========================================================================== */
 #platform {
   text-align: center;
-  background-color: #262b36;
+  background-color: #2B2F39;
 }
 #platform h2 {
   text-align: center;
@@ -991,19 +1022,24 @@ body canvas{
   /*margin-top: 25px;*/
 }
 #platform p {
-  color: #ccc;
+   color: #ccc;
   /*margin-top: 25px;*/
    font-size: 1.8rem;
    font-style: normal;
    font-weight: 300!important;
    line-height: 1.8;
    text-align: justify;
+   margin-top:20px;
    -moz-text-align-last: left;
    text-align-last: left;
    animation: fadein 2s;
    -moz-animation: fadein 2s; /* Firefox */
    -webkit-animation: fadein 2s; /* Safari and Chrome */
    -o-animation: fadein 2s; /* Opera */
+}
+#platform .type-box span{
+  color:white;
+  font-weight:400;
 }
 #platform img {
   margin-top: 50px;
@@ -1055,27 +1091,24 @@ body canvas{
   border-bottom:solid 2px black;
 }
 
-#Sale .top-left-text{
-  font-size:18px;
-  color:#2d3033;
-  font-weight:bold;
+#Sale .td-01{
+  color:black;
+  font-size:2.5rem;
 }
-#Sale .top-right-text{
-  font-size:24px;
-  color:#2d3033;
-  text-align:right;
+#Sale .td-02{
+  color:black;
+  font-size:2.5rem;
 }
-#Sale .top-right-text-01{
-  font-size:22px;
-  text-align:center;
-  font-weight:bold;
-  color:#2d3033;
+#Sale .td-03{
+  color:black;
+  font-size:2.5rem;
 }
-#Sale .top-right-text-02{
-  font-size:30px;
-  text-align:center;
-  font-weight:bold;
-  color:#2d3033;
+#Sale .font-down{
+  font-size:1.7rem;
+}
+#Sale .border-box{
+  border-bottom:solid 2px black;
+  padding-bottom:90px;
 }
 
 #Sale .bottom-box{
@@ -1085,6 +1118,11 @@ body canvas{
 #Sale .bottom-box h4{
   color:#2d3033;
 }
+
+#Sale .limit-per-zone{
+  margin:0 auto;
+}
+
 #Sale .limit-box{
   margin-top:40px;
 }
@@ -1105,10 +1143,10 @@ body canvas{
 	$Roadmap
 ========================================================================== */
 #roadmap {
-  background-color: #e4e4e4;
+  background-color: #2B2F39;
 }
 #roadmap h2 {
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
 }
 #roadmap h4 {
@@ -1117,7 +1155,7 @@ body canvas{
   font-weight: 300;
 }
 #roadmap p {
-  color: #2d3033;
+  color: #fff;
   font-weight: 300;
   font-size: 14px;
   margin: 0 auto;
@@ -1128,15 +1166,16 @@ body canvas{
 #roadmap h3 {
   height: 47px;
   font-size: 24px;
-  border:solid 1px black;
-  -webkit-border-radius:;
-  -moz-border-radius:;
+  border:solid 1px white;
+  color:white;
+  -webkit-border-radius:35px;
+  -moz-border-radius:35px;
   border-radius:35px;
   line-height:42px;
   margin:0 auto;
 }
 .dot {
-  background-color: #ff5e00;
+  background-color: #fff;
   height: 10px;
   width: 10px;
   border-radius: 50px;
@@ -1309,6 +1348,13 @@ body canvas{
 /* ==========================================================================
 	$faq
 ========================================================================== */
+#faq {
+  background-color: #262b36;
+}
+
+#faq h2{
+  color: #fff;
+}
 .gone {
   display:none;
 }
@@ -1329,7 +1375,7 @@ body canvas{
   color:#000;
 }
 .darkgrey_section {
-  background-color: #2d313c !important;
+  background-color: #2B2F39 !important;
   position: relative;
   overflow: hidden;
 }
