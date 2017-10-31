@@ -52,6 +52,11 @@ a {
   float: none;
   margin: 0 auto;
 }
+.re-image100{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
 .re-image01{
   display:block;
   max-width:80%;
@@ -914,10 +919,10 @@ body canvas{
 /* ==========================================================================
 	features
 ========================================================================== */
-#ableCoin {
+#service {
   background-color: #fff;
 }
-#ableCoin p {
+#service p {
   font-weight: 300;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
@@ -925,23 +930,27 @@ body canvas{
   -o-animation: fadein 2s; /* Opera */
   text-align:left;
 }
-#ableCoin .feature {
+#service .feature {
   margin-bottom: 50px;
   width: 60%;
   min-height: 235px;
   margin: auto;
 }
-#ableCoin .feature-content {
+#service .feature-content {
   margin-top: 30px;
 }
-#ableCoin .icon {
+#service .icon {
   color: #e84545;
   font-size: 60px;
 }
-#ableCoin .feature-text h2 {
+#service .feature-text h2 {
   color: #2d3033;
   font-weight: 200;
   text-transform: uppercase;
+}
+#service .type-box{
+  padding-left:3%;
+  padding-right:3%;
 }
 
 /* ==========================================================================
@@ -961,13 +970,14 @@ body canvas{
   font-size:2.8rem;
   color: #fff;
   font-weight: 200;
-
+  margin-top:80px;
+  margin-bottom:40px;
 }
 
 #platform .type-box{
   padding-top:2%;
-  padding-left:8%;
-  padding-right:8%;
+  padding-left:4%;
+  padding-right:4%;
 }
 
 #platform h4 {
@@ -983,7 +993,7 @@ body canvas{
 #platform p {
   color: #ccc;
   /*margin-top: 25px;*/
-   font-size: 15px;
+   font-size: 1.8rem;
    font-style: normal;
    font-weight: 300!important;
    line-height: 1.8;
@@ -998,6 +1008,11 @@ body canvas{
 #platform img {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+#platform .imageBox{
+  position:relative;
+  margin-top:100px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 520px) {
