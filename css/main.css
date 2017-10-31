@@ -418,47 +418,7 @@ ul li {
   -webkit-transform: translateY(0) rotate(-45deg);
   transform: translateY(0) rotate(-45deg); }
 
-/* ==========================================================================
-$main
-========================================================================== */
-#mainSection{
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
-}
-.fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -1000;}
-.fullscreen-bg__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;}
-@media (min-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-  height: 300%;
-  top: -100%;
-  }}
-@media (max-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-  width: 300%;
-  left: -100%;
-  }}
 
-#video_overlays {
-  position:absolute;
-  width:100%;
-  height: 850px;
-  background-color:#000;
-  z-index:1;    opacity: 0.6;
-}
 /* ==========================================================================
 	$baner
 ========================================================================== */
@@ -587,7 +547,7 @@ background-color: #fff;}
 	캔버스 셋팅
 ========================================================================== */
 body canvas{
-  margin-top:-850px;
+
 }
 /* ==========================================================================
 	$idea
@@ -671,6 +631,49 @@ body canvas{
   /*max-height: 480px;*/
 }
 
+/* ==========================================================================
+$main
+========================================================================== */
+#mainSection{
+  padding-bottom:100px;
+  background-color: black;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1000;}
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;}
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }}
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }}
+
+#video_overlays {
+  position:absolute;
+  width:100%;
+  height: 850px;
+  background-color:#000;
+  z-index:1;    opacity: 0.6;
+}
 /* ==========================================================================
 	$about
 ========================================================================== */

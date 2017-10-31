@@ -69,7 +69,7 @@
         <a href="#" class="nav-toggle">Menu<span></span></a>
       </div>
     </header>
-    <div class="container">
+    <div class="container-fluid">
       <div class="col-md-10 col-md-offset-1">
         <div class="banner-text text-center">
           <div style="clear: both;">
@@ -281,7 +281,7 @@
           <div class="features-content">
             <h3>Asset Management</h3>
             <p>
-              ABLE은 ICO 종료 후 1개월 내에 파트너사인 소셜 거래소 비트뱅크에 상장될 예정입니다. ICO 이후 상장까지 시간을 단축시켜 ABLE 자산관리의 어려움을 최소화 합니다.
+              ABLE은 18년 1분기에 파트너사인 소셜 거래소 비트뱅크에 상장될 예정입니다. ICO 이후 상장까지 시간을 단축시켜 ABLE 자산관리의 어려움을 최소화 합니다.
               Pre-Sale과 ICO로 발행된 토큰은 비트뱅크 거래소의 지갑에 전송되기 때문에 ICO이후 거래소 지갑으로 전송해야 하는 번거로움과 개인 월넷의 해킹위험을 방지할 수 있습니다.
             </p>
           </div>
@@ -356,7 +356,7 @@
           <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">6,000 ETH&nbsp;&nbsp;</div>
           <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">24,000 ETH&nbsp;&nbsp;</div>
         </div>
-        <div class="row margin-20">
+        <!--<div class="row margin-20">
           <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">ICO</div>
           <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">30,000 ETH&nbsp;&nbsp;</div>
           <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">30,000 ETH&nbsp;&nbsp;</div>
@@ -365,7 +365,7 @@
           <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">TOKEN SUPPLY</div>
           <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">120,000 ETH<span>*</span></div>
           <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">800,000 ETH<span>*</span></div>
-        </div>
+        </div>-->
       </div>
     </div>
     <div class="container bottom-box">
@@ -457,13 +457,13 @@
           <div class="col-sm-3 col-lg-3 roadmapBox">
             <h3>2017. 4Q</h3>
             <p class="text-left">
-              <span class="text-cicle"></span><span class="text-left-padding">거래소상장(BITBANK)</span><br>
               <span class="text-cicle"></span><span class="text-left-padding">대기자금 비트코인 &부동산<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중심 투자</span>
             </p>
           </div>
           <div class="col-sm-3 col-lg-3 roadmapBox">
             <h3>2018. 1Q</h3>
             <p class="text-left">
+              <span class="text-cicle"></span><span class="text-left-padding">거래소상장(BITBANK)</span><br>
               <span class="text-cicle"></span><span class="text-left-padding">대기자금 투자수익 월별 배분 시작</span>
             </p>
           </div>
@@ -620,10 +620,11 @@
                   </p>
                 </div>
                 <div class="col-md-3 dev-tum">
-                  <div class="nameBox">Jay Beak</div>
+                  <div class="nameBox">J.A Beak</div>
                   <div class="catBox">Infra engineer</div>
                   <p class="jobBox">
-                    Database와 WAS 전문가로 인프라 아키텍쳐 설계 및 트러블 슈팅, 튜닝을 담당하고 있다.
+                    Database와 WAS 전문가로서 대기업에서 8년동안 근무하였으며 차세대 ERP 및 각종 프로젝트에 참여하였다.
+                    프로젝트에서 인프라 아키텍쳐 설계 및 트러블 슈팅, 튜닝을 담당하고 있다.
                   </p>
                 </div>
                 <div class="col-md-3 dev-tum">
@@ -644,12 +645,29 @@
                   <div class="nameBox">M.J Lee</div>
                   <div class="catBox">Designer</div>
                   <p class="jobBox">
-                    웹디자이너로 29cm 웹디자인을 총괄하였다.
+                    웹디자이너로 중견벤처회사의 웹디자인팀을 총괄하였다.
                   </p>
                 </div>
               </div>
             </div>
+            <div id="acc-4">
+              <div class="title sub0 on">
+                <div class="section-title">PLANNING & MARKETING DEPARTMENT</div>
+                <span class="b img"></span>
+              </div>
 
+              <div class="row">
+                <div class="col-md-3 dev-tum">
+                  <div class="nameBox">SANG YEON HA</div>
+                  <div class="catBox">Finance Specialis</div>
+                  <p class="jobBox">
+                    상품기획(전 시중은행 금융상품기획)
+                    상품은 금융뿐 아니라 전산업군에 미치는 기본요소다. 블록체인을 기반하는 Bank platform의 활성화에 있어 탄탄한 상품라인업은 향후 ABLE만의 차별화된 경쟁력이 될 것이라 확신한다.
+                  </p>
+                </div>
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -962,10 +980,17 @@
       }
       var canvasEl = document.querySelector("canvas");
       var mainBgEl = document.querySelector("#mainSection");
-      console.log(canvasEl);
-      console.log(mainBgEl);
-      canvasEl.style.marginTop = '-880px';
 
+      //console.log(canvasEl);
+      //console.log(mainBgEl);
+
+      //canvas width 값 보정
+      var fixCurrentWidth = parseInt(canvasEl.style.width) - 15;
+      canvasEl.style.width = fixCurrentWidth;
+
+      //canvas height get And div up
+      console.log(parseInt(canvasEl));
+      //canvasEl.style.marginTop = parseInt(canvasEl);
 
       //$(".fade").fadeInScroll();
 
