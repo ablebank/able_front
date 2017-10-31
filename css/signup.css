@@ -92,3 +92,24 @@ form label{
 .red-icon{
     color:red;
 }
+.green-icon{
+    color:green;
+}
+
+.blinking{
+    -webkit-animation:blink 1.5s;
+    -moz-animation:blink 1.5s;
+    animation:blink 1.5s;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

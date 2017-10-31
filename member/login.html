@@ -39,27 +39,27 @@
             <img src="/images/logo_file.png" alt="" width="150"/>
         </a>
     </div>
-    <form action="#" method="POST">
+    <form class="loginForm" action="#" method="POST">
         <h4>Login to Your Account</h4>
         <label>Email</label>
-        <div class="input-group">
+        <div id="box-1" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+            <input id="email" type="text" class="form-control" name="email" placeholder="Write Email Address" required="required">
         </div>
         <label>Password</label>
-        <div class="input-group">
+        <div id="box-2" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            <input id="email" type="text" class="form-control" name="password" placeholder="Password">
+            <input id="password" type="text" class="form-control" name="password" placeholder="Write Password" required="required">
         </div>
 
-        <div class="signBox">
-            <a href="#" class="signInBtn signInLayer">Sign in</a>
+        <div class="form-actions">
+            <button type="submit" id="register-submit-btn" class="btn btn-success signInBtn uppercase">Sign in</button>
         </div>
     </form>
 
     <p class="create-account">
         New to ABLE?
-        <a href="/member/signUp_bak.html" data-ga-click="Sign up">Create an account</a>.
+        <a href="/member/signUp.html">Create an account</a>.
     </p>
 </div>
 

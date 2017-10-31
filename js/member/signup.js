@@ -1,3 +1,4 @@
+
 var SignUpJs = {
     //메일 el 모음
     mailSendInput: null,
@@ -10,69 +11,83 @@ var SignUpJs = {
     smsSendBtn: null,
     smsKeyInput: null,
     smsKeyBtn: null,
+    smsInputVal: null,
 
     //passwod
     passwordInput: null,
     repasswordInput: null,
 
-    //success
+    //api data
+    mailTmp: null, //connection tmp
+    email: null, //email
+    timestamp: null, //phoneTimestamp
+    authKey: null, //authKey
+
+    mailSendTrue: false,
+    mailAuthTrue: false,
+    smsSendTrue: false,
+    smsAuthTrue: false,
+    passwordAuthTrue: false,
 
 
     init: function(){
+        emailStepIcon = document.querySelector("#emailStepIcon");
+        smsStepIcon = document.querySelector("#smsStepIcon");
+
         mailSendBtn = document.querySelector(".mailSendBtn");
         mailKeyBtn = document.querySelector(".mailKeyBtn");
         smsSendBtn = document.querySelector(".smsSendBtn");
         smsKeyBtn = document.querySelector(".smsKeyBtn");
         apiHost = "http://devapi.able-coin.io";
 
+
         var self = this;
 
-        //메일 Send Event
+        ////////////////////////////
+        //메일 Send Event (메일 전송)
+        //STEP 1
+        ///////////////////////////
         mailSendBtn.addEventListener('click',function(){
             //vali
             var targetEl = document.querySelector("#box-1");
             var inputEl = document.querySelector("#email");
 
+            //공란 체크
             if(inputEl.value.length == 0){
                 alert("email is required");
                 return false;
             }
 
-            if(targetEl.nextElementSibling.nodeName == "P"){
-
+            //정규식 성공 여부
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
                 return false;
             }
 
             //ajax
-            var apiTarget = "/ico/access/auth/email/";
-            var emailEncode = encodeURIComponent(inputEl.value);
-            var urls = apiHost+apiTarget+emailEncode;
-            console.log(urls)
+            self.email = inputEl.value;
 
-            //urls = "http://devapi.able-coin.io/ico/access/auth/email/chise44%40naver.com";
-            urls = "https://api.github.com/feeds";
-            /*
-            $.ajax({
-                url: urls,
-                dataType: 'jsonp',
-                success: function(d){
-                    console.log(d)
-                }
-            });
-            */
-            alert(1)
+            urls = apiHost+"/ico/access/auth/email/"+encodeURIComponent(self.email);
+
             $.ajax({
                 url: urls,
                 dataType: 'json',
-                success: function(data){
-                    console.log(data)
+                success: function(d){
+                    if(d.resultCode == 200){
+                        self.mailTmp = d.tmp;
+                        self.mailSendTrue = true;
+                        alert("메일이 발송되었습니다.\n메일에 첨부된 인증키를 입력해주세요");
+                    }else{
+                        alert("메일 발송에 실패하였습니다.");
+                    }
                 }
             });
-
-
         },false);
 
-        //mail Key auth Event
+
+        ////////////////////////////
+        //mail Key auth Event (메일 인증키 입력)
+        //STEP 2
+        ////////////////////////////
         mailKeyBtn.addEventListener('click',function(){
             //vali
             var targetEl = document.querySelector("#box-2");
@@ -83,16 +98,48 @@ var SignUpJs = {
                 return false;
             }
 
-            if(targetEl.nextElementSibling.nodeName == "P"){
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
+                return false;
+            }
 
+            if(!self.mailSendTrue) {
+                alert("인증메일을 받으신 후 입력해주세요");
                 return false;
             }
 
             //ajax
+            urls = apiHost+"/ico/verify/auth/email/"+inputEl.value;
 
+            $.ajax({
+                url: urls,
+                method: 'POST',
+                data: {
+                    email :self.email
+                },
+                dataType: 'json',
+                success: function(d){
+                    console.log(d);
+                    if(d.resultCode == 200){
+                        self.timestamp = d.timestamp;
+                        self.authKey = d.authkey;
+                        self.mailAuthTrue = true;
+
+                        alert("Email Security Key Success");
+
+                        //change check box step todo
+                        emailStepIcon.classList.remove('glyphicon-remove','red-icon');
+                        emailStepIcon.classList.add('glyphicon-ok','green-icon','blinking');
+                    }else{
+                        alert("이메일 인증에 실패하였습니다\n다시 입력해주세요");
+                    }
+                }
+            });
         },false);
 
-        //sms Send Event
+        ////////////////////////////
+        //sms Send Event (문자 전송)
+        //STEP 3
+        ////////////////////////////
         smsSendBtn.addEventListener('click',function(){
             //vali
             var targetEl = document.querySelector("#box-3");
@@ -103,33 +150,105 @@ var SignUpJs = {
                 return false;
             }
 
-            if(targetEl.nextElementSibling.nodeName == "P"){
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
+                return false;
+            }
 
+            if(!self.mailAuthTrue){
+                alert("메일인증을 먼저 진행해 주세요");
                 return false;
             }
 
             //ajax
+            urls = apiHost+"/ico/access/auth/phone/"+inputEl.value;
 
+            $.ajax({
+                url: urls,
+                method: 'POST',
+                data: {
+                    mail_key: self.authKey,
+                    timestamp: self.timestamp,
+                    country: 10
+                },
+                dataType: 'json',
+                success: function(d){
+                    console.log(d);
+                    if(d.resultCode == 200){
+                        self.timestamp = d.timestamp;
+                        self.authKey = d.authkey;
+                        self.smsSendTrue = true;
+
+                        alert("SMS Send Success\nWrite Sms Security Number");
+
+                        //change check box step todo
+
+                    }else{
+                        alert("문자전송이 실패하였습니다\n다시 시도해주세요");
+                    }
+                }
+            });
         },false);
 
-        //sms key auth Event
+        ////////////////////////////
+        //sms key auth Event (sms 키 인증)
+        //STEP 4
+        ////////////////////////////
         smsKeyBtn.addEventListener('click',function(){
             //vali
             var targetEl = document.querySelector("#box-4");
             var inputEl = document.querySelector("#smsAuthKey");
+            self.smsInputVal = inputEl.value;
 
             if(inputEl.value.length == 0){
                 alert("email is required");
                 return false;
             }
 
-            if(targetEl.nextElementSibling.nodeName == "P"){
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
+                return false;
+            }
 
+            if(!self.mailAuthTrue){
+                alert("메일인증을 먼저 진행 해주세요");
+                return false;
+            }
+
+            if(!self.smsSendTrue){
+                alert("문자를 먼저 수신 받아주세요");
                 return false;
             }
 
             //ajax
+            urls = apiHost+"/ico/verify/auth/phone/"+self.smsInputVal;
 
+            $.ajax({
+                url: urls,
+                method: 'POST',
+                data: {
+                    phone_key: self.smsInputVal,
+                    timestamp: self.timestamp
+                },
+                dataType: 'json',
+                success: function(d) {
+                    console.log(d);
+                    if (d.resultCode == 200) {
+                        self.authkey = d.authkey;
+                        self.smsAuthTrue = true;
+
+                        alert("SMS Send Success\nWrite Sms Security Number");
+
+                        //change check box step todo
+                        smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
+                        smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
+                    }else{
+                        alert("sms 인증이 실패하였습니다\n문자를 다시받으시거나 다시 입력해 주세요");
+
+                        //toremove
+                        //smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
+                        //smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
+                    }
+                }
+            });
         },false);
 
         $(".signupForm").validate({
@@ -162,7 +281,27 @@ var SignUpJs = {
 
             //submit event handle
             submitHandler: function() {
+                //ajax
+                urls = apiHost+"/ico/access/user/profile/"+self.authKey;
 
+                $.ajax({
+                    url: urls,
+                    method: 'POST',
+                    data: {
+                        mail_key: self.authKey,
+                        timestamp: self.timestamp
+                    },
+                    dataType: 'json',
+                    success: function(d){
+                        console.log(d);
+                        if(d.resultCode == 200){
+                            //change check todo
+                            return false;
+                        }else{
+                            alert("crate Account Fail");
+                        }
+                    }
+                });
             },
             rules:{
                 email: {
