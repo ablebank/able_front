@@ -11,6 +11,7 @@ var SignUpJs = {
     smsSendBtn: null,
     smsKeyInput: null,
     smsKeyBtn: null,
+    smsInputVal: null,
 
     //passwod
     passwordInput: null,
@@ -26,6 +27,7 @@ var SignUpJs = {
     mailAuthTrue: false,
     smsSendTrue: false,
     smsAuthTrue: false,
+    passwordAuthTrue: false,
 
 
     init: function(){
@@ -106,14 +108,13 @@ var SignUpJs = {
             }
 
             //ajax
-            urls = apiHost+"/ico/verify/auth/email/"+self.mailTmp;
+            urls = apiHost+"/ico/verify/auth/email/"+inputEl.value;
 
             $.ajax({
                 url: urls,
                 method: 'POST',
                 data: {
-                    email :self.email,
-                    mailAuthKey :inputEl.value
+                    email :self.email
                 },
                 dataType: 'json',
                 success: function(d){
@@ -153,7 +154,7 @@ var SignUpJs = {
                 return false;
             }
 
-            if(!mailAuthTrue){
+            if(!self.mailAuthTrue){
                 alert("메일인증을 먼저 진행해 주세요");
                 return false;
             }
@@ -161,18 +162,19 @@ var SignUpJs = {
             //ajax
             urls = apiHost+"/ico/access/auth/phone/"+inputEl.value;
 
-
             $.ajax({
                 url: urls,
                 method: 'POST',
                 data: {
                     mail_key: self.authKey,
-                    timestamp: self.timestamp
+                    timestamp: self.timestamp,
+                    country: 10
                 },
                 dataType: 'json',
                 success: function(d){
                     console.log(d);
                     if(d.resultCode == 200){
+                        self.timestamp = d.timestamp;
                         self.authKey = d.authkey;
                         self.smsSendTrue = true;
 
@@ -195,6 +197,7 @@ var SignUpJs = {
             //vali
             var targetEl = document.querySelector("#box-4");
             var inputEl = document.querySelector("#smsAuthKey");
+            self.smsInputVal = inputEl.value;
 
             if(inputEl.value.length == 0){
                 alert("email is required");
@@ -216,13 +219,13 @@ var SignUpJs = {
             }
 
             //ajax
-            urls = apiHost+"/ico/verify/auth/phone/"+self.authKey;
+            urls = apiHost+"/ico/verify/auth/phone/"+self.smsInputVal;
 
             $.ajax({
                 url: urls,
                 method: 'POST',
                 data: {
-                    login: inputEl.value,
+                    phone_key: self.smsInputVal,
                     timestamp: self.timestamp
                 },
                 dataType: 'json',
@@ -241,8 +244,8 @@ var SignUpJs = {
                         alert("sms 인증이 실패하였습니다\n문자를 다시받으시거나 다시 입력해 주세요");
 
                         //toremove
-                        smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
-                        smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
+                        //smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
+                        //smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
                     }
                 }
             });
