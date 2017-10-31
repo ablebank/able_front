@@ -979,20 +979,16 @@
           console.log(canvasEl);
       }
       var canvasEl = document.querySelector("canvas");
-      var mainBgEl = document.querySelector("#mainSection");
+      var mainEl = $("#mainSection");
 
-      //console.log(canvasEl);
-      //console.log(mainBgEl);
+
+      //canvas height get And div up
+      var fixMoveUpHeight = mainEl.innerHeight()
+      canvasEl.style.marginTop = -(fixMoveUpHeight);
 
       //canvas width 값 보정
       var fixCurrentWidth = parseInt(canvasEl.style.width) - 15;
       canvasEl.style.width = fixCurrentWidth;
-
-      //canvas height get And div up
-      console.log(parseInt(canvasEl));
-      //canvasEl.style.marginTop = parseInt(canvasEl);
-
-      //$(".fade").fadeInScroll();
 
 
   </script>
