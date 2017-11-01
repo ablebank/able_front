@@ -220,7 +220,7 @@ var SignUpJs = {
             }
 
             //ajax
-            urls = apiHost+"/ico/verify/auth/phone/"+self.smsInputVal;
+            urls = apiHost+"/ico/verify/auth/phone/"+self.authKey;
 
             $.ajax({
                 url: urls,
