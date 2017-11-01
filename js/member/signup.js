@@ -39,7 +39,8 @@ var SignUpJs = {
         mailKeyBtn = document.querySelector(".mailKeyBtn");
         smsSendBtn = document.querySelector(".smsSendBtn");
         smsKeyBtn = document.querySelector(".smsKeyBtn");
-        apiHost = "http://devapi.able-coin.io";
+        //apiHost = "http://devapi.able-coin.io";
+        apiHost = "https://www.able-coin.io";
 
 
         var self = this;
@@ -73,12 +74,20 @@ var SignUpJs = {
                 url: urls,
                 dataType: 'json',
                 success: function(d){
-                    if(d.resultCode == 200){
-                        self.mailTmp = d.tmp;
-                        self.mailSendTrue = true;
-                        alert("메일이 발송되었습니다.\n메일에 첨부된 인증키를 입력해주세요");
-                    }else{
-                        alert("메일 발송에 실패하였습니다.");
+                    switch(d.resultCode){
+                        case 200:
+                            self.mailTmp = d.tmp;
+                            self.mailSendTrue = true;
+                            alert("메일이 발송되었습니다.\n메일에 첨부된 인증키를 입력해주세요");
+                        break;
+
+                        case 10006:
+                            alert("존재하는 메일주소입니다.\n다른 메일주소로 가입해주세요");
+                        break;
+
+                        default:
+                            alert("메일 발송에 실패하였습니다.");
+                        break;
                     }
                 }
             });
@@ -170,7 +179,7 @@ var SignUpJs = {
                     mail_key: self.authKey,
                     timestamp: self.timestamp,
                     //phone_timestamp: self.timestamp,
-                    country: 10
+                    country: 82
                 },
                 dataType: 'json',
                 success: function(d){
@@ -289,7 +298,7 @@ var SignUpJs = {
                 //http://devapi.able-coin.io/ico/notifiy/auth/user/
                 var passwordEl = document.querySelector("#repassword");
 
-                urls = apiHost+"/ico/notifiy/auth/user/"+self.smsKey;
+                urls = apiHost+"/ico/notifiy/auth/user/"+self.authKey;
 
                 $.ajax({
                     url: urls,
