@@ -40,7 +40,7 @@ var SignUpJs = {
         smsSendBtn = document.querySelector(".smsSendBtn");
         smsKeyBtn = document.querySelector(".smsKeyBtn");
         //apiHost = "http://devapi.able-coin.io";
-        apiHost = "https://www.able-coin.io";
+        apiHost = "https://api.able-coin.io";
 
 
         var self = this;
