@@ -1,6 +1,8 @@
 var LogInJs = {
 
     init: function(){
+        var emali = document.querySelector("#email");
+        var password = document.querySelector("#password");
         apiHost = "http://devapi.able-coin.io";
 
         var self = this;
@@ -24,23 +26,25 @@ var LogInJs = {
             //submit event handle
             submitHandler: function() {
                 //ajax
-                urls = apiHost+"/ico/access/user/profile/"+self.authKey;
+                urls = apiHost+"/ico/access/login";
 
                 $.ajax({
                     url: urls,
                     method: 'POST',
                     data: {
-                        mail_key: self.authKey,
-                        timestamp: self.timestamp
+                        login: $.md5(password.value),
+                        email: email.value
                     },
                     dataType: 'json',
                     success: function(d){
                         console.log(d);
                         if(d.resultCode == 200){
                             //change check todo
+                            alert("login success");
                             return false;
                         }else{
-                            alert("crate Account Fail");
+                            alert("login Fail");
+                            return false;
                         }
                     }
                 });
