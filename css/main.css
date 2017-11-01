@@ -750,7 +750,7 @@ $main
   $preview
 ========================================================================== */
 #video {
-  background-color: #2B2F39;
+  background-color: #434757;
 }
 
 .video-box{
@@ -780,7 +780,7 @@ $main
   $needs
 ========================================================================== */
 #needs {
-  background-color: #2B2F39;
+  background-color: #434757;
 }
 #needs h2 {
   color: white;
@@ -992,7 +992,7 @@ $main
 ========================================================================== */
 #platform {
   text-align: center;
-  background-color: #2B2F39;
+  background-color: #434757;
 }
 #platform h2 {
   text-align: center;
@@ -1009,9 +1009,9 @@ $main
 }
 
 #platform .type-box{
-  padding-top:2%;
-  padding-left:4%;
-  padding-right:4%;
+  padding-top:4%;
+  padding-left:9%;
+  padding-right:9%;
 }
 
 #platform h4 {
@@ -1146,7 +1146,7 @@ $main
 	$Roadmap
 ========================================================================== */
 #roadmap {
-  background-color: #2B2F39;
+  background-color: #434757;
 }
 #roadmap h2 {
   color: #fff;
@@ -1191,7 +1191,7 @@ $main
 	$Team
 ========================================================================== */
 #team {
-  background-color: #262b36;
+  background-color: #434757;
 }
 #team h2 {
   color: #fff;
@@ -1352,7 +1352,7 @@ $main
 	$faq
 ========================================================================== */
 #faq {
-  background-color: #262b36;
+  background-color: #434757;
 }
 
 #faq h2{
