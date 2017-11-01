@@ -167,7 +167,8 @@ var SignUpJs = {
                 method: 'POST',
                 data: {
                     mail_key: self.authKey,
-                    timestamp: self.timestamp,
+                    //timestamp: self.timestamp,
+                    phone_timestamp: self.timestamp,
                     country: 10
                 },
                 dataType: 'json',
