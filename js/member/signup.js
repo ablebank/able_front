@@ -22,6 +22,7 @@ var SignUpJs = {
     email: null, //email
     timestamp: null, //phoneTimestamp
     authKey: null, //authKey
+    smsKey: null, //smsauthKey
 
     mailSendTrue: false,
     mailAuthTrue: false,
@@ -177,6 +178,7 @@ var SignUpJs = {
                     if(d.resultCode == 200){
                         self.timestamp = d.timestamp;
                         self.authKey = d.authkey;
+                        self.smsKey = d.pkey;
                         self.smsSendTrue = true;
 
                         alert("SMS Send Success\nWrite Sms Security Number");
@@ -234,6 +236,7 @@ var SignUpJs = {
                     console.log(d);
                     if (d.resultCode == 200) {
                         self.authkey = d.authkey;
+                        self.timestamp = d.timestamp;
                         self.smsAuthTrue = true;
 
                         alert("SMS Send Success\nWrite Sms Security Number");
@@ -283,23 +286,28 @@ var SignUpJs = {
             //submit event handle
             submitHandler: function() {
                 //ajax
-                urls = apiHost+"/ico/access/user/profile/"+self.authKey;
+                //http://devapi.able-coin.io/ico/notifiy/auth/user/
+                var passwordEl = document.querySelector("#repassword");
+
+                urls = apiHost+"/ico/notifiy/auth/user/"+self.smsKey;
 
                 $.ajax({
                     url: urls,
                     method: 'POST',
                     data: {
-                        mail_key: self.authKey,
-                        timestamp: self.timestamp
+                        login: $.md5(passwordEl.value),
+                        timestamp: self.timestamp,
                     },
                     dataType: 'json',
                     success: function(d){
                         console.log(d);
                         if(d.resultCode == 200){
                             //change check todo
+                            alert("crate Account Success");
                             return false;
                         }else{
                             alert("crate Account Fail");
+                            return false;
                         }
                     }
                 });

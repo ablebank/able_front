@@ -1428,9 +1428,32 @@ $main
   text-transform: uppercase;
 }
 #asSeenIn img {
-  height: 75px;
-  margin: 20px;
+  margin: 34px;
 }
+#asSeenIn .box-1{
+  height:60px;
+}
+#asSeenIn .box-2{
+  height:57px;
+}
+#asSeenIn .box-3{
+  height:54px;
+}
+#asSeenIn .box-4{
+  margin:15px;
+  height:84px;
+}
+#asSeenIn .box-5{
+  margin:53px;
+  height:20px;
+}
+#asSeenIn .box-6{
+  height:60px;
+}
+#asSeenIn .box-7{
+  height:50px;
+}
+
 /* ==========================================================================
 	$Footer
 ========================================================================== */
