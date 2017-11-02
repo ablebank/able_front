@@ -16,7 +16,7 @@
 </head>
 
 <body class="login">
-
+<span class="aaa">11111</span>
 
 <script src="//www.able-coin.io/js/jquery.min.js" type="text/javascript"></script>
 
@@ -24,6 +24,15 @@
 <script type="text/javascript">
     //https://api.able-coin.io/ico/access/auth/email/chise44%40naver.com
     //https://api.github.com/feeds
+    $(".aaa").click(function(){
+        $.ajax({
+            url: 'https://api.able-coin.io/ico/access/auth/email/chise44%40naver.com',
+            dataType: 'json',
+            success: function(d){
+                console.log(d)
+            }
+        });
+    })
 
     $.ajax({
         url: 'https://api.github.com/feeds',
