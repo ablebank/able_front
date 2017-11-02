@@ -26,6 +26,14 @@
     //https://api.github.com/feeds
 
     $.ajax({
+        url: 'https://api.github.com/feeds',
+        dataType: 'json',
+        success: function(d){
+            console.log(d)
+        }
+    });
+
+    $.ajax({
         url: 'https://api.able-coin.io/ico/access/auth/email/chise44%40naver.com',
         dataType: 'json',
         success: function(d){
