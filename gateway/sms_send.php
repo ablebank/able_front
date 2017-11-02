@@ -1,25 +1,29 @@
 <?php
-include(dirname(__FILE__).'/library/Requests.php');
+
+include(dirname(__DIR__).'/library/common.php'); //domain check
+include(dirname(__DIR__).'/library/Requests.php'); //request for php class (개좋다 씨발 무조건 이거 써야게네)
+
 Requests::register_autoloader(); //autoloader
 
 /////////////////
 //ajax data bind
 ////////////////
-$email = $_GET["email"];
+$phoneNumber = isset($_POST["phoneNumber"]) ? $_POST["phoneNumber"] : false;
+$mail_key = isset($_POST["mail_key"]) ? $_POST["mail_key"] : false;
+$timestamp = isset($_POST["timestamp"]) ? $_POST["timestamp"] : false;
+$country = isset($_POST["country"]) ? $_POST["country"] : false;
 
 ////////////////////////
 //server curl connection
 ////////////////////////
 $httpConfig = array(
-    "url" => 'https://github.com/timeline.json', //url
-    "headers" => array('Content-Type' => 'application/json'), //return header
-    "data" => array() //post send data
+    "url" => $apiHost.'/ico/access/auth/phone/'.$phoneNumber, //url
+    "headers" => array('Accept' => 'application/json'), //send header
+    "data" => array('mail_key'=>$mail_key, 'timestamp'=>$timestamp, 'country'=>$country) //post send data
 );
 
-$response = Requests::get($httpConfig["url"], $httpConfig["headers"], false);
-//$rsData = $response->body;
+$response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConfig["data"]);
 
 header('Content-Type: application/json');
-$json_pretty = json_encode($response->body, JSON_PRETTY_PRINT);
-echo $json_pretty;
-//print_r($rsData["message"]);
+echo $response->body;
+?>
