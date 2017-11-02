@@ -40,7 +40,6 @@ var SignUpJs = {
         smsSendBtn = document.querySelector(".smsSendBtn");
         smsKeyBtn = document.querySelector(".smsKeyBtn");
         apiHost = "http://devapi.able-coin.io";
-        // apiHost = "https://api.able-coin.io";
 
 
         var self = this;
@@ -68,12 +67,17 @@ var SignUpJs = {
             //ajax
             self.email = inputEl.value;
 
-            urls = apiHost+"/ico/access/auth/email/"+encodeURIComponent(self.email);
+            urls = "/gateway/mail_send.php";
 
             $.ajax({
                 url: urls,
-                dataType: 'json',
+                method: 'POST',
+                data: {
+                    email :encodeURIComponent(self.email)
+                },
                 success: function(d){
+                    console.log(d)
+
                     switch(d.resultCode){
                         case 200:
                             self.mailTmp = d.tmp;
@@ -118,12 +122,13 @@ var SignUpJs = {
             }
 
             //ajax
-            urls = apiHost+"/ico/verify/auth/email/"+inputEl.value;
+            urls = "/gateway/mail_auth.php";
 
             $.ajax({
                 url: urls,
                 method: 'POST',
                 data: {
+                    mailAuthKey :inputEl.value,
                     email :self.email
                 },
                 dataType: 'json',
@@ -134,7 +139,7 @@ var SignUpJs = {
                         self.authKey = d.authkey;
                         self.mailAuthTrue = true;
 
-                        alert("Email Security Key Success");
+                        alert("이메일 인증에 성공하였습니다");
 
                         //change check box step todo
                         emailStepIcon.classList.remove('glyphicon-remove','red-icon');
@@ -170,15 +175,15 @@ var SignUpJs = {
             }
 
             //ajax
-            urls = apiHost+"/ico/access/auth/phone/"+inputEl.value;
+            urls = "/gateway/sms_send.php";
 
             $.ajax({
                 url: urls,
                 method: 'POST',
                 data: {
+                    phoneNumber: inputEl.value,
                     mail_key: self.authKey,
                     timestamp: self.timestamp,
-                    //phone_timestamp: self.timestamp,
                     country: 82
                 },
                 dataType: 'json',
@@ -190,7 +195,7 @@ var SignUpJs = {
                         self.smsKey = d.pkey;
                         self.smsSendTrue = true;
 
-                        alert("SMS Send Success\nWrite Sms Security Number");
+                        alert("보안문자가 발송되었습니다\n발송된 숫자를 입력해주세요");
 
                         //change check box step todo
 
@@ -231,12 +236,13 @@ var SignUpJs = {
             }
 
             //ajax
-            urls = apiHost+"/ico/verify/auth/phone/"+self.authKey;
+            urls = "/gateway/sms_auth.php";
 
             $.ajax({
                 url: urls,
                 method: 'POST',
                 data: {
+                    authKey: self.authKey,
                     phone_key: self.smsInputVal,
                     timestamp: self.timestamp
                 },
@@ -248,17 +254,13 @@ var SignUpJs = {
                         self.timestamp = d.timestamp;
                         self.smsAuthTrue = true;
 
-                        alert("SMS Send Success\nWrite Sms Security Number");
+                        alert("문자 인증에 성공하였습니다\n패스워드를 설정해주세요");
 
                         //change check box step todo
                         smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
                         smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
                     }else{
                         alert("sms 인증이 실패하였습니다\n문자를 다시받으시거나 다시 입력해 주세요");
-
-                        //toremove
-                        //smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
-                        //smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
                     }
                 }
             });
@@ -295,15 +297,15 @@ var SignUpJs = {
             //submit event handle
             submitHandler: function() {
                 //ajax
-                //http://devapi.able-coin.io/ico/notifiy/auth/user/
                 var passwordEl = document.querySelector("#repassword");
 
-                urls = apiHost+"/ico/notifiy/auth/user/"+self.authKey;
+                urls = "/gateway/signup_end.php";
 
                 $.ajax({
                     url: urls,
                     method: 'POST',
                     data: {
+                        authKey: self.authKey,
                         login: $.md5(passwordEl.value),
                         timestamp: self.timestamp,
                     },
@@ -312,10 +314,10 @@ var SignUpJs = {
                         console.log(d);
                         if(d.resultCode == 200){
                             //change check todo
-                            alert("crate Account Success");
+                            alert("계정이 생성되었습니다");
                             return false;
                         }else{
-                            alert("crate Account Fail");
+                            alert("계정생성 실패 관리자에게 문의하세요");
                             return false;
                         }
                     }
