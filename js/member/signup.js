@@ -39,8 +39,8 @@ var SignUpJs = {
         mailKeyBtn = document.querySelector(".mailKeyBtn");
         smsSendBtn = document.querySelector(".smsSendBtn");
         smsKeyBtn = document.querySelector(".smsKeyBtn");
-        //apiHost = "http://devapi.able-coin.io";
-        apiHost = "http://api.able-coin.io";
+        apiHost = "http://devapi.able-coin.io";
+        //apiHost = "http://api.able-coin.io";
 
 
         var self = this;
@@ -68,12 +68,17 @@ var SignUpJs = {
             //ajax
             self.email = inputEl.value;
 
-            urls = apiHost+"/ico/access/auth/email/"+encodeURIComponent(self.email);
+            urls = "/gateway/sms_send.php";
 
             $.ajax({
                 url: urls,
-                dataType: 'json',
+                method: 'POST',
+                data: {
+                    email :encodeURIComponent(self.email)
+                },
                 success: function(d){
+                    console.log(d)
+                    /*
                     switch(d.resultCode){
                         case 200:
                             self.mailTmp = d.tmp;
@@ -89,6 +94,7 @@ var SignUpJs = {
                             alert("메일 발송에 실패하였습니다.");
                         break;
                     }
+                    */
                 }
             });
         },false);
