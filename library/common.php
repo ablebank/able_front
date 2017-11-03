@@ -10,11 +10,11 @@ switch($_SERVER["HTTP_HOST"]){
         break;
     case "www.able-coin.io" :
         $apiHost = "https://api.able-coin.io";
-        $dm = "http://www.able-coin.io";
+        $dm = "https://www.able-coin.io";
         break;
     default:
         $apiHost = "https://api.able-coin.io";
-        $dm = "http://www.able-coin.io";
+        $dm = "https://www.able-coin.io";
         break;
 }
 ?>
