@@ -39,6 +39,7 @@ var SignUpJs = {
         mailKeyBtn = document.querySelector(".mailKeyBtn");
         smsSendBtn = document.querySelector(".smsSendBtn");
         smsKeyBtn = document.querySelector(".smsKeyBtn");
+        myEthAddrBtn = document.querySelector(".myEthAddrBtn");
         apiHost = "http://devapi.able-coin.io";
 
 
@@ -266,6 +267,26 @@ var SignUpJs = {
             });
         },false);
 
+        ////////////////////////////
+        //이더 주소 문제 없는지 확인용 버튼
+        ////////////////////////////
+        myEthAddrBtn.addEventListener('click',function(){
+            //vali
+            var targetEl = document.querySelector("#box-5");
+            var inputEl = document.querySelector("#myEthAddr");
+
+            if(inputEl.value.length == 0){
+                alert("MyEthWalletAddress is required");
+                return false;
+            }
+
+            if(targetEl.nextElementSibling.nodeName == "P" && targetEl.nextElementSibling.style.display !== "none"){
+                //return false;
+            }
+
+            window.open("https://etherscan.io/address/"+inputEl.value);
+        },false);
+
         $(".signupForm").validate({
             errorElement: 'p',
             errorClass: 'jq_err_msg text-danger',
@@ -283,12 +304,17 @@ var SignUpJs = {
                     case 'smsAuthKey':
                         error.insertAfter($("#box-4"));
                         break;
+                    case 'myEthAddr':
+                        error.insertAfter($("#box-5"));
+                        break;
+                    /*
                     case 'password':
                         error.insertAfter($("#box-5"));
                         break;
                     case 'repassword':
                         error.insertAfter($("#box-6"));
                         break;
+                    */
                     default:
                     //nothing
                 }
@@ -297,7 +323,9 @@ var SignUpJs = {
             //submit event handle
             submitHandler: function() {
                 //ajax
-                var passwordEl = document.querySelector("#repassword");
+
+                //var passwordEl = document.querySelector("#repassword");
+                var myEthAddr = document.querySelector("#myEthAddr");
 
                 urls = "/gateway/signup_end.php";
 
@@ -306,7 +334,8 @@ var SignUpJs = {
                     method: 'POST',
                     data: {
                         authKey: self.authKey,
-                        login: $.md5(passwordEl.value),
+                        //login: $.md5(passwordEl.value),
+                        login: myEthAddr.value,
                         timestamp: self.timestamp,
                     },
                     dataType: 'json',
@@ -315,6 +344,7 @@ var SignUpJs = {
                         if(d.resultCode == 200){
                             //change check todo
                             alert("계정이 생성되었습니다");
+                            location.href = "/index.php";
                             return false;
                         }else{
                             alert("계정생성 실패 관리자에게 문의하세요");
@@ -342,6 +372,12 @@ var SignUpJs = {
                     required : true,
                     minlength : 4
                 },
+                myEthAddr: {
+                    required : true,
+                    minlength : 42,
+                    maxlength : 42
+                }
+                /*
                 password: {
                     required : true,
                     minlength : 6
@@ -350,6 +386,7 @@ var SignUpJs = {
                     required : true,
                     equalTo: "#password"
                 }
+                */
             }
         });
     }
