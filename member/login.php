@@ -1,5 +1,5 @@
 <?php
-include(dirname(__FILE__).'/library/common.php'); //domain check
+    include(dirname(__DIR__).'/library/common.php'); //domain check
 ?>
 <!DOCTYPE html>
 <html lang="en">
