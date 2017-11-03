@@ -263,7 +263,7 @@
       </div>
   </section>-->
 
-  <!-- 에이블 코인 -->
+  <!-- 에이블 SERVICE -->
   <section id="service" class="section">
     <div class="container-fluid">
       <div class="features-text text-center">
@@ -300,6 +300,7 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
 
   <section id="platform" class="section">
@@ -461,7 +462,7 @@
           <div class="col-sm-3 col-lg-3 roadmapBox">
             <h3>2017. 4Q</h3>
             <p class="text-left">
-              <span class="text-cicle"></span><span class="text-left-padding">대기자금 비트코인 &부동산<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중심 투자</span>
+              <span class="text-cicle"></span><span class="text-left-padding">대기자금 비트코인 & 부동산<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중심 투자</span>
             </p>
           </div>
           <div class="col-sm-3 col-lg-3 roadmapBox">
