@@ -1,12 +1,12 @@
 function init() {
     var addHeightSize = 0;
-    var container, separation = 100, amountX = 50, amountY = 50,
+    var container, separation = 1000, amountX = 50, amountY = 50,
         particles, particle;
 
     container = document.createElement('div');
     container.classList.add('webGl');
     document.body.appendChild(container);
-    camera = new THREE.PerspectiveCamera( 1500, window.innerWidth / window.innerHeight, 1, 700 );
+    camera = new THREE.PerspectiveCamera( 5000, window.innerWidth / window.innerHeight, 1, 700 );
     camera.position.z = 100;
     scene = new THREE.Scene();
     renderer = new THREE.CanvasRenderer();
@@ -78,7 +78,7 @@ function animate() {
     render();
 }
 function render() {
-    camera.position.x += ( mouseX - camera.position.x ) * .001;
-    camera.position.y += ( - mouseY + 1 - camera.position.y ) * .001;
+    camera.position.x += ( mouseX - camera.position.x ) * .0003;
+    camera.position.y += ( - mouseY + 1 - camera.position.y ) * .0003;
     renderer.render( scene, camera );
 }
