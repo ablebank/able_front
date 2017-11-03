@@ -58,7 +58,7 @@ var LogInJs = {
                     minlength : 2,
                     email : true
                 },
-                password: {
+                myEthAddr: {
                     required : true,
                     minlength : 42,
                     maxlength : 42

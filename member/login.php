@@ -41,7 +41,7 @@
             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
             <input id="email" type="text" class="form-control" name="email" placeholder="이메일 주소를 입력해주세요" required="required">
         </div>
-        <label>My Ether Wallet Address</label>
+        <label>My Ether Address</label>
         <div id="box-2" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
             <input id="myEthAddr" type="text" class="form-control" name="myEthAddr" placeholder="마이이더월렛 이더리움 주소를 입력해주세요" required="required">
