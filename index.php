@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513412121" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513412134" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
@@ -935,79 +935,7 @@
   <script src="<?php echo $dm?>/js/scrollto.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/anim_scroll.js" type="text/javascript"></script>
   <script>
-      /////////////////////
-      ////time D-day
-      ///////////////////
-      var icoDay = document.getElementById("clock-day");
-      var icoHour = document.getElementById("clock-hour");
-      var icoMin = document.getElementById("clock-min");
-      var icoSec = document.getElementById("clock-sec");
-
-      function getTimeIcoDate(){
-          var dat1 = new Date(); //현재날짜
-          var dat2 = new Date(2017, 10, 15); //월에서 1 빼줘야 함
-
-          var diff = dat2 - dat1; //날짜 빼기
-
-          var currSec = 1000; // 밀리세컨
-          var currMin = 60 * 1000; // 초 * 밀리세컨
-          var currHour = 60 * 60 * 1000; // 분 * 초 * 밀리세컨
-          var currDay = 24 * 60 * 60 * 1000; // 시 * 분 * 초 * 밀리세컨
-
-          var day = parseInt(diff/currDay); //d-day 일
-          var hour = parseInt(diff/currHour); //d-day 시
-          var min = parseInt(diff/currMin); //d-day 분
-          var sec = parseInt(diff/currSec); //d-day 초
-
-          var viewHour = hour-(day*24);
-          var viewMin = min-(hour*60);
-          var viewSec = sec-(min*60);
-
-          icoDay.innerText  = day; //날짜
-          icoHour.innerText = viewHour; //시
-          icoMin.innerText  = viewMin; //분
-          icoSec.innerText  = viewSec; //초
-
-          setTimeout(getTimeIcoDate, 1000);
-      }
-
       getTimeIcoDate();
-
-
-      function get_version_of_IE () {
-
-          var word;
-          var version = "N/A";
-
-          var agent = navigator.userAgent.toLowerCase();
-
-          // IE old version ( IE 10 or Lower )
-          if ( navigator.appName == "Microsoft Internet Explorer" ) word = "msie ";
-
-          else {
-              // IE 11
-              if ( agent.search( "trident" ) > -1 ) word = "trident/.*rv:";
-
-              // Microsoft Edge
-              else if ( agent.search( "edge/" ) > -1 ) word = "edge/";
-
-              // 그외, IE가 아니라면 ( If it's not IE or Edge )
-              else return version;
-          }
-
-          var reg = new RegExp( word + "([0-9]{1,})(\\.{0,}[0-9]{0,1})" );
-
-          if (  reg.exec( agent ) != null  ) version = RegExp.$1 + RegExp.$2;
-
-          return version;
-      }
-
-      var ie_ver = get_version_of_IE();
-
-      if(ie_ver == "11.0"){
-          var canvasEl = document.querySelector("canvas");
-          console.log(canvasEl);
-      }
 
       //메인 section의 크기를 감지하여 캔버스의 크기를 똑같이 맞춰서 늘려준다.
       var mainEl = document.querySelector("#mainSection");
@@ -1018,42 +946,6 @@
 
       //canvas width 수정
       canvasEl.style.width = mainEl.scrollWidth+"px";
-      //canvasEl.style.width =
-
-
-
-      //console.log(mainEl.scrollHeight);
-      //console.log(canvasEl);
-      //canvasEl.previousElementSibling.style.display = "absolute";
-
-
-
-
-
-
-      /*
-      var mainEl = $("#mainSection");
-
-      console.log(canvasEl);
-      console.log(mainEl);
-      //canvas height get And div up
-      var mainElHeight = mainEl.innerHeight();
-      var fixMoveUpHeight = mainElHeight * -1;
-
-      canvasEl.style.marginTop = fixMoveUpHeight;
-      console.log(fixMoveUpHeight);
-      console.log(canvasEl.style.marginTop);
-      */
-      //canvasEl.style.marginTop = fixMoveUpHeight * -1;
-      //console.log(fixMoveUpHeight);
-
-
-
-      //canvas width 값 보정
-      //var fixCurrentWidth = parseInt(canvasEl.style.width) - 15;
-      //canvasEl.style.width = fixCurrentWidth;
-
-
   </script>
 </body>
 </html>
