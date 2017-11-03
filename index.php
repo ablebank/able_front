@@ -353,20 +353,20 @@
 
         <div class="row margin-90">
           <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01"></div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">1<span class="font-down">ST</span>&nbsp;&nbsp;</div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">2<span class="font-down">ED</span>&nbsp;&nbsp;</div>
+          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">1<span class="font-down">ST</span></div>
+          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">2<span class="font-down">ED</span></div>
         </div>
         <div class="row margin-20">
-          <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">PRESALE</div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">6,000 ETH&nbsp;&nbsp;</div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">24,000 ETH&nbsp;&nbsp;</div>
+          <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">PRESALE&nbsp;&nbsp;&nbsp;<span class="font-down">(17.11.15)</span></div>
+            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">6,000 ETH<br><span class="color-navi">1ETH = 4940 ABL</span></div>
+            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">24,000 ETH<br><span class="color-navi">1ETH = 4750 ABL</span></div>
+        </div>
+        <div class="row margin-20">
+          <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">ICO</div>
+            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">30,000 ETH<br><span class="color-navi">1ETH = 3990 ABL</span></div>
+            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">60,000 ETH<br><span class="color-navi">1ETH = 3800 ABL</span></div>
         </div>
         <!--<div class="row margin-20">
-          <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">ICO</div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">30,000 ETH&nbsp;&nbsp;</div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">30,000 ETH&nbsp;&nbsp;</div>
-        </div>
-        <div class="row margin-20">
           <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">TOKEN SUPPLY</div>
           <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">120,000 ETH<span>*</span></div>
           <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">800,000 ETH<span>*</span></div>
@@ -556,19 +556,20 @@
                   <div class="imageBox ceo"></div>
                   <div class="nameBox">M.S KIM</div>
                   <div class="catBox">CEO / Founder </div>
-                  <p class="jobBox">국세 공무원 출신으로 공군장교를 거쳐 삼성 재무팀에서 근무했다. 부동산 NPL 전문가이자  암호화폐 투자 전문카페를 운영중인 자산운용 전문가이다. 현재 케이블록체인 CEO로 재직중이다.</p>
+                  <p class="jobBox">국세 공무원 출신으로 공군장교를 거쳐 삼성 재무팀에서 근무했다. NPL부동산 및 자산운용 전문가로 커뮤니티(사자후의 투자연구소)를 운영하고 있다. 블록체인 관련 다양한 경험을 보유하고 있으며 K-Blockchains의 CEO이다.</p>
                 </div>
                 <div class="col-md-3">
                   <div class="imageBox cto"></div>
                   <div class="nameBox">Y.D YOON</div>
                   <div class="catBox">CTO</div>
-                  <p class="jobBox">유니스트에서 컴퓨터공학 및 전자공학을 전공하고, 카이스트에서 Internet of Things (IoT) 연구를 통해 석사학위를 받았다. 이후 IoT 오픈 소스 플랫폼인 Open Language for Internet of Things (OLIOT) 개발에 참여하고 관리 중이다. 현재 카이스트에서 박사과정 중으로 Blockchain을 적용한 IoT 플랫폼 연구를 수행 중이다.</p>
+                  <p class="jobBox">유니스트에서 컴퓨터공학 및 전자공학을 전공하고, 카이스트에서 Internet of Things (IoT) 연구를 통해 석사학위를 받았다. 이후 IoT 오픈 소스 플랫폼인 Open Language for Internet of Things (OLIOT) 개발에 참여하고 관리 중이다.
+                      현재 카이스트에서 박사과정 중으로 Blockchain을 적용한 IoT 플랫폼 연구를 수행 중이다.</p>
                 </div>
                 <div class="col-md-3">
                   <div class="imageBox cfo"></div>
                   <div class="nameBox">Sukyu Cheah</div>
                   <div class="catBox">CFO</div>
-                  <p class="jobBox">University of California, San Diego와 고려대학교 경제학과를 졸업하였으며, 삼성 재경팀에서 근무한 경력이 있다.</p>
+                  <p class="jobBox">University of California, San Diego와 고려대학교 경제학과를 졸업하였다. 삼성 재무팀에서 감사, 결산등의 업무를 맡아 프로젝트를 진행한 경력이 있으며 회사 내 재무, 회계업무 등을 총괄하고 있다.</p>
                 </div>
               </div>
             </div>
@@ -584,7 +585,7 @@
                   <div class="nameBox">JW. NHO</div>
                   <div class="catBox">CEO / Founder </div>
                   <p class="jobBox">
-                    가상화폐 트레이딩 및 마이닝을 하며 블록체인 연구소를 설립하고 소셜 트레이딩 가상화폐 거래소 비트뱅크를 창업하였다. 삼성전자에서 사용자 경험에 대한 개발연구 및 디자인을 하며 다양한 서비스를 만들어낸 경험이 있다. 현재는 블록체인 관련 특허 및 강의 진행중에 있다.
+                      삼성전자에서 사용자 경험에 대한 개발연구 및 디자인을 하며 다양한 서비스를 만들어낸 경험이 있다. 가상화폐 트레이딩 및 마이닝을 하며 블록체인 연구소를 설립하고 소셜 트레이딩 가상화폐 거래소 비트뱅크를 창업하였다. 현재는 블록체인 관련 특허 및 강의 진행중에 있다.
                   </p>
                 </div>
                 <div class="col-md-3">
@@ -592,9 +593,7 @@
                   <div class="nameBox">HANNA GANG</div>
                   <div class="catBox">CSO</div>
                   <p class="jobBox">
-                    소셜 트레이딩 서비스 ‘비트뱅크’에서 고객을 관찰해 가치를 발굴하고, 이를 서비스에 녹여내거나 미디어를 통해 고객에게 전달하는 일을 하고 있다.
-                    IT 컨설팅 회사에 근무했으며, 은행, 보험, 캐피탈 등 다양한 금융 분야의 고객 경험을 분석하고, 전략 및 서비스 설계로 반영하는 일을 했다.
-                    세상의 흐름 속 숨은 인사이트를 발굴하는 것에도 관심이 많아 현대 경제연구원에서 객원 칼럼니스트로 활동 중이다.
+                      소셜 트레이딩 서비스 ‘비트뱅크’에서 고객을 관찰해 가치를 발굴하고, 이를 서비스에 융합하거나 미디어를 통해 고객에게 전달하는 일을 하고 있다. IT 컨설팅 회사에 근무했으며, 은행, 보험, 캐피탈 등 다양한 금융 분야의 고객 경험을 분석하고, 전략 및 서비스 설계로 반영하는 일을 했다. 경제연구원에서 객원 칼럼니스트로 활동하고 있다.
                   </p>
                 </div>
                 <div class="col-md-3">
@@ -602,10 +601,7 @@
                   <div class="nameBox">PHILGOO KANG</div>
                   <div class="catBox">CTO</div>
                   <p class="jobBox">
-                    한양대학교에서 컴퓨터공학과를 전공했다.
-                    SK에서 신규 결제 플랫폼 총괄하고, 인테리어 소셜네트워크 서비스까지
-                    구축한 경험이 있다.
-                    현재 블록체인 거래소인 비트뱅크 CTO로 재직중이다.
+                      한양대학교에서 컴퓨터공학과를 전공했다. SK계열사에서 CTO로 신규 결제 플랫폼 총괄하고, 인테리어 소셜네트워크 서비스까지 구축한 경험이 있다. 비트뱅크 CTO로 기술적 부분에 대한 효과적 활용을 위해 연구하고 있다.
                   </p>
                 </div>
               </div>
@@ -621,36 +617,42 @@
                   <div class="nameBox">JY. Kim</div>
                   <div class="catBox">Team Leader</div>
                   <p class="jobBox">
-                    인프라 엔지니어, 업무 인프라 아키텍처 설계 및 트러블 슈팅 전문가로 ABLE PROJECT의 개발을 총괄하고 있다.
+                    개발팀 총 책임자로 인프라 엔지니어, 업무 인프라 아키텍처 설계 및 트러블 슈팅에 관한 10년 이상의 다양한 경험을 갖고 있다. ABLE PROJECT의 서버, 운영체제, 네트워크 스토리지 등 총괄하여 관리하고 있다.
                   </p>
                 </div>
                 <div class="col-md-3 dev-tum">
                   <div class="nameBox">J.A Beak</div>
                   <div class="catBox">Infra engineer</div>
                   <p class="jobBox">
-                    Database와 WAS 전문가로서 대기업에서 8년동안 근무하였으며 차세대 ERP 및 각종 프로젝트에 참여하였다.
-                    프로젝트에서 인프라 아키텍쳐 설계 및 트러블 슈팅, 튜닝을 담당하고 있다.
+                    Database와 WAS 전문가로서 8년동안 근무하였으며 차세대 ERP 및 각종 프로젝트에 참여하였다. ABLE PROJECT의 인프라 아키텍쳐 설계 및 트러블 슈팅, 튜닝을 담당하고 있다.
                   </p>
                 </div>
                 <div class="col-md-3 dev-tum">
                   <div class="nameBox">J.W LEE</div>
                   <div class="catBox">Front Engineer</div>
                   <p class="jobBox">
-                    Application 개발자로 소셜커머스와 주차관련 서비스를 개발하였고, O2O 스타트업에서 기획, 개발, 투자에 참여 하였다.
+                      음원스트리밍 서비스 APPLICATION 프로젝트를 진행 및 완료.
+                      이후 여러 스타트업을 통해 기획/개발/투자에 참여하였다.
+                      주로 소셜커머스, 주차관련 서비스를 개발 하였으며, O2O 사업에 관심이 많다.
+                      현재 REACT+REDUX SAGA를 활용한 APPLICATION 개발에
+                      관심을 갖고 몰두 중이다.
+                      심플하고 가독성이 높은 UI를 지향하고 스타일.
                   </p>
                 </div>
                 <div class="col-md-3 dev-tum">
-                  <div class="nameBox">D.S NGung</div>
-                  <div class="catBox">Server Engineer</div>
-                  <p class="jobBox">
-                    웹개발자로 13년간 소셜커머스/음악플랫폼/ERP 등의 서비스 및 관리 경험을 통하여 현재는 ABLE PROJECT의 Backend architecture를 설계하고 application의 기능적인 부분을 전담하고 있다.
-                  </p>
+                    <div class="nameBox">D.S NGung</div>
+                    <div class="catBox">Server Engineer</div>
+                    <p class="jobBox">
+                        웹개발자로 13년간 소셜커머스/음악플랫폼/ERP 등의 서비스 및 관리 경험을 통하여 현재는 ABLE PROJECT의 Backend Architecture를 설계하고 Application의 기능적인 부분을 전담하고 있다.
+                    </p>
                 </div>
+              </div>
+              <div class="row">
                 <div class="col-md-3 dev-tum">
                   <div class="nameBox">M.J Lee</div>
                   <div class="catBox">Designer</div>
                   <p class="jobBox">
-                    웹디자이너로 중견벤처회사의 웹디자인팀을 총괄하였다.
+                      웹, 모바일, UI/UX 등 다양한 분야에 대한 디자인 경험이 있다. 대기업 팀장 등 여러 그룹에서 프로젝트 활동을 하였으며 K-blockchains의 모든 부분에 대한 디자인을 담당하고 있다.
                   </p>
                 </div>
               </div>
@@ -666,22 +668,28 @@
                   <div class="nameBox">SANG YEON HA</div>
                   <div class="catBox">Finance Specialis</div>
                   <p class="jobBox">
-                    상품기획(전 시중은행 금융상품기획)
-                    상품은 금융뿐 아니라 전산업군에 미치는 기본요소다. 블록체인을 기반하는 Bank platform의 활성화에 있어 탄탄한 상품라인업은 향후 ABLE만의 차별화된 경쟁력이 될 것이라 확신한다.
+                    금융분야 전문가로 은행시스템 및 상품개발자로 시중은행에서 근무한 경험을 가지고 있다. 이를 바탕으로 다양한 상품투자가 가능한 블록체인 전문은행을 구현하고 있다.
                   </p>
                 </div>
                 <div class="col-md-3 dev-tum">
                   <div class="nameBox">J.S Kim</div>
                   <div class="catBox">Finance Specialis</div>
                   <p class="jobBox">
-                    경영학을 전공하였고 자산관리 및 암호화폐 분석을 주로 하고 있다. 미래수익구조에 대한 계획을 세우고 Project를 수행한다.
+                    관세사로 경영학을 전공하였고 국제무역 및 외환거래에 대한 프로젝트 경험이 있다. 회사의 수익구조에 관한 합리적 의사결정을 위해 다양한 방법으로 기획하고 분석한다
                   </p>
+                </div>
+                <div class="col-md-3 dev-tum">
+                    <div class="nameBox">D.P Lim</div>
+                    <div class="catBox">Finance Specialist</div>
+                    <p class="jobBox">
+                        주로 FMI그룹과 하베스트에서 대체 투자와 공모주를 진행하였으며 그 외 자산관리에 대한 경험이 있다. 이를 활용하여 블록체인과 결합한 상품 개발에 주력하고 있다
+                    </p>
                 </div>
                 <div class="col-md-3 dev-tum">
                   <div class="nameBox">Erin Woo</div>
                   <div class="catBox">Marketer</div>
                   <p class="jobBox">
-                    온라인 마케터로 콘텐츠 마케팅부터 온라인광고까지 두루 경험하였다. 스타트업 마케팅에 특화되어 있다.
+                    마케팅 총 책임자로 B2B 및 B2C에 대한 마케팅 전문가이다. 다양한 분야에서 10년 이상의마케팅 활동 경험이 있으며 ABLE PROJECT의 소셜미디어, 프로젝트 관리, 기획 및 집행 등을 총괄하고 있다.
                   </p>
                 </div>
               </div>
@@ -722,7 +730,7 @@
             </div>
             <div id="2_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                따로 제한은 없습니다. 다만, 국가 규제에 따른 ICO 금지국가(ex. 미국, 중국 등)는 참여가 불가능합니다.
+                따로 제한은 없습니다. 다만, 국가 규제에 따른 ICO 금지국가(미국, 중국)는 참여가 불가능합니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
@@ -735,7 +743,7 @@
             </div>
             <div id="3_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                1차 Pre-Sale은 20%, 2차 Pre-Sale은 15%의 추가 코인을 배분 받을수 있습니다.
+                1차 Pre-Sale은 30%, 2차 Pre-Sale은 25%의 추가 코인을 배분 받을수 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
@@ -748,7 +756,7 @@
             </div>
             <div id="4_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                Pre-Sale 2회, ICO 3회 총 5회의 구매 기회가 있습니다.
+                Pre-Sale 2회, ICO 2회 총 4회의 구매 기회가 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
@@ -774,7 +782,7 @@
            </div>
            <div id="6_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-               11월 중순 PRESALE을 시작으로 12월 ICO를 통해 참여가능합니다.
+                 #0028AC
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -787,7 +795,7 @@
            </div>
            <div id="7_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-               Pre-Sale로 약 1억 2천만개 ico에서 약 2억5천만개의 코인이 발행 되며, 하드캡은 1억개 정도입니다
+               PRE-SALE로 약 1억 4천만개 ICO에서 약 2억5천만개의 코인이 발행 되며, 하드캡은 1억개 정도입니다
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -826,7 +834,7 @@
            </div>
            <div id="10_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-               2017년 12월 비트뱅크(BITBANK) 상장을 시작으로 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
+               2018년 1월 비트뱅크(BITBANK) 상장을 시작으로 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -856,7 +864,6 @@
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
-
            <div id="13_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
                본인인증 방식은 어떻게 되나요?
@@ -872,17 +879,40 @@
 
            <div id="14_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
-               비밀번호를 잊어버리면 찾을 수 있나요?
+               1인당 상한선 제한금액이 있나요?
              </div>
              <div id="14_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="14_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-               E-mail이나 휴대폰 인증을 통해 비밀번호를 초기화 할 수 있습니다.
+               제한이 없습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
-
+           <div id="15_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+                 거래소 지갑에서 참여가 가능한가요?
+             </div>
+             <div id="15_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="15_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+                 불가능합니다. 거래소 지갑에서 참여하시면 에이블 토큰을 지급해 드릴 수 없습니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+           <div id="16_accordion_btn" class="list-group faq_accordion_item">
+             <div class="list-group-item faq_accordion_btn">
+                 참여할 수 있는 지갑이 정해져 있는가요?
+             </div>
+             <div id="16_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="16_accordion_block" class="gone faq_accordion_block">
+             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+                 네. 마이이더월렛(MyEtherWallet)으로만 참여가 가능합니다.
+             </div>
+             <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
          </div>
      </div>
    </section>
