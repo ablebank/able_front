@@ -41,20 +41,17 @@
   <!-- Custom styles for this template -->
 </head>
 <body>
-
+<script type="text/javascript">
+    var mouseX = 0, mouseY = 0,
+        windowHalfX = window.innerWidth / 2,
+        //windowHalfY = 100000,
+        windowHalfY = window.innerHeight / 2,
+        //SEPARATION = 100, AMOUNTX = 10000, AMOUNTY = 10000,
+        camera, scene, renderer;
+    init();
+    animate();
+</script>
   <section id="mainSection">
-    <div class="fullscreen-bg">
-      <script>
-          var mouseX = 0, mouseY = 0,
-              windowHalfX = window.innerWidth / 2,
-              //windowHalfY = 100000,
-              windowHalfY = window.innerHeight / 2,
-              //SEPARATION = 100, AMOUNTX = 10000, AMOUNTY = 10000,
-              camera, scene, renderer;
-          init();
-          animate();
-      </script>
-    </div>
     <header id="header">
       <div class="header-content clearfix">
         <a class="logo" href="<?php echo $dm?>"><img src="<?php echo $dm?>/images/logo_file.png" alt="able bank" width="100"></a>
@@ -1015,7 +1012,29 @@
           console.log(canvasEl);
       }
 
+      //메인 section의 크기를 감지하여 캔버스의 크기를 똑같이 맞춰서 늘려준다.
+      var mainEl = document.querySelector("#mainSection");
       var canvasEl = document.querySelector("canvas");
+
+      //canvas height 수정
+      canvasEl.style.height = mainEl.scrollHeight+"px";
+
+      //canvas width 수정
+      canvasEl.style.width = mainEl.scrollWidth+"px";
+      //canvasEl.style.width =
+
+
+
+      //console.log(mainEl.scrollHeight);
+      //console.log(canvasEl);
+      //canvasEl.previousElementSibling.style.display = "absolute";
+
+
+
+
+
+
+      /*
       var mainEl = $("#mainSection");
 
       console.log(canvasEl);
@@ -1023,13 +1042,19 @@
       //canvas height get And div up
       var mainElHeight = mainEl.innerHeight();
       var fixMoveUpHeight = mainElHeight * -1;
+
+      canvasEl.style.marginTop = fixMoveUpHeight;
       console.log(fixMoveUpHeight);
       console.log(canvasEl.style.marginTop);
+      */
       //canvasEl.style.marginTop = fixMoveUpHeight * -1;
       //console.log(fixMoveUpHeight);
+
+
+
       //canvas width 값 보정
-      var fixCurrentWidth = parseInt(canvasEl.style.width) - 15;
-      canvasEl.style.width = fixCurrentWidth;
+      //var fixCurrentWidth = parseInt(canvasEl.style.width) - 15;
+      //canvasEl.style.width = fixCurrentWidth;
 
 
   </script>

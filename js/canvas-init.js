@@ -4,6 +4,7 @@ function init() {
         particles, particle;
 
     container = document.createElement('div');
+    container.classList.add('webGl');
     document.body.appendChild(container);
     camera = new THREE.PerspectiveCamera( 1500, window.innerWidth / window.innerHeight, 1, 700 );
     camera.position.z = 100;
