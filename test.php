@@ -1,4 +1,4 @@
-<?
+<?php
 switch($_SERVER["HTTP_HOST"]){
     case "localhost" :
         $apiHost = "http://devapi.able-coin.io";
