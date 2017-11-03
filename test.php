@@ -15,3 +15,5 @@ switch($_SERVER["HTTP_HOST"]){
 }
 echo $apiHost;
 ?>
+
+<?php $apiHost?>
