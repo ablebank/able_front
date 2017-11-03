@@ -1,7 +1,8 @@
 <?php
   include(dirname(__FILE__).'/library/common.php'); //domain check
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="en" />
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -170,7 +171,7 @@
       <h2 class="white">Preview</h2>
       <div class="divider"></div>
       <div class="row margin-90">
-        <div class="col-md-6 video-box"">
+        <div class="col-md-6 video-box">
           <iframe width="100%" height="480" src="https://www.youtube.com/embed/k53LUZxUF50" frameborder="0" allowfullscreen class="margin-center"></iframe>
         </div>
         <div class="col-md-6 video-text-box">
