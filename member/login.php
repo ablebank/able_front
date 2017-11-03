@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/login.css?d=2017101100" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/login.css?d=201710110021" />
 
 
 </head>
@@ -63,8 +63,8 @@
 <script src="<?php echo $dm?>/js/js.cookie.min.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/jquery.validate.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/md5.js" type="text/javascript"></script>
-<script src="<?php echo $dm?>/js/member/login.js?d=2017101100" type="text/javascript"></script>
-<script src="<?php echo $dm?>/js/member/member.js?d=2017101100" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/member/login.js?d=201710110120" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/member/member.js?d=201710110120" type="text/javascript"></script>
 </body>
 
 </html>
