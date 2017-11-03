@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index,follow">
-    <meta name="naver-site-verification" content=""/>
+    <meta name="robots" content="index,follow" />
+    <meta name="naver-site-verification" content="" />
 
     <meta property="og:title" content="able coin" />
     <meta property="og:url" content="http://k-blockchains.com" />
@@ -12,15 +12,14 @@
     <meta property="og:image" content="http://k-blockchains.com/img/meta_logo.png" />
     <meta property="og:description" content="K-Blockchain은 4차 산업의 주요 분야 중에 하나인 블록체인 선두 기업입니다." />
 
-    <meta name="twitter:title" content="k-blockchains">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:description" content="K-Blockchain은 4차 산업의 주요 분야 중에 하나인 블록체인 선두 기업입니다.">
-    <meta name="twitter:image" content="http://k-blockchains.com/img/meta_logo.png">
-    <meta name="twitter:domain" content="k-blockchains">
+    <meta name="twitter:title" content="ABLE" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="K-Blockchain은 4차 산업의 주요 분야 중에 하나인 블록체인 선두 기업입니다." />
+    <meta name="twitter:image" content="http://k-blockchains.com/img/meta_logo.png" />
+    <meta name="twitter:domain" content="k-blockchains" />
 
     <title>ABLE</title>
-    <link rel="canonical" href="http://k-blockchains.com/index.html">
-    <meta name="description" content="ABLE PROJECT">
+    <meta name="description" content="ABLE PROJECT" />
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />

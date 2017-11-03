@@ -4,28 +4,28 @@
 <!DOCTYPE html>
 <html lang="en" />
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>ABLE</title>
-    <meta name="Description" content="">
-    <meta name="Keywords" content="kblcokchain, able, cryptocoin mining, cryptocurrency, bitcoin, ethereum">
-    <meta name="robots" content="index, follow, noodp">
-    <meta name="author" content="able-coin.io">
-    <meta name="copyright" content="(c) 2017 able-coin.io. All rights reserved">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:url" content="https://www.able-coin.io/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css">
-    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css">
-    <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css">
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513412121">
-    <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon">
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="kblcokchain, able, cryptocoin mining, cryptocurrency, bitcoin, ethereum" />
+    <meta name="robots" content="index, follow, noodp" />
+    <meta name="author" content="able-coin.io" />
+    <meta name="copyright" content="(c) 2017 able-coin.io. All rights reserved" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:url" content="https://www.able-coin.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513412121" />
+    <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
   <!-- Animated background color -->
   <script src="<?php echo $dm?>/js/three.min.js"></script>
