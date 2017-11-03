@@ -358,13 +358,13 @@
         </div>
         <div class="row margin-20">
           <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">PRESALE&nbsp;&nbsp;&nbsp;<span class="font-down">(17.11.15)</span></div>
-            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">6,000 ETH<br><span class="color-navi">1ETH = 4940 ABL</span></div>
-            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">24,000 ETH<br><span class="color-navi">1ETH = 4750 ABL</span></div>
+            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">6,000 ETH<br><span class="color-navi">1ETH = 4,940 ABL</span></div>
+            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">24,000 ETH<br><span class="color-navi">1ETH = 4,750 ABL</span></div>
         </div>
         <div class="row margin-20">
           <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">ICO</div>
-            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">30,000 ETH<br><span class="color-navi">1ETH = 3990 ABL</span></div>
-            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">60,000 ETH<br><span class="color-navi">1ETH = 3800 ABL</span></div>
+            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">30,000 ETH<br><span class="color-navi">1ETH = 3,990 ABL</span></div>
+            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">60,000 ETH<br><span class="color-navi">1ETH = 3,800 ABL</span></div>
         </div>
         <!--<div class="row margin-20">
           <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">TOKEN SUPPLY</div>
@@ -782,7 +782,7 @@
            </div>
            <div id="6_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                 #0028AC
+                 11월 중순에 프리세일을 시작합니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -879,7 +879,7 @@
 
            <div id="14_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
-               1인당 상한선 제한금액이 있나요?
+               1인당 상하선 제한금액이 있나요?
              </div>
              <div id="14_accordion_child" class="faq_accordion_child"></div>
            </div>
