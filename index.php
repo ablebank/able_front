@@ -2,7 +2,7 @@
   include(dirname(__FILE__).'/library/common.php'); //domain check
 ?>
 <!DOCTYPE html>
-<html lang="en" />
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
