@@ -28,12 +28,12 @@
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
   <!-- Animated background color -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="<?php echo $dm?>/js/three.min.js"></script>
   <script src="<?php echo $dm?>/js/projector.js"></script>
   <script src="<?php echo $dm?>/js/canvas-renderer.js"></script>
   <script src="<?php echo $dm?>/js/projector.js"></script>
   <script src="<?php echo $dm?>/js/canvas-renderer.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="<?php echo $dm?>/js/color.js"></script>
   <script src="<?php echo $dm?>/js/projector.js"></script>
   <script src="<?php echo $dm?>/js/canvas-renderer.js"></script>
@@ -105,7 +105,7 @@
           </div>
 
           <div>
-            <a href="#" id="kakaoTalk"><span>Join KaKao Talk</span><br><span>(pw 1234)</span></a>
+            <a href="javascript:alert('11/15일 개설 예정입니다')" id="kakaoTalk"><span>Join KaKao Talk</span><br><span>(pw 1234)</span></a>
             <a href="<?php echo $dm?>/member/login.php" id="signIn"><span>Sign In</span></a>
           </div>
         </div>
@@ -142,26 +142,6 @@
           <img src="<?php echo $dm?>/images/image1-n.png" class="re-image01 margin-center" />
         </div>
       </div>
-      <!--<div class="idea-text text-center col-md-10 col-md-offset-1">
-        <h2>ABOUT</h2>
-        <p>
-          <span class="main-text">"<span class="main-font-up">A</span>pplying <span class="main-font-up">BL</span>ockchain to <span class="main-font-up">E</span>xtend the finace"</span><br><br>
-          <span class="main-text"><span>ABLE PROJECT</span>는 세계최대 "블록체인 전문은행"을 설립 합니다.</span>
-          <br><br>
-          ABLE PROJECT는 암호화폐기반 예금/대출상품의 설계(Smart Contract)를 통해
-          <br>
-          주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
-          <br><br>
-          대기자금은 Minning, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
-          <br>
-          ABLE PROJECT의 <span>수익</span>을 <span>극대화</span> 시켜줍니다.
-          <br><br>
-          ABLE PROJECT는 암호화폐의 금융화 안전한 관리 이외 VR, AI, 바이오 등<br>
-          <span>4차 산업혁명시대를 이끌어갈 새로운 인프라를 조성할 것입니다.</span>
-          <br><br>
-          <span class="about-small">(ABLE Coin은 ERC-20토큰으로 Pre-Sales 및 ICO를 통해 발행됩니다)</span>
-        </p>
-      </div>-->
     </div>
   </section>
 
@@ -172,7 +152,7 @@
       <div class="divider"></div>
       <div class="row margin-90">
         <div class="col-md-6 video-box">
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/k53LUZxUF50" frameborder="0" allowfullscreen class="margin-center"></iframe>
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/LEGOpjdu638" frameborder="0" allowfullscreen class="margin-center"></iframe>
         </div>
         <div class="col-md-6 video-text-box">
           <h3 class="white main-text">ABLE PROJECT</h3>
@@ -1034,14 +1014,19 @@
           var canvasEl = document.querySelector("canvas");
           console.log(canvasEl);
       }
+
       var canvasEl = document.querySelector("canvas");
       var mainEl = $("#mainSection");
 
-
+      console.log(canvasEl);
+      console.log(mainEl);
       //canvas height get And div up
-      var fixMoveUpHeight = mainEl.innerHeight()
-      canvasEl.style.marginTop = -(fixMoveUpHeight);
-
+      var mainElHeight = mainEl.innerHeight();
+      var fixMoveUpHeight = mainElHeight * -1;
+      console.log(fixMoveUpHeight);
+      console.log(canvasEl.style.marginTop);
+      //canvasEl.style.marginTop = fixMoveUpHeight * -1;
+      //console.log(fixMoveUpHeight);
       //canvas width 값 보정
       var fixCurrentWidth = parseInt(canvasEl.style.width) - 15;
       canvasEl.style.width = fixCurrentWidth;
