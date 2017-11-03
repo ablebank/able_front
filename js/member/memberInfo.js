@@ -39,10 +39,9 @@ var LogInJs = {
                     success: function(d){
                         console.log(d);
 
-                        if(d.auth_type == 3 ){
+                        if(d.phone.length > 1 ){
                             //change check todo
-
-                            location.href = "/member/memberInfo.php?email="+encodeURIComponent(d.email)+"&phone="+d.phone+"&myEthAddr="+myEthAddr.value;
+                            location.href = "/memberInfo.php";
                             //alert("login success");
                             return false;
                         }else{

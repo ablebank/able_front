@@ -1,5 +1,5 @@
 <?php
-    include(dirname(__DIR__).'/library/common.php'); //domain check
+include(dirname(__DIR__).'/library/common.php'); //domain check
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/login.css?d=201710110021" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/memberInfo.css?d=201710110021" />
 
 
 </head>
@@ -35,27 +35,28 @@
         </a>
     </div>
     <form class="loginForm" action="#" method="POST">
-        <h4>Login to Your Account</h4>
+        <h4>Your Account Infomation</h4>
         <label>Email</label>
         <div id="box-1" class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input id="email" type="text" class="form-control" name="email" placeholder="이메일 주소를 입력해주세요" required="required">
+            <?php echo urldecode($_GET["email"])?>
+        </div>
+        <label>Phone</label>
+        <div id="box-2" class="input-group">
+            <?php echo $_GET["phone"]?>
         </div>
         <label>My Ether Wallet Address</label>
         <div id="box-2" class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            <input id="myEthAddr" type="text" class="form-control" name="myEthAddr" placeholder="마이이더월렛 이더리움 주소를 입력해주세요" required="required">
+            <?php echo $_GET["myEthAddr"]?>
+        </div>
+        <label>ABLE Ether Wallet Address</label>
+        <div id="box-2" class="input-group">
+            0x09B687Fe98491cB1C0ad9Fc957b29e209c845364
         </div>
 
         <div class="form-actions">
-            <button type="submit" id="register-submit-btn" class="btn btn-success signInBtn uppercase">Sign in</button>
+            <a href="https://etherscan.io/address/<?php echo $_GET["myEthAddr"]?>" class="btn signInBtn" target="_blank">내 주소 조회하기</a>
         </div>
     </form>
-
-    <p class="create-account">
-        New to ABLE?
-        <a href="<?php echo $dm?>/member/sign_up.php">Create an account</a>.
-    </p>
 </div>
 
 <script src="<?php echo $dm?>/js/jquery.min.js" type="text/javascript"></script>
@@ -63,8 +64,7 @@
 <script src="<?php echo $dm?>/js/js.cookie.min.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/jquery.validate.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/md5.js" type="text/javascript"></script>
-<script src="<?php echo $dm?>/js/member/login.js?d=201710110120" type="text/javascript"></script>
-<script src="<?php echo $dm?>/js/member/member.js?d=201710110120" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/member/memberInfo.js?d=201710110120" type="text/javascript"></script>
 </body>
 
 </html>

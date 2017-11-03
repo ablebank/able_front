@@ -39,12 +39,12 @@
         <label>Email</label>
         <div id="box-1" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input id="email" type="text" class="form-control" name="email" placeholder="이메일 주소를 입력해주세요" required="required">
+            <input id="email" type="text" class="form-control" name="email" placeholder="Write Email Address" required="required">
         </div>
-        <label>My Ether Wallet Address</label>
+        <label>Password</label>
         <div id="box-2" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            <input id="myEthAddr" type="text" class="form-control" name="myEthAddr" placeholder="마이이더월렛 이더리움 주소를 입력해주세요" required="required">
+            <input id="password" type="password" class="form-control" name="password" placeholder="Write Password" required="required">
         </div>
 
         <div class="form-actions">
