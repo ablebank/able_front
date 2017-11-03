@@ -47,7 +47,9 @@ a {
 .op5 {
     opacity: 0.5;
 }
-
+.color-navi{
+  color:#3598DC;
+}
 .col-centered{
   float: none;
   margin: 0 auto;
