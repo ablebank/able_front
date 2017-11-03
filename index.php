@@ -1,5 +1,6 @@
 <?php
   include(dirname(__FILE__).'/library/common.php'); //domain check
+  echo $dm;
 ?>
 <html>
 <head>
