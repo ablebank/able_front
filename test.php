@@ -1,4 +1,4 @@
-<?php
+<?
 switch($_SERVER["HTTP_HOST"]){
     case "localhost" :
         $apiHost = "http://devapi.able-coin.io";
@@ -13,6 +13,5 @@ switch($_SERVER["HTTP_HOST"]){
         $apiHost = "https://api.able-coin.io";
         break;
 }
-
 echo $apiHost;
 ?>
