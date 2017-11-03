@@ -17,3 +17,5 @@ echo $apiHost;
 ?>
 
 <?php $apiHost?>
+<?php =$apiHost?>
+<?php =$apiHost?>
