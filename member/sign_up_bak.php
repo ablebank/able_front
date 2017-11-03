@@ -1,5 +1,5 @@
 <?php
-    include(dirname(__DIR__).'/library/common.php'); //domain check
+include(dirname(__DIR__).'/library/common.php'); //domain check
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -82,7 +82,20 @@
                         <span class="btn blue-btn myEthAddrBtn">주소 확인</span>
                     </div>
                 </div>
+                <!--<label>PASSWORD</label>
+                <div class="input-group" id="box-5">
+                    <input id="password" type="password" class="form-control" name="password" style="width:307px" placeholder="패스워드를 입력하세요" required="required">
+                </div>
+                <label>RE-PASSWORD</label>
+                <div class="input-group" id="box-6">
+                    <input id="repassword" type="password" class="form-control" name="repassword" style="width:307px" placeholder="패스워드를 한번 더 입력하세요" required="required">
+                </div>-->
 
+                <!--<p class="tos-info">
+                    By clicking on "Create an account" below, you are agreeing to the
+                    <a href="https://help.github.com/terms" target="_blank">Terms of Service</a> and the
+                    <a href="https://help.github.com/privacy" target="_blank">Privacy Policy</a>
+                </p>-->
                 <p class="tos-info">
                 </p>
                 <div class="form-actions">
