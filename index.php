@@ -19,7 +19,7 @@
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="<?php $dm?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php =$dm;?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php $dm?>/css/flexslider.css">
     <link rel="stylesheet" href="<?php $dm?>/css/responsive.css">
     <link rel="stylesheet" href="<?php $dm?>/css/animate.min.css">
