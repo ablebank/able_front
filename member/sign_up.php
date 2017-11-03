@@ -26,7 +26,7 @@
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/signup.css?d=20171028112121" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/signup.css?d=201710281112121" />
 </head>
 
 <body class="signup">
@@ -109,7 +109,7 @@
 <script src="<?php echo $dm?>/js/js.cookie.min.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/jquery.validate.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/md5.js" type="text/javascript"></script>
-<script src="<?php echo $dm?>/js/member/signup.js?d=2017102800121121" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/member/signup.js?d=20171028001211211" type="text/javascript"></script>
 </body>
 
 </html>

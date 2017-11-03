@@ -345,7 +345,7 @@ var SignUpJs = {
                         if(d.resultCode == 200){
                             //change check todo
                             alert("계정이 생성되었습니다");
-                            location.href = "/login.php";
+                            location.href = "/member/login.php";
                             return false;
                         }else{
                             alert("계정생성 실패 관리자에게 문의하세요");

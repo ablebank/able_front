@@ -1,7 +1,7 @@
 var LogInJs = {
 
     init: function(){
-        var emali = document.querySelector("#email");
+        var email = document.querySelector("#email");
         var myEthAddr = document.querySelector("#myEthAddr");
         //var password = document.querySelector("#password");
 
