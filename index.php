@@ -105,7 +105,7 @@
 
           <div>
             <a href="#" id="kakaoTalk"><span>Join KaKao Talk</span><br><span>(pw 1234)</span></a>
-            <a href="<?php echo $dm?>/member/login.html" id="signIn"><span>Sign In</span></a>
+            <a href="<?php echo $dm?>/member/login.php" id="signIn"><span>Sign In</span></a>
           </div>
         </div>
       </div>

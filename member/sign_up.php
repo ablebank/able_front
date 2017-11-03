@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" />
-
 <head>
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow">
@@ -25,8 +23,8 @@
     <meta name="description" content="ABLE PROJECT">
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/css/signup.css?d=2017102812121" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/signup.css?d=2017102812121" />
 
 
 </head>
@@ -34,7 +32,7 @@
 <body class="signup">
 <div class="content">
     <div class="logo">
-        <a href="/index.html">
+        <a href="<?php echo $dm?>/index.php">
             <img src="/images/logo_file.png" alt="" width="150"/>
         </a>
     </div>
@@ -112,12 +110,12 @@
     </div>
 </div>
 
-<script src="/js/jquery.min.js" type="text/javascript"></script>
-<script src="/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/js/js.cookie.min.js" type="text/javascript"></script>
-<script src="/js/jquery.validate.js" type="text/javascript"></script>
-<script src="/js/md5.js" type="text/javascript"></script>
-<script src="/js/member/signup.js?d=201710280012121" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/jquery.min.js" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/js.cookie.min.js" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/jquery.validate.js" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/md5.js" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/member/signup.js?d=201710280012121" type="text/javascript"></script>
 </body>
 
 </html>
