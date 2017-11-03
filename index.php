@@ -1,6 +1,5 @@
 <?php
   include(dirname(__FILE__).'/library/common.php'); //domain check
-  echo $dm;
 ?>
 <html>
 <head>
@@ -19,25 +18,25 @@
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="<?php =$dm;?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php $dm?>/css/flexslider.css">
-    <link rel="stylesheet" href="<?php $dm?>/css/responsive.css">
-    <link rel="stylesheet" href="<?php $dm?>/css/animate.min.css">
-    <link rel="stylesheet" href="<?php $dm?>/css/main.css?d=2017092513412121">
-    <link rel="shortcut icon" href="<?php $dm?>/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="<?php $dm?>/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css">
+    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css">
+    <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css">
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513412121">
+    <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon">
 
   <!-- Animated background color -->
-  <script src="<?php $dm?>/js/three.min.js"></script>
-  <script src="<?php $dm?>/js/projector.js"></script>
-  <script src="<?php $dm?>/js/canvas-renderer.js"></script>
-  <script src="<?php $dm?>/js/projector.js"></script>
-  <script src="<?php $dm?>/js/canvas-renderer.js"></script>
+  <script src="<?php echo $dm?>/js/three.min.js"></script>
+  <script src="<?php echo $dm?>/js/projector.js"></script>
+  <script src="<?php echo $dm?>/js/canvas-renderer.js"></script>
+  <script src="<?php echo $dm?>/js/projector.js"></script>
+  <script src="<?php echo $dm?>/js/canvas-renderer.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="<?php $dm?>/js/color.js"></script>
-  <script src="<?php $dm?>/js/projector.js"></script>
-  <script src="<?php $dm?>/js/canvas-renderer.js"></script>
-  <script src="<?php $dm?>/js/canvas-init.js"></script>
+  <script src="<?php echo $dm?>/js/color.js"></script>
+  <script src="<?php echo $dm?>/js/projector.js"></script>
+  <script src="<?php echo $dm?>/js/canvas-renderer.js"></script>
+  <script src="<?php echo $dm?>/js/canvas-init.js"></script>
   <!-- Custom styles for this template -->
 </head>
 <body>
@@ -57,7 +56,7 @@
     </div>
     <header id="header">
       <div class="header-content clearfix">
-        <a class="logo" href="<?php $dm?>"><img src="<?php $dm?>/images/logo_file.png" alt="able bank" width="100"></a>
+        <a class="logo" href="<?php echo $dm?>"><img src="<?php echo $dm?>/images/logo_file.png" alt="able bank" width="100"></a>
         <nav class="navigation" role="navigation">
           <ul class="primary-nav">
             <li><a href="#about">ABOUT</a></li>
@@ -77,7 +76,7 @@
       <div class="col-md-10 col-md-offset-1">
         <div class="banner-text text-center">
           <div style="clear: both;">
-            <img src="<?php $dm?>/images/logo_file.png" style="height: 100px;" alt="able bank">
+            <img src="<?php echo $dm?>/images/logo_file.png" style="height: 100px;" alt="able bank">
           </div>
           <h1><span style="color: #ff5e00;"></span></h1><h1 style="margin-top: 30px;">Global CryptoCurrency Bank</h1>
           <p>Asia's First Global Block Chain Expert Bank</p>
@@ -106,7 +105,7 @@
 
           <div>
             <a href="#" id="kakaoTalk"><span>Join KaKao Talk</span><br><span>(pw 1234)</span></a>
-            <a href="<?php $dm?>/member/login.html" id="signIn"><span>Sign In</span></a>
+            <a href="<?php echo $dm?>/member/login.html" id="signIn"><span>Sign In</span></a>
           </div>
         </div>
       </div>
@@ -139,7 +138,7 @@
           </p>
         </div>
         <div class="col-md-6">
-          <img src="<?php $dm?>/images/image1-n.png" class="re-image01 margin-center" />
+          <img src="<?php echo $dm?>/images/image1-n.png" class="re-image01 margin-center" />
         </div>
       </div>
       <!--<div class="idea-text text-center col-md-10 col-md-offset-1">
@@ -209,7 +208,7 @@
       <div class="divider"></div>
       <div class="row margin-90">
         <div class="col-md-6">
-          <img src="<?php $dm?>/images/image2-n.png" class="re-image01 margin-center" />
+          <img src="<?php echo $dm?>/images/image2-n.png" class="re-image01 margin-center" />
         </div>
         <div class="col-md-6 text-center col-box">
           <h3 class="main-text">ABLE BANK</h3>
@@ -337,7 +336,7 @@
           </div>
         </div>
         <div class="imageBox">
-          <img src="<?php $dm?>/images/image3-n.png" class="re-image100 margin-center" />
+          <img src="<?php echo $dm?>/images/image3-n.png" class="re-image100 margin-center" />
         </div>
       </div>
     </div>
@@ -515,22 +514,22 @@
         <div class="divider"></div>
         <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
           <a href="http://blog.naver.com/kblockchain/221115119554" target="_blank">
-            <img src="<?php $dm?>/images/socials/blog.jpg" alt="Blog"  />
+            <img src="<?php echo $dm?>/images/socials/blog.jpg" alt="Blog"  />
           </a>
         </div>
         <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
           <a href="https://www.facebook.com/Kblockchains/" target="_blank">
-            <img src="<?php $dm?>/images/socials/fb.png" alt="Facebook"  />
+            <img src="<?php echo $dm?>/images/socials/fb.png" alt="Facebook"  />
           </a>
         </div>
         <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
           <a href="https://twitter.com/kblockchains" target="_blank">
-            <img src="<?php $dm?>/images/socials/twitter.png" alt="Twitter"  />
+            <img src="<?php echo $dm?>/images/socials/twitter.png" alt="Twitter"  />
           </a>
         </div>
         <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
           <a href="https://kblockchain.slack.com/" target="_blank">
-            <img src="<?php $dm?>/images/socials/slack.png" alt="Slack"  />
+            <img src="<?php echo $dm?>/images/socials/slack.png" alt="Slack"  />
           </a>
         </div>
       </div>
@@ -894,13 +893,13 @@
         <h2>PARTNER & CUSTMOR</h2>
         <div class="divider"></div>
         <div class="col-sm-12 col-lg-12 col-xs-12 margin-90">
-          <a href="#" target="_blank"><img class="box-1" src="<?php $dm?>/images/partner/pa-011.png" /></a>
-          <!--<a href="#" target="_blank"><img class="box-2" src="<?php $dm?>/images/partner/pa-08.png" /></a>-->
-          <a href="#" target="_blank"><img class="box-3" src="<?php $dm?>/images/partner/pa-06.png" /></a>
-          <a href="#" target="_blank"><img class="box-4" src="<?php $dm?>/images/partner/pa-05.jpg" /></a>
-          <a href="#" target="_blank"><img class="box-5" src="<?php $dm?>/images/partner/pa-07.gif" /></a>
-          <a href="#" target="_blank"><img class="box-6" src="<?php $dm?>/images/partner/pa-03.gif" /></a>
-          <a href="#" target="_blank"><img class="box-7" src="<?php $dm?>/images/partner/pa-04.jpg" /></a>
+          <a href="#" target="_blank"><img class="box-1" src="<?php echo $dm?>/images/partner/pa-011.png" /></a>
+          <!--<a href="#" target="_blank"><img class="box-2" src="<?php echo $dm?>/images/partner/pa-08.png" /></a>-->
+          <a href="#" target="_blank"><img class="box-3" src="<?php echo $dm?>/images/partner/pa-06.png" /></a>
+          <a href="#" target="_blank"><img class="box-4" src="<?php echo $dm?>/images/partner/pa-05.jpg" /></a>
+          <a href="#" target="_blank"><img class="box-5" src="<?php echo $dm?>/images/partner/pa-07.gif" /></a>
+          <a href="#" target="_blank"><img class="box-6" src="<?php echo $dm?>/images/partner/pa-03.gif" /></a>
+          <a href="#" target="_blank"><img class="box-7" src="<?php echo $dm?>/images/partner/pa-04.jpg" /></a>
 
 
 
@@ -920,15 +919,15 @@
       </div>
     </div>
   </footer>
-  <script src="<?php $dm?>/js/bootstrap.min.js"></script>
-  <script src="<?php $dm?>/js/jquery.flexslider-min.js"></script>
-  <script src="<?php $dm?>/js/jquery.waypoints.min.js"></script>
-  <script src="<?php $dm?>/js/fadeInScroll.jQuery.js"></script>
-  <script src="<?php $dm?>/js/modernizr.js"></script>
-  <script src="<?php $dm?>/js/main.js?d=201710201122"></script>
-  <script src="<?php $dm?>/js/scrollSpy.js" type="text/javascript"></script>
-  <script src="<?php $dm?>/js/scrollto.js" type="text/javascript"></script>
-  <script src="<?php $dm?>/js/anim_scroll.js" type="text/javascript"></script>
+  <script src="<?php echo $dm?>/js/bootstrap.min.js"></script>
+  <script src="<?php echo $dm?>/js/jquery.flexslider-min.js"></script>
+  <script src="<?php echo $dm?>/js/jquery.waypoints.min.js"></script>
+  <script src="<?php echo $dm?>/js/fadeInScroll.jQuery.js"></script>
+  <script src="<?php echo $dm?>/js/modernizr.js"></script>
+  <script src="<?php echo $dm?>/js/main.js?d=201710201122"></script>
+  <script src="<?php echo $dm?>/js/scrollSpy.js" type="text/javascript"></script>
+  <script src="<?php echo $dm?>/js/scrollto.js" type="text/javascript"></script>
+  <script src="<?php echo $dm?>/js/anim_scroll.js" type="text/javascript"></script>
   <script>
       /////////////////////
       ////time D-day
