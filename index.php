@@ -930,7 +930,7 @@
   <script src="<?php echo $dm?>/js/jquery.waypoints.min.js"></script>
   <script src="<?php echo $dm?>/js/fadeInScroll.jQuery.js"></script>
   <script src="<?php echo $dm?>/js/modernizr.js"></script>
-  <script src="<?php echo $dm?>/js/main.js?d=201710201122"></script>
+  <script src="<?php echo $dm?>/js/main.js?d=201710201122322"></script>
   <script src="<?php echo $dm?>/js/scrollSpy.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/scrollto.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/anim_scroll.js" type="text/javascript"></script>
