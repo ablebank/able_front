@@ -1,5 +1,8 @@
 <?php
 include(dirname(__DIR__).'/library/common.php'); //domain check
+$email = isset($_GET["email"]) ? $_GET["email"] : "";
+$phone = isset($_GET["phone"]) ? $_GET["phone"] : "";
+$myEthAddr = isset($_GET["myEthAddr"]) ? $_GET["myEthAddr"] : "";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,15 +41,15 @@ include(dirname(__DIR__).'/library/common.php'); //domain check
         <h4>Your Account Infomation</h4>
         <label>Email</label>
         <div id="box-1" class="input-group">
-            <?php echo urldecode($_GET["email"])?>
+            <?php echo urldecode($email)?>
         </div>
         <label>Phone</label>
         <div id="box-2" class="input-group">
-            <?php echo $_GET["phone"]?>
+            <?php echo $phone?>
         </div>
         <label>My Ether Wallet Address</label>
         <div id="box-2" class="input-group">
-            <?php echo $_GET["myEthAddr"]?>
+            <?php echo $myEthAddr?>
         </div>
         <!--<label>ABLE Ether Wallet Address</label>
         <div id="box-2" class="input-group">
@@ -54,7 +57,7 @@ include(dirname(__DIR__).'/library/common.php'); //domain check
         </div>-->
 
         <div class="form-actions">
-            <a href="https://etherscan.io/address/<?php echo $_GET["myEthAddr"]?>" class="btn signInBtn" target="_blank">내 주소 조회하기</a>
+            <a href="https://etherscan.io/address/<?php echo $myEthAddr?>" class="btn signInBtn" target="_blank">내 주소 조회하기</a>
         </div>
     </form>
 </div>
