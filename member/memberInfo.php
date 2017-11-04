@@ -48,10 +48,10 @@ include(dirname(__DIR__).'/library/common.php'); //domain check
         <div id="box-2" class="input-group">
             <?php echo $_GET["myEthAddr"]?>
         </div>
-        <label>ABLE Ether Wallet Address</label>
+        <!--<label>ABLE Ether Wallet Address</label>
         <div id="box-2" class="input-group">
             0x09B687Fe98491cB1C0ad9Fc957b29e209c845364
-        </div>
+        </div>-->
 
         <div class="form-actions">
             <a href="https://etherscan.io/address/<?php echo $_GET["myEthAddr"]?>" class="btn signInBtn" target="_blank">내 주소 조회하기</a>
