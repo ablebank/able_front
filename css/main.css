@@ -453,14 +453,16 @@ body .webGl{
 .banner-text h1 {
   color: #fff;
   font-family: "Lato", sans-serif;
-  font-weight: 500;}
+  font-weight: 500;
+}
 .banner-text p {
   color: #fff;
   font-family: "Lato", sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
-  margin-bottom: 50px;}
+  margin-bottom: 50px;
+}
 
 .beta-styles {
   background-color: #fff;
