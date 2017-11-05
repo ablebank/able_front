@@ -48,8 +48,8 @@
         windowHalfY = window.innerHeight / 2,
         //SEPARATION = 100, AMOUNTX = 10000, AMOUNTY = 10000,
         camera, scene, renderer;
-    //init();
-    //animate();
+    init();
+    animate();
 </script>
   <section id="mainSection">
     <header id="header">
@@ -902,13 +902,13 @@
         <h2>PARTNER & CUSTMOR</h2>
         <div class="divider"></div>
         <div class="col-sm-12 col-lg-12 col-xs-12 margin-90">
-          <!--<a href="javascript:"><img class="box-1" src="<?php echo $dm?>/images/partner/pa-011.png" /></a>-->
+          <a href="javascript:"><img class="box-1" src="<?php echo $dm?>/images/partner/pa-011.png" /></a>
           <!--<a href="#" target="_blank"><img class="box-2" src="<?php echo $dm?>/images/partner/pa-08.png" /></a>-->
-          <!--<a href="javascript:"><img class="box-3" src="<?php echo $dm?>/images/partner/pa-06.png" /></a>
+          <a href="javascript:"><img class="box-3" src="<?php echo $dm?>/images/partner/pa-06.png" /></a>
           <a href="javascript:"><img class="box-4" src="<?php echo $dm?>/images/partner/pa-05.jpg" /></a>
           <a href="javascript:"><img class="box-5" src="<?php echo $dm?>/images/partner/pa-07.gif" /></a>
           <a href="javascript:"><img class="box-6" src="<?php echo $dm?>/images/partner/pa-03.gif" /></a>
-          <a href="javascript:"><img class="box-7" src="<?php echo $dm?>/images/partner/pa-04.jpg" /></a>-->
+          <a href="javascript:"><img class="box-7" src="<?php echo $dm?>/images/partner/pa-04.jpg" /></a>
         </div>
       </div>
     </div>
