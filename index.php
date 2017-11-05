@@ -21,9 +21,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513412134" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
@@ -48,8 +48,8 @@
         windowHalfY = window.innerHeight / 2,
         //SEPARATION = 100, AMOUNTX = 10000, AMOUNTY = 10000,
         camera, scene, renderer;
-    init();
-    animate();
+    //init();
+    //animate();
 </script>
   <section id="mainSection">
     <header id="header">
@@ -74,9 +74,9 @@
       <div class="col-md-10 col-md-offset-1">
         <div class="banner-text text-center">
           <div style="clear: both;">
-            <img src="<?php echo $dm?>/images/logo_file.png" style="height: 100px;" alt="able bank">
+            <img src="<?php echo $dm?>/images/logo_file.png" class="main-block-logo" alt="able bank">
           </div>
-          <h1><span style="color: #ff5e00;"></span></h1><h1 style="margin-top: 30px;">Global CryptoCurrency Bank</h1>
+          <h1 style="margin-top: 30px;">Global CryptoCurrency Bank</h1>
           <p>Asia's First Global Block Chain Expert Bank</p>
 
           <div class="no-box">
@@ -491,22 +491,22 @@
       <div class="col-md-12  text-center">
         <h2>COMMUNITY</h2>
         <div class="divider"></div>
-        <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 30px;">
           <a href="http://blog.naver.com/kblockchain/221115119554" target="_blank">
             <img src="<?php echo $dm?>/images/socials/blog.jpg" alt="Blog"  />
           </a>
         </div>
-        <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 30px;">
           <a href="https://www.facebook.com/Kblockchains/" target="_blank">
             <img src="<?php echo $dm?>/images/socials/fb.png" alt="Facebook"  />
           </a>
         </div>
-        <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 30px;">
           <a href="https://twitter.com/kblockchains" target="_blank">
             <img src="<?php echo $dm?>/images/socials/twitter.png" alt="Twitter"  />
           </a>
         </div>
-        <div class="col-sm-6 col-lg-3" style="margin-bottom: 30px;">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 30px;">
           <a href="https://kblockchain.slack.com/" target="_blank">
             <img src="<?php echo $dm?>/images/socials/slack.png" alt="Slack"  />
           </a>
@@ -902,13 +902,13 @@
         <h2>PARTNER & CUSTMOR</h2>
         <div class="divider"></div>
         <div class="col-sm-12 col-lg-12 col-xs-12 margin-90">
-          <a href="javascript:"><img class="box-1" src="<?php echo $dm?>/images/partner/pa-011.png" /></a>
+          <!--<a href="javascript:"><img class="box-1" src="<?php echo $dm?>/images/partner/pa-011.png" /></a>-->
           <!--<a href="#" target="_blank"><img class="box-2" src="<?php echo $dm?>/images/partner/pa-08.png" /></a>-->
-          <a href="javascript:"><img class="box-3" src="<?php echo $dm?>/images/partner/pa-06.png" /></a>
+          <!--<a href="javascript:"><img class="box-3" src="<?php echo $dm?>/images/partner/pa-06.png" /></a>
           <a href="javascript:"><img class="box-4" src="<?php echo $dm?>/images/partner/pa-05.jpg" /></a>
           <a href="javascript:"><img class="box-5" src="<?php echo $dm?>/images/partner/pa-07.gif" /></a>
           <a href="javascript:"><img class="box-6" src="<?php echo $dm?>/images/partner/pa-03.gif" /></a>
-          <a href="javascript:"><img class="box-7" src="<?php echo $dm?>/images/partner/pa-04.jpg" /></a>
+          <a href="javascript:"><img class="box-7" src="<?php echo $dm?>/images/partner/pa-04.jpg" /></a>-->
         </div>
       </div>
     </div>
@@ -938,6 +938,7 @@
       getTimeIcoDate();
 
       //메인 section의 크기를 감지하여 캔버스의 크기를 똑같이 맞춰서 늘려준다.
+      /*
       var mainEl = document.querySelector("#mainSection");
       var canvasEl = document.querySelector("canvas");
 
@@ -946,6 +947,7 @@
 
       //canvas width 수정
       canvasEl.style.width = mainEl.scrollWidth+"px";
+      */
   </script>
 </body>
 </html>

@@ -423,80 +423,6 @@ ul li {
 
 
 /* ==========================================================================
-	time count box
-========================================================================== */
-.no-box {
-  position:relative;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  max-width: 100%;
-}
-
-.box__title {
-  font-size:30px;
-  color: white;
-}
-
-.box__description {
-  padding-top: 5px;
-  padding-bottom: 25px;
-  font-size: 10px;
-  margin: 0 auto;
-  color: #fff;
-  max-width: 680px;
-}
-
-.no-box .box-container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.no-box .box-container__box {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: center;
-  line-height: 110px;
-}
-
-.no-box .box-container__digit {
-  display: block;
-  font-family: Lato, sans-serif;
-  font-weight: lighter;
-  font-size: 77px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 118px;
-  height: 118px;
-  margin: 12px 0 0 12px;
-  color: #fff;
-}
-.no-box .box-container__digit:after {
-  content: ":";
-  margin-left: 12px;
-}
-.no-box .box-container__digit-last:after {
-  content: "";
-  margin-left: 12px;
-}
-.no-box .box-container__description {
-  font-size: 20px;
-  line-height: 20px;
-  padding-right: 12px;
-  color: #fff;
-}
-
-
-
-/* ==========================================================================
 	캔버스 셋팅
 ========================================================================== */
 body .webGl{
@@ -507,6 +433,70 @@ body .webGl{
 /* ==========================================================================
     $main box
 ========================================================================== */
+#mainSection{
+  padding-bottom:100px;
+  background-color: black;
+}
+#mainSection .main-block-logo{
+  display: block;
+  max-width: 43%;
+  height: auto;
+  margin: 0 auto;
+}
+.banner-text {
+  padding-top: 15%;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+.banner-text h1 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;}
+.banner-text p {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 50px;}
+
+.beta-styles {
+  background-color: #fff;
+  border-radius: 5px;
+  font-size:15px;
+  font-weight: 600;
+  color: #ff5e00;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0px 0px 5px black;
+  transition: transform 0.3s;
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1000;}
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video_overlays {
+  position:absolute;
+  width:100%;
+  height: 850px;
+  background-color:#000;
+  z-index:1;    opacity: 0.6;
+}
+
 #kakaoTalk {
   background-color: #fff;
   color: #3598DC;
@@ -578,76 +568,78 @@ body .webGl{
   /*max-width: 853px;*/
   /*max-height: 480px;*/
 }
-
 /* ==========================================================================
-$main
+	time count box
 ========================================================================== */
-#mainSection{
-  padding-bottom:100px;
-  background-color: black;
+.no-box {
+  position:relative;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 100%;
 }
-.banner-text {
-  padding-top: 15%;
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
+
+.box__title {
+  font-size:30px;
+  color: white;
 }
-.banner-text h1 {
+
+.box__description {
+  padding-top: 5px;
+  padding-bottom: 25px;
+  font-size: 10px;
+  margin: 0 auto;
   color: #fff;
-  font-family: "Lato", sans-serif;
-  font-weight: 500;}
-.banner-text p {
+  max-width: 680px;
+}
+
+.no-box .box-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.no-box .box-container__box {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 110px;
+}
+
+.no-box .box-container__digit {
+  display: block;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-size: 77px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 118px;
+  height: 118px;
+  margin: 12px 0 0 12px;
   color: #fff;
-  font-family: "Lato", sans-serif;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 1.5;
-  margin-bottom: 50px;}
-
-.beta-styles {
-  background-color: #fff;
-  border-radius: 5px;
-  70px;font-size:15px;
-  font-weight: 600;
-  color: #ff5e00;
-  padding: 5px 10px 5px 10px;
-  box-shadow: 0px 0px 5px black;
-  transition: transform 0.3s;
+}
+.no-box .box-container__digit:after {
+  content: ":";
+  margin-left: 12px;
+}
+.no-box .box-container__digit-last:after {
+  content: "";
+  margin-left: 12px;
+}
+.no-box .box-container__description {
+  font-size: 20px;
+  line-height: 20px;
+  padding-right: 12px;
+  color: #fff;
 }
 
-.fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -1000;}
-.fullscreen-bg__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;}
-@media (min-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    height: 300%;
-    top: -100%;
-  }}
-@media (max-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    width: 300%;
-    left: -100%;
-  }}
-
-#video_overlays {
-  position:absolute;
-  width:100%;
-  height: 850px;
-  background-color:#000;
-  z-index:1;    opacity: 0.6;
-}
 /* ==========================================================================
 	$about
 ========================================================================== */
@@ -1028,25 +1020,6 @@ $main
   margin-top:100px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 520px) {
-  #platform img {
-    margin-top: 100px;
-    width: 600px;}
-}
-@media screen and (max-width: 1000px) and (min-width: 768px) {
-  #platform img {
-    margin-top: 100px;
-    width: 700px;}
-}
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
-  #platform img {
-    margin-top: 100px;
-    width: 800px;}
-}
-@media screen and (max-width: 520px) {
-  #platform img {
-    display: none;}
-}
 /* ==========================================================================
 	$TOKEN SALE
 ========================================================================== */
@@ -1465,6 +1438,13 @@ $main
 
 .animated {
   visibility: visible; }
+
+
+/* =====================================
+mobile size fix css
+========================================*/
+/* Small Devices, Tablets */
+
 
 /* ==========================================================================
 	Font Icon (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
