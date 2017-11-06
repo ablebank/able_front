@@ -791,6 +791,13 @@ body .webGl{
   font-weight:500;
 }
 
+#structure #desktop-view-box{
+  display:block;
+}
+
+#structure #mobile-view-box{
+  display:none;
+}
 /* ==========================================================================
 	$coin
 ========================================================================== */
