@@ -119,7 +119,7 @@
         <div id="desktop-view-box" class="col-md-6 text-center col-box">
           <p class="align-middle">
             <span class="main-text-type01">"<span class="main-font-up">A</span>pplying <span class="main-font-up">BL</span>ockchain to <span class="main-font-up">E</span>xtend the finace"</span><br><br>
-            <span class="main-text-type02"><span>ABLE PROJECT</span>는 세계최대 "블록체인 전문은행"을 설립 합니다.</span>
+            <span class="main-text-type02"><span>ABLE PROJECT</span>는 세계최대 "블록체인 전문은행"을 설립 합니다.</span><br />
             ABLE PROJECT는 암호화폐기반 예금/대출상품의 설계(Smart Contract)를 통해
             <br>
             주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
@@ -965,7 +965,6 @@
       getTimeIcoDate();
 
       //메인 section의 크기를 감지하여 캔버스의 크기를 똑같이 맞춰서 늘려준다.
-      /*
       var mainEl = document.querySelector("#mainSection");
       var canvasEl = document.querySelector("canvas");
 
@@ -974,7 +973,6 @@
 
       //canvas width 수정
       canvasEl.style.width = mainEl.scrollWidth+"px";
-      */
   </script>
 </body>
 </html>
