@@ -215,16 +215,25 @@ about
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.6;
-  text-align: center;
+  text-align: left;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
 }
 
+#about #mobile-view-box .main-text-type01{
+  display:block;
+  text-align:center;
+}
 #about .main-text-type02{
   font-size:2rem;
+  padding-top:25px;
+  padding-bottom:25px;
+  display:block;
+  text-align:center;
 }
+
 /*==============================
 partner
 ===============================*/
