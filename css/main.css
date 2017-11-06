@@ -1217,11 +1217,11 @@ body .webGl{
 	$faq
 ========================================================================== */
 #faq {
-  background-color: #434757;
+  background-color: white;
 }
 
 #faq h2{
-  color: #fff;
+  color: black;
 }
 .gone {
   display:none;
@@ -1251,7 +1251,9 @@ body .webGl{
   color:#fff;
   text-transform: uppercase;
 }
-
+#faq .list-group-item{
+  color: black;
+}
 
 /* ==========================================================================
 	$Ask
