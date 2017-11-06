@@ -711,7 +711,7 @@
               <div id="1_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="1_accordion_block" class="gone faq_accordion_block">
-              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+              <div class="col-lg-12" style="margin-top:20px;">
                 ABLE project는 블록체인상에서 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 뱅크 솔루션입니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -724,7 +724,7 @@
               <div id="2_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="2_accordion_block" class="gone faq_accordion_block">
-              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+              <div class="col-lg-12" style="margin-top:20px;">
                 따로 제한은 없습니다. 다만, 국가 규제에 따른 ICO 금지국가(미국, 중국)는 참여가 불가능합니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -737,7 +737,7 @@
               <div id="3_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="3_accordion_block" class="gone faq_accordion_block">
-              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+              <div class="col-lg-12" style="margin-top:20px;">
                 1차 Pre-Sale은 30%, 2차 Pre-Sale은 25%의 추가 코인을 배분 받을수 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -750,7 +750,7 @@
               <div id="4_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="4_accordion_block" class="gone faq_accordion_block">
-              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+              <div class="col-lg-12" style="margin-top:20px;">
                 Pre-Sale 2회, ICO 2회 총 4회의 구매 기회가 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -763,7 +763,7 @@
               <div id="5_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="5_accordion_block" class="gone faq_accordion_block">
-              <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+              <div class="col-lg-12" style="margin-top:20px;">
                 PRE SALE과 ICO를 통해 참여할 수 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -776,7 +776,7 @@
              <div id="6_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="6_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                  11월 중순에 프리세일을 시작합니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -789,7 +789,7 @@
              <div id="7_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="7_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                PRE-SALE로 약 1억 4천만개 ICO에서 약 2억5천만개의 코인이 발행 되며, 하드캡은 1억개 정도입니다
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -802,7 +802,7 @@
              <div id="8_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="8_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                회차별로 배포되지 않은 코인은 다음회차로 넘어가며 최종까지 배포되지 않은 코인은 소각 예정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -815,7 +815,7 @@
              <div id="9_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="9_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                이더리움(ETH)으로만 참여 가능합니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -828,7 +828,7 @@
              <div id="10_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="10_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                2018년 1월 비트뱅크(BITBANK) 상장을 시작으로 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -841,7 +841,7 @@
              <div id="11_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="11_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                2018년 상반기에 이더리움 기반의 뱅킹서비스 오픈을, 자체 메인넷은 2019년 예정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -854,7 +854,7 @@
              <div id="12_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="12_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                본인인증 없어도 참여가능합니다. 다만, 향후 본인인증을 할 수 없을시 불이익이 있을수 있습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -866,7 +866,7 @@
              <div id="13_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="13_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                E-mail이나 휴대폰 인증을 통해 본인인증을 할 수 있습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -879,7 +879,7 @@
              <div id="14_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="14_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                제한이 없습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -891,7 +891,7 @@
              <div id="15_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="15_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                  불가능합니다. 거래소 지갑에서 참여하시면 에이블 토큰을 지급해 드릴 수 없습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
@@ -903,24 +903,24 @@
              <div id="16_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="16_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+             <div class="col-lg-12" style="margin-top:20px;">
                  네. 마이이더월렛(MyEtherWallet)으로만 참여가 가능합니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
 
-             <div id="17_accordion_btn" class="list-group faq_accordion_item">
-                 <div class="list-group-item faq_accordion_btn">
-                     시중은행들이 거대한 자본금으로 진입한다면 어떻게 대응하나요?
-                 </div>
-                 <div id="17_accordion_child" class="faq_accordion_child"></div>
-             </div>
-             <div id="17_accordion_block" class="gone faq_accordion_block">
-                 <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
-                     시중은행들은 금융권 규제 때문에 신규 진입이 굉장히 어렵습니다. 오히려 저희에게 투자를 하는 형태가 될것입니다.
-                 </div>
-                 <div class="clearfix" style="margin-bottom:30px;"></div>
-             </div>
+           <div id="17_accordion_btn" class="list-group faq_accordion_item">
+               <div class="list-group-item faq_accordion_btn">
+                   시중은행들이 거대한 자본금으로 진입한다면 어떻게 대응하나요?
+               </div>
+               <div id="17_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="17_accordion_block" class="gone faq_accordion_block">
+               <div class="col-lg-12" style="margin-top:20px;">
+                   시중은행들은 금융권 규제 때문에 신규 진입이 굉장히 어렵습니다. 오히려 저희에게 투자를 하는 형태가 될것입니다.
+               </div>
+               <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
          </div>
      </div>
    </section>
