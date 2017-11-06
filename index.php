@@ -211,7 +211,7 @@
         <div class="col-md-6">
           <img src="<?php echo $dm?>/images/image2-n.png" class="re-image01 margin-center" />
         </div>
-        <div class="col-md-6 text-center col-box">
+        <div id="desktop-view-box" class="col-md-6 text-center col-box">
           <h3 class="main-text">ABLE BANK</h3>
           <div class="margin-40">
             <p>
@@ -232,6 +232,24 @@
             </p>
           </div>
         </div>
+        <div id="mobile-view-box" class="col-md-6 text-center col-box">
+          <h3 class="main-text">ABLE BANK</h3>
+          <div class="margin-40">
+              <p>
+                  ABLE Project는 블록체인 전문은행으로 고객들의 암호화폐 자산을 <span>보험</span> 및 <span>법률 자문</span>을 통해 안전하게 보호합니다.
+              </p>
+              <p>
+                  블록체인을 기반으로 <span>스마트 계약</span>을 활용하여 <span>은행서비스</span>와 <span>다양한 자산운용 상품</span>을 제공합니다.
+              </p>
+              <p>
+                  ABLE Project 기부자는 은행 및 자산운용에서 <span>발생한 수익</span>을 지분에 비례하여 <span>분배</span> 받습니다.
+              </p>
+              <p>
+                  ICO를 참가한 기부자는 AIR-DROP, VIP 카드발급, PAYBACK 등 다양한 혜택을 받을 수 있습니다.
+              </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
