@@ -330,7 +330,10 @@ about
   font-size:1.6rem;
   line-height:2.8rem;
 }
-
+#platform .type-box{
+  padding-top:10px;
+  padding-bottom:10px;
+}
 #platform .type-box p{
   text-align:left;
   font-size:1.6rem;
