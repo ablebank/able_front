@@ -265,8 +265,24 @@ about
 #video p{
   padding-top:10px;
   font-size:1.6rem;
-  line-height: 30px;
+  line-height: 2.8rem;
 }
+
+/* ==========================================================================
+  $need
+========================================================================== */
+#needs .main-text {
+  text-align:left;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#needs p {
+  text-align:left;
+  font-size: 1.6rem;
+  line-height:2.8rem;
+}
+
 /*==============================
 partner
 ===============================*/
