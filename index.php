@@ -254,33 +254,6 @@
     </div>
   </section>
 
-  <!-- 에이블 코인 -->
-  <!--<section id="project" class="section">
-    <div class="container">
-      <div class="features-text text-center">
-        <h2>ABLE PROJECT</h2>
-        <div class="divider"></div>
-      </div>
-      <div>
-        <h4 class="text-white text-center main-description">
-          우리는 블록체인 전문은행으로 고객들의 암호화폐 자산을 보호하고자 합니다.<br>
-          블록체인을 기반으로 스마트컨트랙트를 활용하여 은행서비스와 자산관리상품을 제공합니다.<br>
-          ABLE Project는 암호화폐 보유 고객들의 자산을 안전하게 지켜줍니다.<br>
-          ABLE Project 참여자는 은행 및 자산관리상품에서 발생한 수익과 POS로써의 수익을 분배 받습니다.<br>
-          향후 진행하는 ICO시 Airdrop, VIP 카드발급 및 뱅크카드 PAY BACK 등 혜택을 받을 수 있습니다.
-        </h4>
-      </div>
-      <div class="row start-content">
-        <div class="border-box">ABLE BANK 소유자</div>
-        <div class="arrow-box"><span class="glyphicon">&#xe259;</span></div>
-        <div class="border-box">금융상품 / 트레이딩 / 마이닝 이용 가능</div>
-        <div class="arrow-box"><span class="glyphicon">&#xe259;</span></div>
-        <div class="border-box">ABLE 코인 소유자 월말 수익 배당</div>
-        <div class="arrow-box"><span class="glyphicon">&#xe259;</span></div>
-        <div class="border-box">비트뱅크 거래소에서 코인 매매 가능</div>
-      </div>
-  </section>-->
-
   <!-- 에이블 SERVICE -->
   <section id="service" class="section">
     <div class="container-fluid">
