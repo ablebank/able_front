@@ -243,6 +243,9 @@ about
 #about .re-image01{
   max-width: 95%;
 }
+#about .sub-text{
+  line-height:1.6rem;
+}
 
 /* ==========================================================================
   $preview
