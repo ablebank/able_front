@@ -904,6 +904,19 @@
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
+
+             <div id="17_accordion_btn" class="list-group faq_accordion_item">
+                 <div class="list-group-item faq_accordion_btn">
+                     시중은행들이 거대한 자본금으로 진입한다면 어떻게 대응하나요?
+                 </div>
+                 <div id="17_accordion_child" class="faq_accordion_child"></div>
+             </div>
+             <div id="17_accordion_block" class="gone faq_accordion_block">
+                 <div class="col-lg-12 white" style="margin-top:20px;color:#fff;">
+                     시중은행들은 금융권 규제 때문에 신규 진입이 굉장히 어렵습니다. 오히려 저희에게 투자를 하는 형태가 될것입니다.
+                 </div>
+                 <div class="clearfix" style="margin-bottom:30px;"></div>
+             </div>
          </div>
      </div>
    </section>
