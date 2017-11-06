@@ -343,19 +343,19 @@
         <div class="divider"></div>
 
         <div class="row margin-90">
-          <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01"></div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">1<span class="font-down">ST</span></div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">2<span class="font-down">ED</span></div>
+          <div class="col-lg-2 col-md-2 col-xs-2 text-left td-01"></div>
+          <div class="col-lg-5 col-md-5 col-xs-5 text-right td-02">1<span class="font-down">ST</span></div>
+          <div class="col-lg-5 col-md-5 col-xs-5 text-right td-03">2<span class="font-down">ED</span></div>
         </div>
         <div class="row margin-20">
-          <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">PRESALE&nbsp;&nbsp;&nbsp;<span class="font-down">(17.11.15)</span></div>
-            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">6,000 ETH<br><span class="color-navi">1ETH = 4,940 ABL</span></div>
-            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">24,000 ETH<br><span class="color-navi">1ETH = 4,750 ABL</span></div>
+          <div class="col-lg-2 col-md-2 col-xs-2 text-left td-01">PRESALE<br><span class="font-down">(17.11.15)</span></div>
+            <div class="col-lg-5 col-md-5 col-xs-5 text-right td-02">6,000 ETH<br><span class="color-navi">1ETH = 4,940 ABL</span></div>
+            <div class="col-lg-5 col-md-5 col-xs-5 text-right td-03">24,000 ETH<br><span class="color-navi">1ETH = 4,750 ABL</span></div>
         </div>
         <div class="row margin-20">
-          <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">ICO</div>
-            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">30,000 ETH<br><span class="color-navi">1ETH = 3,990 ABL</span></div>
-            <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">60,000 ETH<br><span class="color-navi">1ETH = 3,800 ABL</span></div>
+          <div class="col-lg-2 col-md-2 col-xs-2 text-left td-01">ICO</div>
+            <div class="col-lg-5 col-md-5 col-xs-5 text-right td-02">30,000 ETH<br><span class="color-navi">1ETH = 3,990 ABL</span></div>
+            <div class="col-lg-5 col-md-5 col-xs-5 text-right td-03">60,000 ETH<br><span class="color-navi">1ETH = 3,800 ABL</span></div>
         </div>
         <!--<div class="row margin-20">
           <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">TOKEN SUPPLY</div>
