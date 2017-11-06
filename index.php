@@ -369,14 +369,14 @@
         <div class="col-md-6 limit-per-zone">
           <h3>USE OF PROCEEDS</h3>
           <div class="row limit-box">
-            <div class="col-md-4">
+            <div class="col-xs-4 col-sm-4 col-md-4">
               <div style="color:#fff;background-color:#1f2537;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
               <div style="color:#fff;background-color:#30384f;width:80%;height:20px;line-height:25px;text-align:center">5%</div>
               <div style="color:#fff;background-color:#5b74b9;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
               <div style="color:#fff;background-color:#394f74;width:80%;height:60px;line-height:60px;text-align:center">15%</div>
               <div style="color:#fff;background-color:#1dc5c8;width:80%;height:240px;line-height:240px;text-align:center">60%</div>
             </div>
-            <div class="col-md-8 color-define-zone">
+            <div class="col-xs-8 col-sm-8 col-md-8 color-define-zone">
               <div>
                 <span style="display:inline-block;width:20px;height:20px;background-color:#1f2537;"></span>
                 <span class="color-box-text">FOUNDATION</span>
@@ -403,7 +403,7 @@
         <div class="col-md-6 limit-per-zone">
           <h3>TOKEN ALLCATION</h3>
           <div class="row limit-box">
-            <div class="col-md-4">
+            <div class="col-xs-4 col-sm-4 col-md-4">
               <div style="color:#fff;background-color:#6f7d8f;width:80%;height:240px;line-height:240px;text-align:center">60%</div>
               <div style="color:#fff;background-color:#5b74b9;width:80%;height:40px;line-height:45px;text-align:center">10%</div>
               <div style="color:#fff;background-color:#394f74;width:80%;height:40px;line-height:45px;text-align:center">10%</div>
@@ -411,7 +411,7 @@
               <div style="color:#fff;background-color:#636b81;width:80%;height:20px;line-height:25px;text-align:center">5%</div>
               <div style="color:#fff;background-color:#1f2537;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
             </div>
-            <div class="col-md-8 color-define-zone">
+            <div class="col-xs-8 col-sm-8 col-md-8 color-define-zone">
               <div>
                 <span style="display:inline-block;width:20px;height:20px;background-color:#6f7d8f;"></span>
                 <span class="color-box-text">BANKING</span>
