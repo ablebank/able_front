@@ -690,6 +690,8 @@ body .webGl{
   display:none;
 }
 
+
+
 /* ==========================================================================
   $preview
 ========================================================================== */
@@ -699,6 +701,9 @@ body .webGl{
 
 .video-box{
   padding-left:5%;
+}
+#video iframe{
+  height:480px;
 }
 .video-text-box{
   margin-top:20px;
