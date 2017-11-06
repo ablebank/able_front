@@ -689,13 +689,6 @@ body .webGl{
 #about #mobile-view-box{
   display:none;
 }
-#about .main-text-type01{
-}
-#about .main-text-type02{
-  padding-top:25px;
-  padding-bottom:25px;
-  display:block;
-}
 
 /* ==========================================================================
   $preview
