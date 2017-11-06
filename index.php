@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513412134" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=2017092513412134" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
@@ -116,7 +116,7 @@
       <h2>ABOUT</h2>
       <div class="divider"></div>
       <div class="row margin-90">
-        <div class="col-md-6 text-center col-box">
+        <div id="desktop-view-box" class="col-md-6 text-center col-box">
           <p class="align-middle">
             <span class="main-text-type01">"<span class="main-font-up">A</span>pplying <span class="main-font-up">BL</span>ockchain to <span class="main-font-up">E</span>xtend the finace"</span><br><br>
             <span class="main-text-type02"><span>ABLE PROJECT</span>는 세계최대 "블록체인 전문은행"을 설립 합니다.</span>
@@ -134,6 +134,23 @@
             <br><br>
             <span class="about-small">(ABLE Coin은 ERC-20토큰으로 Pre-Sales 및 ICO를 통해 발행됩니다)</span>
           </p>
+        </div>
+        <div id="mobile-view-box" class="col-md-6 text-center col-box">
+            <p class="text-left">
+                <span class="main-text-type01">
+                    <span class="main-font-up">A</span>pplying<br />
+                    <span class="main-font-up">BL</span>ockchain to<br />
+                    <span class="main-font-up">E</span>xtend the finace
+                </span>
+                <span class="main-text-type02"><span>ABLE PROJECT</span>는 세계최대<br />"블록체인 전문은행"을 설립 합니다.</span>
+                ABLE PROJECT는 암호화폐기반<br>예금/대출상품의 설계(Smart Contract)를 통해
+                주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
+                대기자금은 Minning, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
+                ABLE PROJECT의 <span>수익</span>을 <span>극대화</span> 시켜줍니다.
+                ABLE PROJECT는 암호화폐의 금융화 안전한 관리 이외 VR, AI, 바이오 등
+                <span>4차 산업혁명시대를 이끌어갈 새로운 인프라를 조성할 것입니다.</span>
+                <span class="about-small">(ABLE Coin은 ERC-20토큰으로 Pre-Sales 및 ICO를 통해 발행됩니다)</span>
+            </p>
         </div>
         <div class="col-md-6">
           <img src="<?php echo $dm?>/images/image1-n.png" class="re-image01 margin-center" />
@@ -154,8 +171,10 @@
         <div class="col-md-6 video-text-box">
           <h3 class="white main-text">ABLE PROJECT</h3>
           <div class="margin-40">
-            <p class="text-left"><span>ABLE Project</span>는 최초의 블록체인 전문은행으로 VR, AI 로봇 등 4차 산업혁명 기업들과 연계하고 있습니다. 그리고 협력 거래소 <span>BIT BANK</span>를 통해 ABLE 코인의 빠른 거래소 상장을 보장합니다.</p>
-            <p class="text-left">ABLE Project를 통해 이용자는 암호화폐의 <span>예금, 대출, 자산운용</span>이 가능하며, 알트코인이 무료환전 혜택을 누릴 수 있습니다. ABLE Project는 기부자에게 매년 은행수익의 40%를 배분합니다.</p>
+              <div>
+                  <p class="text-left"><span>ABLE Project</span>는 최초의 블록체인 전문은행으로 VR, AI 로봇 등 4차 산업혁명 기업들과 연계하고 있습니다. 그리고 협력 거래소 <span>BIT BANK</span>를 통해 ABLE 코인의 빠른 거래소 상장을 보장합니다.</p>
+                  <p class="text-left">ABLE Project를 통해 이용자는 암호화폐의 <span>예금, 대출, 자산운용</span>이 가능하며, 알트코인이 무료환전 혜택을 누릴 수 있습니다. ABLE Project는 기부자에게 매년 은행수익의 40%를 배분합니다.</p>
+              </div>
           </div>
         </div>
       </div>

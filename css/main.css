@@ -679,40 +679,23 @@ body .webGl{
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */ }
-  @keyframes fadein {
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
-  }
-  @-moz-keyframes fadein { /* Firefox */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
-  }
-  @-webkit-keyframes fadein { /* Safari and Chrome */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
-  }
-  @-o-keyframes fadein { /* Opera */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity: 1;
-      }
-  }
+  -o-animation: fadein 2s; /* Opera */
+}
 
+#about #desktop-view-box{
+  display:block;
+}
+
+#about #mobile-view-box{
+  display:none;
+}
+#about .main-text-type01{
+}
+#about .main-text-type02{
+  padding-top:25px;
+  padding-bottom:25px;
+  display:block;
+}
 
 /* ==========================================================================
   $preview
@@ -841,47 +824,6 @@ body .webGl{
   font-weight:500;
 }
 
-/*
-#structure .st-item.start-content{
-  margin-top:60px;
-}
-#structure p{
-  font-size:16px;
-  line-height: 30.4px;
-}
-#structure .st-item{
-  margin-top:40px;
-}
-#structure .arrow-box{
-  width: 80px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 80px;
-  color: #3598DC;
-}
-#structure .st-item-title{
-  text-align:left;
-}
-#structure .st-item-desc{
-  text-align:left;
-}
-
-.st-item .list-number {
-  content:counter(item) ;
-  margin-right: 20px;
-  padding: 8px;
-  -webkit-border-radius: 20%;
-  -moz-border-radius: 20%;
-  border-radius: 20%;
-  width: 65px;
-  background: #3598DC;
-  color: #fff;
-  text-align: center;
-  font: 20px 'Lato', Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-*/
 /* ==========================================================================
 	$coin
 ========================================================================== */
@@ -1174,7 +1116,6 @@ body .webGl{
   background-size: cover;
   min-height: 247px;
   -webkit-filter: grayscale(100%);
-  filter: gray;
 }
 #team .imageBox:hover{
   -webkit-filter: grayscale(0%);
