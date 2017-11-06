@@ -320,6 +320,22 @@ about
   line-height:2.8rem;
   padding:3%;
 }
+
+/* ==========================================================================
+    $에이블 스트럭처
+========================================================================== */
+#platform h3{
+  margin-top:50px;
+  text-align:left;
+  font-size:1.6rem;
+  line-height:2.8rem;
+}
+
+#platform .type-box p{
+  text-align:left;
+  font-size:1.6rem;
+  line-height:2.8rem;
+}
 /*==============================
 partner
 ===============================*/
