@@ -103,6 +103,11 @@
 
           <div>
             <a href="https://s3.ap-northeast-2.amazonaws.com/able-project/ABLE+Project+White+Paper.pdf" target="_blank" id="kakaoTalk"><span>WHITE PAPER</span></a>
+            <?php
+            if($dm !== "https://www.able-coin.io"){
+                echo "<a href=\"".$dm."/member/login.php\" id=\"signIn\"><span>Sign In</span></a>";
+            }
+            ?>
           </div>
         </div>
       </div>
