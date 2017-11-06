@@ -120,7 +120,6 @@
           <p class="align-middle">
             <span class="main-text-type01">"<span class="main-font-up">A</span>pplying <span class="main-font-up">BL</span>ockchain to <span class="main-font-up">E</span>xtend the finace"</span><br><br>
             <span class="main-text-type02"><span>ABLE PROJECT</span>는 세계최대 "블록체인 전문은행"을 설립 합니다.</span>
-            <br><br>
             ABLE PROJECT는 암호화폐기반 예금/대출상품의 설계(Smart Contract)를 통해
             <br>
             주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
@@ -143,16 +142,18 @@
                     <span class="main-font-up">E</span>xtend the finace
                 </span>
                 <span class="main-text-type02"><span>ABLE PROJECT</span>는 세계최대<br />"블록체인 전문은행"을 설립 합니다.</span>
-                ABLE PROJECT는 암호화폐기반 예금/대출상품의 설계(Smart Contract)를 통해
-                주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
-                <br><br>
-                대기자금은 Minning, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
-                ABLE PROJECT의 <span>수익</span>을 <span>극대화</span> 시켜줍니다.
-                <br><br>
-                ABLE PROJECT는 암호화폐의 금융화 안전한 관리 이외 VR, AI, 바이오 등
-                <span>4차 산업혁명시대를 이끌어갈 새로운 인프라를 조성할 것입니다.</span>
-                <br><br>
-                ABLE Coin은 ERC-20토큰으로 Pre-Sales 및 ICO를 통해 발행됩니다
+                <p class="sub-text">
+                    ABLE PROJECT는 암호화폐기반 예금/대출상품의 설계(Smart Contract)를 통해
+                    주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
+                    <br><br>
+                    대기자금은 Minning, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
+                    ABLE PROJECT의 <span>수익</span>을 <span>극대화</span> 시켜줍니다.
+                    <br><br>
+                    ABLE PROJECT는 암호화폐의 금융화 안전한 관리 이외 VR, AI, 바이오 등
+                    <span>4차 산업혁명시대를 이끌어갈 새로운 인프라를 조성할 것입니다.</span>
+                    <br><br>
+                    ABLE Coin은 ERC-20토큰으로 Pre-Sales 및 ICO를 통해 발행됩니다
+                </p>
             </p>
         </div>
         <div class="col-md-6" id="about-img-block">
