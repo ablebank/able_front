@@ -1,27 +1,45 @@
 <html>
 <head>
     <!--<script type="text/javascript" src="/node_modules/web3/src/index.js"></script>-->
-    <script type="text/javascript" src="/js/web3.js"></script>
+    <script type="text/javascript" src="./js/web3.js"></script>
     <script type="text/javascript">
         //console.log(Web3)
         var web3 = new Web3();
+        console.log(web3)
 
+        web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
+        /*
         console.log(web3);
 
         var eth = web3.eth;
+        var personal = web3.personal;
 
-        console.log(eth);
         //var version = web3.version.node;
         //console.log(version);
         if(!web3.isConnected()) {
-
             // show some dialog to ask the user to start a node
             console.log("connect ok")
         } else {
-
             // start web3 filters, calls, etc
             console.log("connect falid")
         }
+        */
+        /*
+        var network = web3.version.network
+        console.log(network)
+
+
+        var personal = web3.personal;
+        console.log(personal);
+
+
+        var eth = web3.eth;
+        console.log(eth);
+
+        console.log(personal)
+        personal.newAccount(1124222112)
+        */
+        //console.log(personal.newAccount("chise44"));
     </script>
 </head>
 <body>
