@@ -1,0 +1,22 @@
+{
+  "name": "ico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kblockchain/able_front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kblockchain/able_front/issues"
+  },
+  "homepage": "https://github.com/kblockchain/able_front#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.24"
+  }
+}
