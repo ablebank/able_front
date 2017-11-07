@@ -10,10 +10,10 @@
     <meta name="Description" content="" />
     <meta name="Keywords" content="kblcokchain, able, cryptocoin mining, cryptocurrency, bitcoin, ethereum" />
     <meta name="robots" content="index, follow, noodp" />
-    <meta name="author" content="able-coin.io" />
-    <meta name="copyright" content="(c) 2017 able-coin.io. All rights reserved" />
+    <meta name="author" content="able-project.io" />
+    <meta name="copyright" content="(c) 2017 able-project.io. All rights reserved" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:url" content="https://www.able-coin.io/" />
+    <meta property="og:url" content="https://www.able-project.io/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="" />
     <meta property="og:description" content="" />
