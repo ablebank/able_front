@@ -712,27 +712,27 @@
             </div>
             <div id="1_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12" style="margin-top:20px;">
-                ABLE project는 블록체인상에서 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 뱅크 솔루션입니다.
+                ABLE PROJECT는 블록체인 상에서 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 아시아 최초의 뱅크 솔루션입니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
             <div id="2_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
-                참가자에 대한 국적 및 제한이 있습니까?
+                참가자에 대한 국적제한이 있는지요?
               </div>
               <div id="2_accordion_child" class="faq_accordion_child"></div>
             </div>
             <div id="2_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12" style="margin-top:20px;">
-                따로 제한은 없습니다. 다만, 국가 규제에 따른 ICO 금지국가(미국, 중국)는 참여가 불가능합니다.
+                참가자에 대한 제한은 없습니다. 다만, 국가 규제에 따른 ICO 금지국가(미국, 중국)에서는 참여할 수 없습니다. 
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
             <div id="3_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
-                Pre-Sale 참여시 ICO에 비해 어떤 혜택이 있나요?
+                Pre-Sale 참여시 ICO와 비교해 어떤 혜택이 있나요?
               </div>
               <div id="3_accordion_child" class="faq_accordion_child"></div>
             </div>
@@ -764,33 +764,33 @@
             </div>
             <div id="5_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12" style="margin-top:20px;">
-                PRE SALE과 ICO를 통해 참여할 수 있습니다.
+                ABLE PROJECT 홈페이지(https://www.able-project.io)를 통해서 참여할 수 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
            <div id="6_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
-               참여는 언제부터 시작하나요?
+               ABLE PROJECT 참여는 언제부터 시작하나요?
              </div>
              <div id="6_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="6_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-                 11월 중순에 프리세일을 시작합니다.
+               11월 15일 20시 홈페이지를 통해 첫 번째 Pre-sale에 참여할 수 있습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
 
            <div id="7_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
-               Pre-Sale과 ico 진행시 배포되는 토큰수는 얼마인가요?
+               Pre-Sale과 ICO 진행 시 배포되는 토큰 수는 얼마인가요?
              </div>
              <div id="7_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="7_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               PRE-SALE로 약 1억 4천만개 ICO에서 약 2억5천만개의 코인이 발행 되며, 하드캡은 1억개 정도입니다
+               Pre-Sale로 약 1억 4천만 개, ICO에서 약 2억5천만 개의 코인이 발행되며, 하드캡은 1억개입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -803,7 +803,7 @@
            </div>
            <div id="8_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               회차별로 배포되지 않은 코인은 다음회차로 넘어가며 최종까지 배포되지 않은 코인은 소각 예정입니다.
+               회차 별로 배포되지 않은 코인은 다음 회차로 넘어가며 최종까지 배포되지 않은 코인은 소각 예정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -829,7 +829,7 @@
            </div>
            <div id="10_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               2018년 1월 비트뱅크(BITBANK) 상장을 시작으로 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
+               2018년 1월 비트뱅크(BITBANK) 상장에 상장되며, 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -842,7 +842,7 @@
            </div>
            <div id="11_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               2018년 상반기에 이더리움 기반의 뱅킹서비스 오픈을, 자체 메인넷은 2019년 예정입니다.
+               2019년에 PoS 기반 ABLE 전용 메인네트워크를 개발할 예정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -855,7 +855,7 @@
            </div>
            <div id="12_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               본인인증 없어도 참여가능합니다. 다만, 향후 본인인증을 할 수 없을시 불이익이 있을수 있습니다.
+               본인인증 없어도 참여 가능합니다. 다만, 향후 본인인증을 할 수 없을 시 불이익이 있을 수 있습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -874,19 +874,19 @@
 
            <div id="14_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
-               1인당 상하선 제한금액이 있나요?
+               1인당 참여 제한금액이 있나요?
              </div>
              <div id="14_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="14_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               제한이 없습니다.
+               참여금액은 제한이 없습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
            <div id="15_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
-                 거래소 지갑에서 참여가 가능한가요?
+                 거래소 지갑을 통해 참여 가능한가요?
              </div>
              <div id="15_accordion_child" class="faq_accordion_child"></div>
            </div>
@@ -904,7 +904,7 @@
            </div>
            <div id="16_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-                 네. 마이이더월렛(MyEtherWallet)으로만 참여가 가능합니다.
+                 마이이더월렛(MyEtherWallet)만 가능하며, 회원가입시 등록한 지갑주소로만 참여 가능합니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -918,6 +918,19 @@
            <div id="17_accordion_block" class="gone faq_accordion_block">
                <div class="col-lg-12" style="margin-top:20px;">
                    시중은행들은 금융권 규제 때문에 신규 진입이 굉장히 어렵습니다. 오히려 저희에게 투자를 하는 형태가 될것입니다.
+               </div>
+               <div class="clearfix" style="margin-bottom:30px;"></div>
+           </div>
+
+           <div id="18_accordion_btn" class="list-group faq_accordion_item">
+               <div class="list-group-item faq_accordion_btn">
+                   ABLE의 사용처는 어디인가요?
+               </div>
+               <div id="18_accordion_child" class="faq_accordion_child"></div>
+           </div>
+           <div id="18_accordion_block" class="gone faq_accordion_block">
+               <div class="col-lg-12" style="margin-top:20px;">
+                   AI, VR 등 4차산업과 관련된 곳의 결제수단과 ABLE뱅크 내에서 스마트컨트랙트 기능을 하는 도구로 쓰입니다.
                </div>
                <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
