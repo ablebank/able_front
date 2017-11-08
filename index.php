@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513412134" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=2017092513412134" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513121212121" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=2017092513232323" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
@@ -970,7 +970,7 @@
   <script src="<?php echo $dm?>/js/jquery.waypoints.min.js"></script>
   <script src="<?php echo $dm?>/js/fadeInScroll.jQuery.js"></script>
   <script src="<?php echo $dm?>/js/modernizr.js"></script>
-  <script src="<?php echo $dm?>/js/main.js?d=201710201122322"></script>
+  <script src="<?php echo $dm?>/js/main.js?d=201710201112121"></script>
   <script src="<?php echo $dm?>/js/scrollSpy.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/scrollto.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/anim_scroll.js" type="text/javascript"></script>
