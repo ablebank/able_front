@@ -33,16 +33,15 @@
 <div class="content">
     <div class="logo">
         <a href="<?php echo $dm?>/index.php">
-            <img src="/images/logo_file.png" alt="" width="150"/>
+            <img src="/images/logo_file.png" alt="" width="160"/>
         </a>
+        <h5>CREATE YOUR ACCOUNT</h5>
     </div>
 
     <div class="signupBox">
-        <div style="width:560px;float:left">
+        <div>
             <form class="signupForm" action="#" method="POST">
-                <h4>Create Your Account</h4>
-
-                <label>Email</label>
+                <label>EMAIL</label>
                 <div class="input-group" id="box-1">
                     <input id="email" type="text" class="form-control" name="email" placeholder="이메일을 입력하세요" required="required">
                     <div class="input-group-btn">
@@ -50,7 +49,7 @@
                     </div>
                 </div>
 
-                <label>Email Security Key</label>
+                <label>EMAIL SECURITY KEY</label>
                 <div class="input-group" id="box-2">
                     <input id="emailAuthKey" type="text" class="form-control" name="emailAuthKey" placeholder="이메일 보안키를 입력하세요" required="required">
                     <div class="input-group-btn">
@@ -67,7 +66,7 @@
                     </div>
                 </div>
 
-                <label>SMS Security Number</label>
+                <label>SMS SECURITY NUMBER</label>
                 <div class="input-group" id="box-4">
                     <input id="smsAuthKey" type="text" class="form-control" name="smsAuthKey" placeholder="문자 보안숫자를 입력하세요" required="required">
                     <div class="input-group-btn">
@@ -75,9 +74,9 @@
                     </div>
                 </div>
 
-                <label>My Ether Wallet Address</label>
+                <label>MY ETHER WALLET ADDRESS</label>
                 <div class="input-group" id="box-5">
-                    <input id="myEthAddr" type="text" class="form-control" name="myEthAddr" style="width:410px" placeholder="마이이더월렛 지갑의 이더리움 주소를 입력해주세요." required="required">
+                    <input id="myEthAddr" type="text" class="form-control" name="myEthAddr" placeholder="마이이더월렛 지갑의 이더리움 주소를 입력해주세요." required="required">
                     <div class="input-group-btn">
                         <span class="btn blue-btn myEthAddrBtn">주소 확인</span>
                     </div>
@@ -86,11 +85,11 @@
                 <p class="tos-info">
                 </p>
                 <div class="form-actions">
-                    <button type="submit" id="register-submit-btn" class="btn btn-success uppercase">SIGN UP</button>
+                    <button type="submit" id="register-submit-btn" class="btn uppercase">SIGN UP</button>
                 </div>
             </form>
         </div>
-        <div style="width:200px;float:left">
+        <!--<div style="width:200px;float:left">
             <div class="authBox">
                 <h4>인증 절차</h4>
                 <div class="emailCheckBox">
@@ -100,7 +99,7 @@
                     <p><i id="smsStepIcon" class="glyphicon glyphicon-remove red-icon"></i> 문자 인증</p>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 
