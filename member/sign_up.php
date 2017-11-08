@@ -28,7 +28,7 @@
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/signup.css?d=201710281112121" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/signup.css?d=2017102811122121212" />
 </head>
 
 <body class="signup">
