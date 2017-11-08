@@ -47,7 +47,7 @@
                 <div class="input-group" id="box-1">
                     <input id="email" type="text" class="form-control" name="email" placeholder="이메일을 입력하세요" required="required">
                     <div class="input-group-btn">
-                        <span class="btn blue-btn mailSendBtn">메일 전송</span>
+                        <span class="btn mailSendBtn">메일 전송</span>
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@
                 <div class="input-group" id="box-2">
                     <input id="emailAuthKey" type="text" class="form-control" name="emailAuthKey" placeholder="이메일 보안키를 입력하세요" required="required">
                     <div class="input-group-btn">
-                        <span class="btn blue-btn mailKeyBtn">메일 코드인증</span>
+                        <span class="btn mailKeyBtn">메일 코드인증</span>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@
                 <div class="input-group" id="box-3">
                     <input id="phoneNumber" type="text" class="form-control" name="phoneNumber" placeholder="휴대폰번호를 입력하세요( - 제외)" required="required">
                     <div class="input-group-btn">
-                        <span class="btn blue-btn smsSendBtn">문자 전송</span>
+                        <span class="btn smsSendBtn">문자 전송</span>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@
                 <div class="input-group" id="box-4">
                     <input id="smsAuthKey" type="text" class="form-control" name="smsAuthKey" placeholder="문자 보안숫자를 입력하세요" required="required">
                     <div class="input-group-btn">
-                        <span class="btn blue-btn smsKeyBtn">문자 코드인증</span>
+                        <span class="btn smsKeyBtn">문자 코드인증</span>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@
                 <div class="input-group" id="box-5">
                     <input id="myEthAddr" type="text" class="form-control" name="myEthAddr" placeholder="마이이더월렛 지갑의 이더리움 주소를 입력해주세요." required="required">
                     <div class="input-group-btn">
-                        <span class="btn blue-btn myEthAddrBtn">주소 확인</span>
+                        <span class="btn myEthAddrBtn">주소 확인</span>
                     </div>
                 </div>
 
