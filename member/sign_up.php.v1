@@ -86,7 +86,7 @@
                 <p class="tos-info">
                 </p>
                 <div class="form-actions">
-                    <button type="submit" id="register-submit-btn" class="btn btn-success uppercase">SIGN UP</button>
+                    <button type="submit" id="register-submit-btn" class="btn btn-success uppercase">완료</button>
                 </div>
             </form>
         </div>

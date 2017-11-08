@@ -344,7 +344,7 @@ ul li {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s; }
 .nav-toggle:after {
-  background-color: #e84545;
+  background-color: #009fe2;
   -moz-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);

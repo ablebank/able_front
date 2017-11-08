@@ -64,7 +64,7 @@
             <li><a href="#roadmap">ROADMAP</a></li>
             <li><a href="#team">TEAM</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <!--<li><a href="https://s3.ap-northeast-2.amazonaws.com/able-project/ABLE+Project+White+Paper.pdf" class="beta-styles" style="color: black" target="_blank">WHITEPAPER</a></li>-->
+            <li><a href="https://s3.ap-northeast-2.amazonaws.com/able-project/ABLE+Project+White+Paper.pdf" class="beta-styles" style="color: black" target="_blank">WHITEPAPER</a></li>
           </ul>
         </nav>
         <a href="#" class="nav-toggle">Menu<span></span></a>
@@ -102,12 +102,8 @@
           </div>
 
           <div>
-            <a href="https://s3.ap-northeast-2.amazonaws.com/able-project/ABLE+Project+White+Paper.pdf" target="_blank" id="kakaoTalk"><span>WHITE PAPER</span></a>
-            <?php
-            if($dm !== "https://www.able-project.io"){
-                echo "<a href=\"".$dm."/member/login.php\" id=\"signIn\"><span>Sign In</span></a>";
-            }
-            ?>
+              <a href="#" onclick="alert('11월13일 공개채팅방을 개설합니다.');return false;" id="kakaoTalk"><span>Join KaKao Talk</span><br><span>(pw 1231)</span></a>
+              <a href="#" onclick="alert('11월15일 20시 이후\n로그인과 회원가입이 참여가 가능합니다.');return false;" id="signIn"><span>Sign In</span></a>
           </div>
         </div>
       </div>
