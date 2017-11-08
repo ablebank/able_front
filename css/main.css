@@ -272,7 +272,9 @@ ul li {
 #header .logo {
   float: left; }
 #header.fixed {
-  background-color: #2d313c; }
+  /*background-color: #2d313c;*/
+  background-color: black;
+}
 #header.fixed .header-content {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   padding: 25px 0; }
@@ -332,7 +334,7 @@ ul li {
   -webkit-transition-property: -webkit-transform;
   transition-property: transform; }
 .nav-toggle:before {
-  background-color: #e84545;
+  background-color: #009fe2;
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -439,7 +441,7 @@ body .webGl{
 }
 #mainSection .main-block-logo{
   display: block;
-  max-width: 43%;
+  max-width: 28%;
   height: auto;
   margin: 0 auto;
 }

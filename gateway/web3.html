@@ -1,0 +1,102 @@
+<html>
+<head>
+    <!--<script type="text/javascript" src="/node_modules/web3/src/index.js"></script>-->
+    <script type="text/javascript" src="../js/web3.js"></script>
+    <script type="text/javascript">
+        //console.log(Web3)
+        var web3 = new Web3();
+        console.log(web3)
+        
+        web3.setProvider(new web3.providers.HttpProvider("http://localhost:8545"));
+
+        if(!web3.isConnected()) {
+            console.log("not connected");
+        }else {
+            console.log("connected");
+        }
+
+
+        var network = web3.version.network
+        console.log(network);
+
+        var user = {
+            web3: null,
+            netHost: null,
+            pass: null,
+            addrKey: null,
+            lock: true,
+            conn: false,
+
+            //api 관련 기본 정보모음
+            eth: null,
+            personal: null,
+
+            init: function(netHost){
+                this.web3 = new Web3();
+                this.eth = this.web3.eth;
+                this.personal = this.web3.personal;
+                this.netHost = netHost;
+                this.web3.setProvider(new web3.providers.HttpProvider(this.netHost));
+
+                if(!this.web3.isConnected()){
+                    this.conn = false;
+                }else{
+                    this.conn = true;
+                }
+
+                return this;
+            },
+
+            createAccount: function(pw){
+                this.pass = pw;
+                this.addrKey = this.personal.newAccount(this.pass);
+
+                return this;
+            },
+
+            unlockAccount: function(){
+                var lock = this.personal.unlockAccount(this.addrKey, this.pass);
+
+                if(lock){
+                    this.lock = false;
+                }else{
+                    this.lock = true;
+                }
+
+                return this;
+            },
+
+            lockAccount: function(){
+                var lock = this.personal.lockAccount(this.addrKey, this.pass);
+
+                if(lock){
+                    this.lock = true;
+                }else{
+                    this.lock = false;
+                }
+
+                return this;
+            },
+
+            sendTrans: function(){
+                /*
+                 web3.eth.sendTransaction({
+                 from: 'sendingAccountAddress',
+                 to: 'receivingAccountAddress',
+                 value:  web3.toWei(0.1, "ether")
+                 });
+                 */
+            }
+        }
+
+        user.init("http://localhost:8545");
+        user.createAccount("csdlkfjlkdsfjldskjfj");
+        user.unlockAccount();
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
