@@ -267,7 +267,7 @@
       </div>
       <div class="row margin-90">
         <div class="col-md-4 col-sm-4 text-center type-box">
-          <i class="material-icons" style="font-size:60px;color:#e84545">account_balance</i>
+          <i class="material-icons" style="font-size:60px;color:#0028ac">account_balance</i>
           <div class="features-content">
             <h3>Banking services</h3>
             <p>
@@ -276,7 +276,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-4 text-center type-box">
-          <i class="material-icons" style="font-size:60px;color:#e84545">trending_up</i>
+          <i class="material-icons" style="font-size:60px;color:#0028ac">trending_up</i>
           <div class="features-content">
             <h3>Asset Management</h3>
             <p>
@@ -286,7 +286,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-12 text-center type-box">
-          <i class="material-icons" style="font-size:60px;color:#e84545">lock</i>
+          <i class="material-icons" style="font-size:60px;color:#0028ac">lock</i>
           <div class="features-content">
             <h3>Security And Stability</h3>
             <p>
