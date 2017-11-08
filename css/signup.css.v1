@@ -1,0 +1,115 @@
+/* Cubic Bezier Transition */
+/***
+Login page
+***/
+/* bg color */
+body{
+    background-color: #f9f9f9;
+}
+
+.blue-btn{
+    background-color: #3598DC;
+    color:white;
+    border:solid 1px #3598DC;
+}
+
+.blue-btn:hover{
+    color:white;
+    background-color: #3598DC;
+    border:solid 1px #3598DC;
+}
+
+.intput-with{
+    width:540px;
+}
+
+.signup .logo {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 15px;
+    text-align: center;
+}
+
+.signupBox{
+    width:800px;
+    margin-top:30px;
+    padding-bottom:100px;
+    margin:0 auto;
+}
+.signupBox:after{content:""; display:block; clear:both;}
+
+.signupForm {
+    background-color: white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    width: 550px;
+    margin-top:40px;
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    border:solid 1px #ddd;
+}
+
+form label{
+    margin-top:15px;
+}
+
+.tos-info {
+    padding: 15px 0;
+    margin: 15px 0;
+    border-top: 1px solid #eee;
+    /*border-bottom: 1px solid #eee;*/
+}
+
+#register-submit-btn{
+    width:100%;
+}
+
+.authBox{
+    background-color: white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    width: 180px;
+    margin: 40px auto 20px auto;
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    border:solid 1px #ddd;
+}
+
+.emailCheckBox{
+    margin-top:40px;
+}
+.authBox p{
+    font-size:18px;
+}
+.red-icon{
+    color:red;
+}
+.green-icon{
+    color:green;
+}
+
+.blinking{
+    -webkit-animation:blink 1.5s;
+    -moz-animation:blink 1.5s;
+    animation:blink 1.5s;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
