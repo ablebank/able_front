@@ -14,6 +14,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://k-blockchains.com/img/meta_logo.png" />
     <meta property="og:description" content="K-Blockchain은 4차 산업의 주요 분야 중에 하나인 블록체인 선두 기업입니다." />
+    <meta name="copyright" content="(c) 2017 able-coin.io. All rights reserved" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta name="twitter:title" content="ABLE" />
     <meta name="twitter:card" content="summary" />

@@ -34,10 +34,9 @@ body{
 }
 
 .signupBox{
-    width:500px;
+    width:100%;
     margin-top:30px;
     padding-bottom:100px;
-    margin:0 auto;
 }
 .signupBox:after{content:""; display:block; clear:both;}
 
@@ -55,6 +54,7 @@ body{
     overflow: hidden;
     position: relative;
     border:solid 1px #ddd;
+    margin:0 auto;
 }
 
 
@@ -147,4 +147,23 @@ form label{
 @keyframes blink{
     0% {opacity:0;}
     100% {opacity:1;}
+}
+
+@media screen and (max-width: 1024px) {
+    .signupForm{
+        width:100%;
+    }
+
+    .form-control{
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        height:30px;
+    }
+
+    .input-group .btn {
+        font-size:1rem;
+        padding-top:8px;
+        width:75px;
+        height:30px;
+    }
 }
