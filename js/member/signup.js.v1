@@ -144,6 +144,8 @@ var SignUpJs = {
                         alert("이메일 인증에 성공하였습니다");
 
                         //change check box step todo
+                        emailStepIcon.classList.remove('glyphicon-remove','red-icon');
+                        emailStepIcon.classList.add('glyphicon-ok','green-icon','blinking');
                     }else{
                         alert("이메일 인증에 실패하였습니다\n다시 입력해주세요");
                     }
@@ -257,6 +259,8 @@ var SignUpJs = {
                         alert("문자 인증에 성공하였습니다\n패스워드를 설정해주세요");
 
                         //change check box step todo
+                        smsStepIcon.classList.remove('glyphicon-remove', 'red-icon');
+                        smsStepIcon.classList.add('glyphicon-ok', 'green-icon', 'blinking');
                     }else{
                         alert("sms 인증이 실패하였습니다\n문자를 다시받으시거나 다시 입력해 주세요");
                     }
