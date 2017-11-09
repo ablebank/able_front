@@ -102,7 +102,7 @@
           </div>
 
           <div>
-              <a href="#" onclick="alert('11월13일 공개채팅방을 개설합니다.');return false;" id="kakaoTalk"><span>Join KaKao Talk</span><br><span>(pw 1231)</span></a>
+              <a href="#" onclick="alert('11월15일 20시 이후 공개채팅방을 개설합니다.');return false;" id="kakaoTalk"><span>Join KaKao Talk</span><br><span>(pw 12314)</span></a>
               <a href="#" onclick="alert('11월15일 20시 이후\n로그인과 회원가입이 참여가 가능합니다.');return false;" id="signIn"><span>Sign In</span></a>
           </div>
         </div>
