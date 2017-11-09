@@ -5,7 +5,6 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>ABLE</title>
     <meta name="Description" content="" />
@@ -32,27 +31,29 @@
         <a href="<?php echo $dm?>/index.php">
             <img src="<?php echo $dm?>/images/logo_file.png" alt="" width="150"/>
         </a>
-        <h5>Login to Your Account</h5>
     </div>
     <form class="loginForm" action="#" method="POST">
-        <label>EMAIL</label>
+        <h4>Login to Your Account</h4>
+        <label>Email</label>
         <div id="box-1" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
             <input id="email" type="text" class="form-control" name="email" placeholder="이메일 주소를 입력해주세요" required="required">
         </div>
-        <label>MY ETHER ADDRESS</label>
+        <label>My Ether Address</label>
         <div id="box-2" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
             <input id="myEthAddr" type="text" class="form-control" name="myEthAddr" placeholder="마이이더월렛 이더리움 주소를 입력해주세요" required="required">
         </div>
 
         <div class="form-actions">
-            <button type="submit" id="register-submit-btn" class="btn signInBtn uppercase">SIGN IN</button>
+            <button type="submit" id="register-submit-btn" class="btn btn-success signInBtn uppercase">Sign in</button>
         </div>
     </form>
 
     <p class="create-account">
-        <span>NEW TO ABLE?</span>
-        <a href="<?php echo $dm?>/member/sign_up.php" class="btn">CREATE AN ACCOUNT</a>
-    </span>
+        New to ABLE?
+        <a href="<?php echo $dm?>/member/sign_up.php">Create an account</a>.
+    </p>
 </div>
 
 <script src="<?php echo $dm?>/js/jquery.min.js" type="text/javascript"></script>

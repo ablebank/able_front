@@ -16,40 +16,29 @@ body{
 
 form {
     background-color: white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
     width: 490px;
     margin: 40px auto 20px auto;
     padding: 30px;
     overflow: hidden;
     position: relative;
-    border-top:solid 1px #ddd;
-    border-bottom:solid 1px #ddd;
-    background-color: #f9f9f9;
+    border:solid 1px #ddd;
 }
 form label{
-    font-size:15px;
-    margin-top:30px;
+    margin-top:15px;
 }
 form h4{
     text-align:center;
-}
-
-.form-control{
-    height:40px;
-    border-radius: 0px;
-}
-.login .input-group{
-    width:100%;
-}
-.login .logo h5{
-    color:#0028AC;
-    font-size:15px;
 }
 .signBox{
     height: 40px;
     margin-top:30px;
     text-align:center;
 }
-
 .signInLayer{
     display:block;
     color:white;
@@ -66,18 +55,14 @@ form h4{
     background-color: #3598DC;
     height:40px;
 }
-.login .form-actions{
-    margin-top:30px;
-    margin-bottom: 0px;
-}
+
 .signInBtn {
-    display:block;
-    width:50%;
-    color:white;
-    height:50px;
-    margin:0 auto;
+    width:100%;
+    margin-top:30px;
     text-decoration: none;
-    background-color: #0028AC;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+    border-radius: 5px;
     padding: 6px 12px;
     font-size: 14px;
     font-weight: 600;
@@ -85,10 +70,6 @@ form h4{
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
-    border-radius: 0px;
-}
-.signInBtn:hover {
-    color:white;
 }
 
 .create-account{
@@ -97,19 +78,7 @@ form h4{
     border-radius: 5px;
     padding: 15px 20px;
     text-align: center;
+    border: 1px solid #d8dee2;
+    border-radius: 5px;
     margin:0 auto;
-}
-
-.create-account span{
-    font-size:12px;
-    display:block;
-    margin-bottom:10px;
-    font-weight:500;
-}
-.create-account .btn{
-    font-size:14px;
-    color:white;
-    border-radius: 0px;
-    background-color: #848484;
-    text-decoration: none;
 }
