@@ -76,7 +76,7 @@
           <div style="clear: both;">
             <img src="<?php echo $dm?>/images/logo_file.png" class="main-block-logo" alt="able bank">
           </div>
-          <h1 style="margin-top: 30px;">Global CryptoCurrency Bank</h1>
+          <h1 style="margin-top: 30px;">The Global Block Chain Dedicated Bank</h1>
           <p>Asia's First Global Block Chain Expert Bank</p>
 
           <div class="no-box">
