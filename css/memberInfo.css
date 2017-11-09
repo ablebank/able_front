@@ -14,55 +14,38 @@ body{
     text-align: center;
 }
 
-form {
+.login .logo h5{
+    color:#0028AC;
+    font-size:13px;
+}
+
+.loginForm {
     background-color: white;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-    border-radius: 7px;
-    width: 450px;
+    width: 50%;
     margin: 40px auto 20px auto;
     padding: 30px;
     overflow: hidden;
     position: relative;
-    border:solid 1px #ddd;
+    border-top:solid 1px #ddd;
+    border-bottom:solid 1px #ddd;
 }
-form label{
+.loginForm label{
     margin-top:15px;
 }
-form h4{
+.loginForm h4{
     text-align:center;
 }
-.signBox{
-    height: 40px;
+.addr-action-box{
     margin-top:30px;
-    text-align:center;
 }
-.signInLayer{
+.addr-info-btn {
     display:block;
     color:white;
-    font-size:20px;
-    line-height:33px;
-    background-color: #3598DC;
-}
-.signUpLayer{
-    margin-top:10px;
-    display:block;
-    color:white;
-    font-size:20px;
-    line-height:33px;
-    background-color: #3598DC;
-    height:40px;
-}
-
-.signInBtn {
-    color:white;
-    width:100%;
-    margin-top:30px;
+    width:50%;
+    margin:0 auto;
     text-decoration: none;
-    background-color: #3598DC;
-    border-radius: 5px;
+    background-color: #0028AC;
+    border-radius: 0px;
     padding: 6px 12px;
     font-size: 14px;
     font-weight: 600;
@@ -71,6 +54,6 @@ form h4{
     vertical-align: middle;
     cursor: pointer;
 }
-.signInBtn:hover{
+.addr-info-btn:hover{
     color:white;
 }
