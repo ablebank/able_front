@@ -16,7 +16,7 @@ body{
 
 form {
     background-color: white;
-    width: 490px;
+    width: 100%;
     margin: 40px auto 20px auto;
     padding: 30px;
     overflow: hidden;
@@ -96,6 +96,7 @@ form h4{
     width:300px;
     border-radius: 5px;
     padding: 15px 20px;
+    padding-bottom:50px;
     text-align: center;
     margin:0 auto;
 }
