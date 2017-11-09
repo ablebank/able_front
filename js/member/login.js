@@ -39,7 +39,7 @@ var LogInJs = {
                     success: function(d){
                         console.log(d);
 
-                        if(d.auth_type == 3 ){
+                        if(d.resultCode == 200 ){
                             //change check todo
 
                             location.href = "/member/memberInfo.php?email="+encodeURIComponent(d.email)+"&phone="+d.phone+"&myEthAddr="+myEthAddr.value;
