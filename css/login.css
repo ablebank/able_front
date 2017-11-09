@@ -16,7 +16,7 @@ body{
 
 form {
     background-color: white;
-    width: 100%;
+    width: 50%;
     margin: 40px auto 20px auto;
     padding: 30px;
     overflow: hidden;
@@ -113,4 +113,11 @@ form h4{
     border-radius: 0px;
     background-color: #848484;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    form{
+        width:100%;
+    }
 }
