@@ -16,7 +16,8 @@ Requests::register_autoloader(); //autoloader
 //server curl connection
 //etherscan/api/account/txbalance
 ////////////////////////
-/*
+$user["myEthAddr"] = "0xF2015A9160C9C9381FF99F19Fc18E5Af57cAc8Ed";
+
 $httpConfig = array(
     "url" => $apiHost.'etherscan/api/account/txbalance', //url
     "headers" => array('Accept' => 'application/json'), //send header
@@ -28,7 +29,7 @@ $response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConf
 //$rsDate = json_decode($response->body);
 //header('Content-Type: application/json');
 print_r($response);
-*/
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
