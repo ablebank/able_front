@@ -17,7 +17,7 @@ h2 {
   font-size: 6rem;
   color: #2d3033;
   font-weight: 300;
-  font-family: 'Lato', "Raleway", sans-serif;
+  font-family: 'Oxygen', "Raleway", sans-serif;
   text-transform: uppercase;
 }
 h3 {
@@ -143,6 +143,7 @@ a {
 body .white{
   color:white;
 }
+
 /*
 ======================================
 text-common
@@ -166,6 +167,9 @@ text-common
 }
 .text-left-padding{
   padding-left:7px;
+}
+.oxy{
+  font-family: "Oxygen", "Sans-Serif";
 }
 /*
 ==========================================================================
@@ -653,7 +657,7 @@ body .webGl{
   margin-left: 12px;
 }
 .no-box .box-container__description {
-  font-family: Oxygen, Sans-Serif;
+  font-family: "Oxygen", "Sans-Serif";
   font-size: 20px;
   line-height: 20px;
   padding-right: 12px;
@@ -670,9 +674,11 @@ body .webGl{
   color: black;
 }
 #about span {
+  font-family: "Oxygen", "Sans-Serif";
   font-weight: 500;
 }
 #about .main-text-type01 {
+  font-family: "Oxygen", "Sans-Serif";
   font-size:2.8rem;
 }
 #about .main-text-type02 {

@@ -281,7 +281,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12 text-center type-box">
+        <div class="col-md-4 col-sm-4 text-center type-box">
           <i class="material-icons" style="font-size:60px;color:#0028ac">lock</i>
           <div class="features-content">
             <h3>Security And Stability</h3>

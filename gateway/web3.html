@@ -1,13 +1,16 @@
 <html>
 <head>
-    <!--<script type="text/javascript" src="/node_modules/web3/src/index.js"></script>-->
+    <script src="https://www.promisejs.org/polyfills/promise-done-7.0.4.min.js"></script>
     <script type="text/javascript" src="../js/web3.js"></script>
     <script type="text/javascript">
-        //console.log(Web3)
+
+
         var web3 = new Web3();
+
         console.log(web3)
 
         web3.setProvider(new web3.providers.HttpProvider("http://localhost:8545"));
+
 
         if(!web3.isConnected()) {
             console.log("not connected");
@@ -23,7 +26,8 @@
             web3: null,
             netHost: null,
             pass: null,
-            addrKey: null,
+            targetAddress: null,
+            defaultAddress: null,
             lock: true,
             conn: false,
 
@@ -49,13 +53,13 @@
 
             createAccount: function(pw){
                 this.pass = pw;
-                this.addrKey = this.personal.newAccount(this.pass);
+                this.targetAddress = this.personal.newAccount(this.pass);
 
                 return this;
             },
 
             unlockAccount: function(){
-                var lock = this.personal.unlockAccount(this.addrKey, this.pass);
+                var lock = this.personal.unlockAccount(this.targetAddress, this.pass);
 
                 if(lock){
                     this.lock = false;
@@ -67,7 +71,7 @@
             },
 
             lockAccount: function(){
-                var lock = this.personal.lockAccount(this.addrKey, this.pass);
+                var lock = this.personal.lockAccount(this.targetAddress, this.pass);
 
                 if(lock){
                     this.lock = true;
@@ -78,20 +82,42 @@
                 return this;
             },
 
-            sendTrans: function(){
-                /*
-                 web3.eth.sendTransaction({
-                 from: 'sendingAccountAddress',
-                 to: 'receivingAccountAddress',
-                 value:  web3.toWei(0.1, "ether")
-                 });
-                 */
+            defaultSetAccount: function(address){
+                //web3.eth.defaultAccount = web3.eth.accounts[0];
+                if(!address){
+                    this.eth.defaultAccount = web3.eth.accounts[0];
+                }else{
+                    this.eth.defaultAccount = address;
+                }
+
+            },
+            getTranCnt: function(address){
+                console.log(this.eth.getTransactionCount('0x67024AB10761114C2C7276F6CE57a8D5fcC4e176'));
+            },
+            sendAddressTo: function(address){
+                var a = this.web3.fromWei(this.eth.getBalance('0xab32de8602614c94Cbd651EB6a30f945B1bfE0fd'));
+                //console.log(11);
+                //console.log(a);
+
+                //this.web3.call($$promises,this)
+                //console.log(this.eth.getBalance("0x407d73d8a49eeb85d32cf465507dd71d507100c1"));
+
+                console.log(this.eth.getBalance("0x96fC4553a00C117C5b0bED950Dd625d1c16Dc894"))
+                console.log(this.eth.sendRawTransaction('0xab32de8602614c94Cbd651EB6a30f945B1bfE0fd', '0x96fC4553a00C117C5b0bED950Dd625d1c16Dc894'))
+
+                //console.log(this.eth.sendAddressTo(''))
+
             }
         }
 
         user.init("http://localhost:8545");
-        user.createAccount("csdlkfjlkdsfjldskjfj");
-        user.unlockAccount();
+        //user.createAccount("csdlkfjlkdsfjldskjfj");
+        //user.unlockAccount();
+
+        user.defaultSetAccount('0x759eEc21E4e21CFE8A53dF38a327DC59C957cE1f');
+        //user.sendAddressTo();
+        user.getTranCnt();
+        //console.log(web3.eth.defaultAccount)
 
 
     </script>
