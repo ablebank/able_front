@@ -33,7 +33,7 @@
         </a>
         <h5>Login to Your Account</h5>
     </div>
-    <form class="loginForm" action="#" method="POST">
+    <form class="loginForm" action="/member/memberInfo.php" method="POST">
         <input type="hidden" id="Hemail" name="Hemail">
         <input type="hidden" id="Hcountry" name="Hconutry">
         <input type="hidden" id="Hphone" name="Hphone">
