@@ -26,6 +26,13 @@ var LogInJs = {
             //submit event handle
             submitHandler: function() {
                 //ajax
+                var Hemail, Hcountry, Hphone, Hauth_type;
+
+                Hemail = document.querySelector("#Hemail");
+                Hcountry = document.querySelector("#Hcountry");
+                Hphone = document.querySelector("#Hphone");
+                Hauth_type = document.querySelector("#Hauth_type");
+
                 urls = "/gateway/signin.php";
 
                 $.ajax({
@@ -42,7 +49,7 @@ var LogInJs = {
                         if(d.resultCode == 200 ){
                             //change check todo
 
-                            location.href = "/member/memberInfo.php?email="+encodeURIComponent(d.email)+"&phone="+d.phone+"&myEthAddr="+myEthAddr.value;
+                            //location.href = "/member/memberInfo.php?email="+encodeURIComponent(d.email)+"&phone="+d.phone+"&myEthAddr="+myEthAddr.value;
                             //alert("login success");
                             return false;
                         }else{

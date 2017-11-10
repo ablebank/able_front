@@ -21,7 +21,6 @@
     <meta property="og:image" content="" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"  type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/login.css?d=2017101100211212" />
 </head>
@@ -35,6 +34,10 @@
         <h5>Login to Your Account</h5>
     </div>
     <form class="loginForm" action="#" method="POST">
+        <input type="hidden" id="Hemail" name="Hemail">
+        <input type="hidden" id="Hcountry" name="Hconutry">
+        <input type="hidden" id="Hphone" name="Hphone">
+        <input type="hidden" id="Hauth_type" name="Hauth_type">
         <label>EMAIL</label>
         <div id="box-1" class="input-group">
             <input id="email" type="text" class="form-control" name="email" placeholder="이메일 주소를 입력해주세요" required="required">
