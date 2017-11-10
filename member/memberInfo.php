@@ -1,5 +1,7 @@
 <?php
 include(dirname(__DIR__).'/library/common.php'); //domain check
+include(dirname(__DIR__).'/library/Requests.php'); //request for php class (개좋다 씨발 무조건 이거 써야게네)
+
 print_r($_POST);
 $user["email"] = isset($_POST["Hemail"]) ? $_POST["Hemail"] : "";
 $user["country"] = isset($_POST["Hcountry"]) ? $_POST["Hcountry"] : "";
@@ -7,7 +9,24 @@ $user["phone"] = isset($_POST["Hphone"]) ? $_POST["Hphone"] : "";
 $user["auth_type"] = isset($_POST["Hauth_type"]) ? $_POST["Hauth_type"] : "";
 $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
 
-print_r($user);
+
+Requests::register_autoloader(); //autoloader
+
+////////////////////////
+//server curl connection
+//etherscan/api/account/txbalance
+////////////////////////
+$httpConfig = array(
+    "url" => $apiHost.'etherscan/api/account/txbalance', //url
+    "headers" => array('Accept' => 'application/json'), //send header
+    "data" => array('etheraddr'=>$user["myEthAddr"]) //post send data
+);
+
+$response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConfig["data"]);
+
+$rsDate = json_decode($response->body);
+//header('Content-Type: application/json');
+print_r($rsDate);
 ?>
 <!DOCTYPE html>
 <html lang="en">
