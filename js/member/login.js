@@ -51,6 +51,7 @@ var LogInJs = {
                         HmyEthAddr.value = myEthAddr.value;
 
                         if(d.resultCode == 200 ){
+                            console.log(d)
                             //change check todo
 
                             //loginForm.submit();
