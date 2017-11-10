@@ -16,6 +16,7 @@ Requests::register_autoloader(); //autoloader
 //server curl connection
 //etherscan/api/account/txbalance
 ////////////////////////
+/*
 $user["myEthAddr"] = "0xF2015A9160C9C9381FF99F19Fc18E5Af57cAc8Ed";
 
 $httpConfig = array(
@@ -27,8 +28,8 @@ $httpConfig = array(
 $response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConfig["data"]);
 
 //$rsDate = json_decode($response->body);
+*/
 //header('Content-Type: application/json');
-print_r($response);
 
 ?>
 <!DOCTYPE html>
@@ -54,8 +55,6 @@ print_r($response);
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/memberInfo.css?d=2017101101021" />
-
-
 </head>
 
 <body class="login">
