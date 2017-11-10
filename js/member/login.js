@@ -48,7 +48,7 @@ var LogInJs = {
                         Hcountry.value = d.contry;
                         Hphone.value = d.phone;
                         Hauth_type.value = d.auth_type;
-                        HmyEthAddr = myEthAddr.value;
+                        HmyEthAddr.value = myEthAddr.value;
 
                         if(d.resultCode == 200 ){
                             //change check todo
