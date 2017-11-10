@@ -35,7 +35,7 @@
     </div>
     <form class="loginForm" action="/member/memberInfo.php" method="POST">
         <input type="hidden" id="Hemail" name="Hemail">
-        <input type="hidden" id="Hcountry" name="Hconutry">
+        <input type="hidden" id="Hcountry" name="Hcountry">
         <input type="hidden" id="Hphone" name="Hphone">
         <input type="hidden" id="Hauth_type" name="Hauth_type">
         <input type="hidden" id="HmyEthAddr" name="HmyEthAddr">

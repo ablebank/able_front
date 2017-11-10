@@ -44,10 +44,10 @@ var LogInJs = {
                     },
                     dataType: 'json',
                     success: function(d){
-                        Hemail = d.email;
-                        Hcountry = d.contry;
-                        Hphone = d.phone;
-                        Hauth_type = d.auth_type;
+                        Hemail.value = d.email;
+                        Hcountry.value = d.contry;
+                        Hphone.value = d.phone;
+                        Hauth_type.value = d.auth_type;
                         HmyEthAddr = myEthAddr.value;
 
                         if(d.resultCode == 200 ){
