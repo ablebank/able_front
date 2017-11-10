@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,400italic,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:100,200,300,400,400italic,500,600,700');
 
 /* ==========================================================================
 typo
@@ -454,12 +455,12 @@ body .webGl{
 }
 .banner-text h1 {
   color: #fff;
-  font-family: "Lato", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: 500;
 }
 .banner-text p {
   color: #fff;
-  font-family: "Lato", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
@@ -602,6 +603,7 @@ body .webGl{
 
 .box__title {
   font-size:30px;
+  font-family: "Oxygen", "sans-serif";
   color: white;
 }
 
@@ -651,6 +653,7 @@ body .webGl{
   margin-left: 12px;
 }
 .no-box .box-container__description {
+  font-family: Oxygen, Sans-Serif;
   font-size: 20px;
   line-height: 20px;
   padding-right: 12px;

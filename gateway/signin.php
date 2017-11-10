@@ -30,9 +30,9 @@ echo $response->body;
 
 
 
-
-//$myEthAddr = "0x09B687Fe98491cB1C0ad9Fc957b29e209c845364";
-$myEthAddr = "0x7ddf4ED06FE5EcC646fAD19d257cD3f05A884d70";
+//0x8Eb89cAE287e809939987f983BF920A3481279eE
+$myEthAddr = "0x09B687Fe98491cB1C0ad9Fc957b29e209c845364";
+//$myEthAddr = "0x8Eb89cAE287e809939987f983BF920A3481279eE";
 
 $httpConfig = array(
     "url" => $apiHost.'/etherscan/api/account/txbalance', //url
