@@ -31,12 +31,12 @@ echo $response->body;
 
 
 
-$user["myEthAddr"] = "0xF2015A9160C9C9381FF99F19Fc18E5Af57cAc8Ed";
+$myEthAddr = "0xF2015A9160C9C9381FF99F19Fc18E5Af57cAc8Ed";
 
 $httpConfig = array(
-    "url" => $apiHost.'etherscan/api/account/txbalance', //url
+    "url" => $apiHost.'/etherscan/api/account/txbalance', //url
     "headers" => array('Accept' => 'application/json'), //send header
-    "data" => array('etheraddr'=>$user["myEthAddr"]) //post send data
+    "data" => array('etheraddr'=>$myEthAddr) //post send data
 );
 
 $response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConfig["data"]);
