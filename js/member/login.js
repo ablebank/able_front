@@ -53,7 +53,7 @@ var LogInJs = {
                         if(d.resultCode == 200 ){
                             //change check todo
 
-                            loginForm.submit();
+                            //loginForm.submit();
                             //location.href = "/member/memberInfo.php?email="+encodeURIComponent(d.email)+"&phone="+d.phone+"&myEthAddr="+myEthAddr.value;
                             return false;
                         }else{
