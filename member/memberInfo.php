@@ -2,10 +2,10 @@
 include(dirname(__DIR__).'/library/common.php'); //domain check
 print_r($_POST);
 $user["email"] = isset($_POST["Hemail"]) ? $_POST["Hemail"] : "";
-$user["phone"] = isset($_POST["Hcountry"]) ? $_POST["Hcountry"] : "";
-$user["Hphone"] = isset($_POST["Hphone"]) ? $_POST["Hphone"] : "";
-$user["Hauth_type"] = isset($_POST["Hauth_type"]) ? $_POST["Hauth_type"] : "";
-$user["HmyEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
+$user["country"] = isset($_POST["Hcountry"]) ? $_POST["Hcountry"] : "";
+$user["phone"] = isset($_POST["Hphone"]) ? $_POST["Hphone"] : "";
+$user["auth_type"] = isset($_POST["Hauth_type"]) ? $_POST["Hauth_type"] : "";
+$user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
 
 print_r($user);
 ?>
