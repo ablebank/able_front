@@ -38,6 +38,7 @@
         <input type="hidden" id="Hcountry" name="Hconutry">
         <input type="hidden" id="Hphone" name="Hphone">
         <input type="hidden" id="Hauth_type" name="Hauth_type">
+        <input type="hidden" id="HmyEthAddr" name="HmyEthAddr">
         <label>EMAIL</label>
         <div id="box-1" class="input-group">
             <input id="email" type="text" class="form-control" name="email" placeholder="이메일 주소를 입력해주세요" required="required">

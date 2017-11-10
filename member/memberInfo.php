@@ -1,8 +1,10 @@
 <?php
 include(dirname(__DIR__).'/library/common.php'); //domain check
-$email = isset($_GET["email"]) ? $_GET["email"] : "";
-$phone = isset($_GET["phone"]) ? $_GET["phone"] : "";
-$myEthAddr = isset($_GET["myEthAddr"]) ? $_GET["myEthAddr"] : "";
+$user["email"] = isset($_POST["Hemail"]) ? $_POST["Hemail"] : "";
+$user["phone"] = isset($_POST["Hcountry"]) ? $_POST["Hcountry"] : "";
+$user["Hphone"] = isset($_POST["Hphone"]) ? $_POST["Hphone"] : "";
+$user["Hauth_type"] = isset($_POST["Hauth_type"]) ? $_POST["Hauth_type"] : "";
+$user["HmyEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,20 +44,20 @@ $myEthAddr = isset($_GET["myEthAddr"]) ? $_GET["myEthAddr"] : "";
     <div class="loginForm">
         <label>Email</label>
         <div id="box-1" class="input-group">
-            <?php echo urldecode($email)?>
+            <?php echo $user["email"]?>
         </div>
         <label>Phone</label>
         <div id="box-2" class="input-group">
-            <?php echo $phone?>
+            <?php echo $user["phone"]?>
         </div>
         <label>My Ether Wallet Address</label>
         <div id="box-3" class="input-group">
-            <?php echo $myEthAddr?>
+            <?php echo $user["myEthAddr"]?>
         </div>
-        <!--<label>ABLE Ether Wallet Address</label>
+        <label>ABLE Ether Wallet Address</label>
         <div id="box-2" class="input-group">
             0x09B687Fe98491cB1C0ad9Fc957b29e209c845364
-        </div>-->
+        </div>
 
         <div class="addr-action-box">
             <a href="https://etherscan.io/address/<?php echo $myEthAddr?>" class="btn addr-info-btn" target="_blank">내 주소 조회하기</a>

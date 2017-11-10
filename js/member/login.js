@@ -3,7 +3,6 @@ var LogInJs = {
     init: function(){
         var email = document.querySelector("#email");
         var myEthAddr = document.querySelector("#myEthAddr");
-        //var password = document.querySelector("#password");
 
         var self = this;
 
@@ -28,6 +27,7 @@ var LogInJs = {
                 //ajax
                 var Hemail, Hcountry, Hphone, Hauth_type;
 
+                loginForm = document.querySelector(".loginForm");
                 Hemail = document.querySelector("#Hemail");
                 Hcountry = document.querySelector("#Hcountry");
                 Hphone = document.querySelector("#Hphone");
@@ -44,13 +44,17 @@ var LogInJs = {
                     },
                     dataType: 'json',
                     success: function(d){
-                        console.log(d);
+                        Hemail = d.email;
+                        Hcountry = d.contry;
+                        Hphone = d.phone;
+                        Hauth_type = d.auth_type;
+                        HmyEthAddr = myEthAddr.value;
 
                         if(d.resultCode == 200 ){
                             //change check todo
 
+                            loginForm.submit();
                             //location.href = "/member/memberInfo.php?email="+encodeURIComponent(d.email)+"&phone="+d.phone+"&myEthAddr="+myEthAddr.value;
-                            //alert("login success");
                             return false;
                         }else{
                             alert("로그인에 실패하였습니다\n다시 시도 해주세요");
