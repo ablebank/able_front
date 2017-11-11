@@ -15,9 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:url" content="https://www.able-project.io/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="able-project" />
+    <meta property="og:title" content="ABLE-PROJECT" />
     <meta property="og:description" content="Asia's First Global Block Chain Expert Bank" />
-    <meta property="og:image" content="<?php echo $dm?>/images/logo_file_thum.png?d=20171020" />
+    <meta property="og:image" content="<?php echo $dm?>/images/logo_file_thum.png?d=2017102011" />
     <meta property="og:width" content="400" />
     <meta property="og:height" content="210" />
 
