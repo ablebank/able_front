@@ -1,8 +1,6 @@
 <?php
 include(dirname(__DIR__).'/library/common.php'); //domain check
-include(dirname(__DIR__).'/library/Requests.php'); //request for php class (개좋다 씨발 무조건 이거 써야게네)
 
-print_r($_POST);
 $user["email"] = isset($_POST["Hemail"]) ? $_POST["Hemail"] : "";
 $user["country"] = isset($_POST["Hcountry"]) ? $_POST["Hcountry"] : "";
 $user["phone"] = isset($_POST["Hphone"]) ? $_POST["Hphone"] : "";
@@ -11,26 +9,6 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
 
 
 Requests::register_autoloader(); //autoloader
-
-////////////////////////
-//server curl connection
-//etherscan/api/account/txbalance
-////////////////////////
-/*
-$user["myEthAddr"] = "0xF2015A9160C9C9381FF99F19Fc18E5Af57cAc8Ed";
-
-$httpConfig = array(
-    "url" => $apiHost.'etherscan/api/account/txbalance', //url
-    "headers" => array('Accept' => 'application/json'), //send header
-    "data" => array('etheraddr'=>$user["myEthAddr"]) //post send data
-);
-
-$response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConfig["data"]);
-
-//$rsDate = json_decode($response->body);
-*/
-//header('Content-Type: application/json');
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -83,9 +61,9 @@ $response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConf
             0x09B687Fe98491cB1C0ad9Fc957b29e209c845364
         </div>
 
-        <div class="addr-action-box">
+        <!--<div class="addr-action-box">
             <a href="https://etherscan.io/address/<?php echo $myEthAddr?>" class="btn addr-info-btn" target="_blank">내 주소 조회하기</a>
-        </div>
+        </div>-->
     </div>
 </div>
 
@@ -95,6 +73,32 @@ $response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConf
 <script src="<?php echo $dm?>/js/jquery.validate.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/md5.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/member/memberInfo.js?d=2017101101201" type="text/javascript"></script>
+<script type="text/javascript">
+    //ajax
+    var myEthAddr = "<?php echo $user["myEthAddr"]?>";
+
+    urls = "/gateway/getSend_eth.php";
+
+    $.ajax({
+        url: urls,
+        method: 'POST',
+        data: {
+            myEthAddr: myEthAddr
+        },
+        dataType: 'json',
+        success: function(d){
+            console.log(d)
+
+            if(d.resultCode == 200 ){
+                //change check todo
+
+            }else{
+                alert("로그인에 실패하였습니다\n다시 시도 해주세요");
+                return false;
+            }
+        }
+    });
+</script>
 </body>
 
 </html>

@@ -5,23 +5,22 @@ include(dirname(__DIR__).'/library/Requests.php'); //request for php class (ê°œì
 
 Requests::register_autoloader(); //autoloader
 
-/////////////////
-//ajax data bind
-////////////////
-$mailAuthKey = isset($_POST["mailAuthKey"]) ? $_POST["mailAuthKey"] : false;
-$email       = isset($_POST["email"]) ? $_POST["email"] : false;
-
 ////////////////////////
 //server curl connection
+//etherscan/api/account/txbalance
 ////////////////////////
+$mailAuthKey = isset($_POST["myEthAddr"]) ? $_POST["myEthAddr"] : false;
+
+
 $httpConfig = array(
-    "url" => $apiHost.'/ico/verify/auth/email/'.$mailAuthKey, //url
+    "url" => $apiHost.'etherscan/api/account/txbalance', //url
     "headers" => array('Accept' => 'application/json'), //send header
-    "data" => array('email'=>$email) //post send data
+    "data" => array('etheraddr'=>$mailAuthKey) //post send data
 );
 
 $response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConfig["data"]);
 
+$rsDate = json_decode($response->body);
+
 header('Content-Type: application/json');
-echo $response->body;
 ?>
