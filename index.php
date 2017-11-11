@@ -7,11 +7,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>ABLE</title>
-    <meta name="Description" content="" />
     <meta name="Keywords" content="kblcokchain, able, cryptocoin mining, cryptocurrency, bitcoin, ethereum, ico, blockchain, bank, project, able-project, able_project, able.io" />
     <meta name="robots" content="index, follow, noodp" />
     <meta name="author" content="able-project.io" />
     <meta name="copyright" content="(c) 2017 able-project.io. All rights reserved" />
+    <meta name="description" content="ABLE PROJECT는 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 블록체인 전문 은행입니다. 블록체인 시스템의 투명성, 불변성, 보안 및 신뢰성을 기반으로 은행순수익의 40%를 프로젝트 참여자들에게 공유합니다. ABLE PROJECT는 블록체인 스마트 컨트랙트를 기반으로 암호화폐 예금 및 대출 서비스를 실현하며, 암호화폐 자산관리 서비스로  벤처투자, 채권, 마이닝, 알트코인 트레이딩, NPL부동산, ICO 등의 다양한 금융상품 서비스를 제공합니다." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:url" content="https://www.able-project.io/" />
     <meta property="og:type" content="website" />
