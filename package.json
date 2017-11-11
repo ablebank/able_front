@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/kblockchain/able_front#readme",
   "dependencies": {
+    "promise": "^8.0.1",
     "require": "^2.4.20",
-    "web3": "^1.0.0-beta.24"
+    "web3": "github:ethereum/web3.js"
   }
 }
