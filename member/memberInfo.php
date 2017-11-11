@@ -7,8 +7,6 @@ $user["phone"] = isset($_POST["Hphone"]) ? $_POST["Hphone"] : "";
 $user["auth_type"] = isset($_POST["Hauth_type"]) ? $_POST["Hauth_type"] : "";
 $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
 
-
-Requests::register_autoloader(); //autoloader
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +60,7 @@ Requests::register_autoloader(); //autoloader
         </div>
 
         <!--<div class="addr-action-box">
-            <a href="https://etherscan.io/address/<?php echo $myEthAddr?>" class="btn addr-info-btn" target="_blank">내 주소 조회하기</a>
+            <a href="https://etherscan.io/address/<?php echo $user["myEthAddr"]?>" class="btn addr-info-btn" target="_blank">내 주소 조회하기</a>
         </div>-->
     </div>
 </div>
