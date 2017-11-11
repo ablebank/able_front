@@ -20,6 +20,7 @@ body{
 }
 
 .loginForm {
+    font-size:1.4rem;
     background-color: white;
     width: 50%;
     margin: 40px auto 20px auto;
@@ -30,7 +31,7 @@ body{
     border-bottom:solid 1px #ddd;
 }
 .loginForm label{
-    margin-top:15px;
+    margin-top:30px;
 }
 .loginForm h4{
     text-align:center;

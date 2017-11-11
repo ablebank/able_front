@@ -59,15 +59,19 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
             0x09B687Fe98491cB1C0ad9Fc957b29e209c845364
         </div>
 
-        <p class="send-box">
-            <?php echo $user["email"]?>님은 <span class="send-eth">4</span> ETH 를 기부하였습니다. BITBANK 거래소에서 받으실 TOKEN 개수는 <span class="receive-token">20000</span> ABLE 입니다.
-        </p>
-        <p class="receive-box">
-            BITBANK 거래소에서 받으실 TOKEN 개수는 <span class="receive-token">20000</span> ABLE 입니다.
-        </p>
-        <!--<div class="addr-action-box">
+        <label>SEND ETH</label>
+        <div id="box-4" class="input-group">
+            기부하신 금액은 총 <span class="send-eth"></span> ETH 입니다.
+        </div>
+
+        <label>RECIVE ABLE</label>
+        <div id="box-4" class="input-group">
+            받으실 ABLE 토큰 갯수는 총 <span class="receive-token"></span> ABLE 입니다.
+        </div>
+
+        <div class="addr-action-box">
             <a href="https://etherscan.io/address/<?php echo $user["myEthAddr"]?>" class="btn addr-info-btn" target="_blank">내 주소 조회하기</a>
-        </div>-->
+        </div>
     </div>
 </div>
 
@@ -99,12 +103,16 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
 
             if(d.resultCode == 200 ){
                 //change check todo
-                sendEth.value = sendEth.toString();
-                receiveToken.value = receiveToken.toString();
+                sendEth.innerText = d.balance.toString();
+                receiveToken.innerText = d.able_balance.toString();
+            }else{
+                sendEth.innerText = "0";
+                receiveToken.innerText = "0";
             }
         },
-        error: function(d){
-            alert('error');
+        error: function(e){
+            sendEth.innerText = "0";
+            receiveToken.innerText = "0";
         }
     });
 </script>
