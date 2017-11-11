@@ -21,7 +21,6 @@ $httpConfig = array(
 
 $response = Requests::post($httpConfig["url"], $httpConfig["headers"], $httpConfig["data"]);
 
-$rsDate = json_decode($response->body);
-
 header('Content-Type: application/json');
+echo $response->body;
 ?>
