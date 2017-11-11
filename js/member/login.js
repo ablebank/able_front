@@ -54,7 +54,6 @@ var LogInJs = {
                             //change check todo
 
                             loginForm.submit();
-                            //location.href = "/member/memberInfo.php?email="+encodeURIComponent(d.email)+"&phone="+d.phone+"&myEthAddr="+myEthAddr.value;
                             return false;
                         }else{
                             alert("로그인에 실패하였습니다\n다시 시도 해주세요");

@@ -11,7 +11,7 @@ Requests::register_autoloader(); //autoloader
 ////////////////////////
 $etheraddr = isset($_POST["myEthAddr"]) ? $_POST["myEthAddr"] : false;
 
-$etheraddr = '0x09B687Fe98491cB1C0ad9Fc957b29e209c845364';
+$etheraddr = '0x69B47313f6ad88fDF1F5CBBECb5E8B2016838595';
 
 $httpConfig = array(
     "url" => $apiHost.'/etherscan/api/account/txbalance', //url
