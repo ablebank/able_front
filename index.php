@@ -11,7 +11,7 @@
     <meta name="robots" content="index, follow, noodp" />
     <meta name="author" content="able-project.io" />
     <meta name="copyright" content="(c) 2017 able-project.io. All rights reserved" />
-    <meta name="description" content="ABLE PROJECT는 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 블록체인 전문 은행입니다. 마이닝, 트레이딩, NPL부동산 등의 다양한 금융상품 서비스를 제공합니다." />
+    <meta name="description" content="ABLE PROJECT는 암호화폐의 예금 및 대출, 자산관리(NPL부동산,트레이딩,마이닝) 서비스를 제공하는 블록체인 전문 은행입니다." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:url" content="https://www.able-project.io/" />
     <meta property="og:type" content="website" />
@@ -21,6 +21,7 @@
     <meta property="og:width" content="400" />
     <meta property="og:height" content="103" />
 
+    <link rel="canonical" href="https://www.able-project.io" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
@@ -971,22 +972,9 @@
   <script src="<?php echo $dm?>/js/jquery.waypoints.min.js"></script>
   <script src="<?php echo $dm?>/js/fadeInScroll.jQuery.js"></script>
   <script src="<?php echo $dm?>/js/modernizr.js"></script>
-  <script src="<?php echo $dm?>/js/main.js?d=201710201112121"></script>
+  <script src="<?php echo $dm?>/js/main.js?d=201710201111256"></script>
   <script src="<?php echo $dm?>/js/scrollSpy.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/scrollto.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/anim_scroll.js" type="text/javascript"></script>
-  <script>
-      getTimeIcoDate();
-
-      //메인 section의 크기를 감지하여 캔버스의 크기를 똑같이 맞춰서 늘려준다.
-      var mainEl = document.querySelector("#mainSection");
-      var canvasEl = document.querySelector("canvas");
-
-      //canvas height 수정
-      canvasEl.style.height = mainEl.scrollHeight+"px";
-
-      //canvas width 수정
-      canvasEl.style.width = mainEl.scrollWidth+"px";
-  </script>
 </body>
 </html>

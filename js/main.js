@@ -159,9 +159,27 @@ function get_version_of_IE () {
     return version;
 }
 
+/////////////////////////////
+//canvas fix position
+/////////////////////////////
+function canvasFix(){
+	//메인 section의 크기를 감지하여 캔버스의 크기를 똑같이 맞춰서 늘려준다.
+    var mainEl = document.querySelector("#mainSection");
+    var canvasEl = document.querySelector("canvas");
+
+	//canvas height 수정
+    canvasEl.style.height = mainEl.scrollHeight+"px";
+
+	//canvas width 수정
+    canvasEl.style.width = mainEl.scrollWidth+"px";
+}
+
 var ie_ver = get_version_of_IE();
 
 if(ie_ver == "11.0"){
     //var canvasEl = document.querySelector("canvas");
     //console.log(canvasEl);
 }
+
+getTimeIcoDate();
+canvasFix();
