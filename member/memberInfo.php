@@ -61,12 +61,12 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
 
         <label>SEND ETH</label>
         <div id="box-4" class="input-group">
-            기부하신 금액은 총 <span class="send-eth"></span> ETH 입니다.
+            기부하신 금액은 총 <span class="send-eth"></span><span class="font-up"> ETH</span> 입니다.
         </div>
 
         <label>RECIVE ABLE</label>
         <div id="box-4" class="input-group">
-            받으실 ABLE 토큰 갯수는 총 <span class="receive-token"></span> ABLE 입니다.
+            받으실 ABLE 토큰 갯수는 총 <span class="receive-token"></span><span class="font-up"> ABLE</span> 입니다.
         </div>
 
         <div class="addr-action-box">
