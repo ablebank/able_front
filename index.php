@@ -47,9 +47,7 @@
 <script type="text/javascript">
     var mouseX = 0, mouseY = 0,
         windowHalfX = window.innerWidth / 2,
-        //windowHalfY = 100000,
         windowHalfY = window.innerHeight / 2,
-        //SEPARATION = 100, AMOUNTX = 10000, AMOUNTY = 10000,
         camera, scene, renderer;
     init();
     animate();
