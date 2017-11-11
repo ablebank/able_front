@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>ABLE</title>
     <meta name="Description" content="" />
-    <meta name="Keywords" content="kblcokchain, able, cryptocoin mining, cryptocurrency, bitcoin, ethereum" />
+    <meta name="Keywords" content="kblcokchain, able, cryptocoin mining, cryptocurrency, bitcoin, ethereum, ico, blockchain, bank, project, able-project, able_project, able.io" />
     <meta name="robots" content="index, follow, noodp" />
     <meta name="author" content="able-project.io" />
     <meta name="copyright" content="(c) 2017 able-project.io. All rights reserved" />
@@ -17,9 +17,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="able-project" />
     <meta property="og:description" content="Asia's First Global Block Chain Expert Bank" />
-    <meta property="og:image" content="<?php echo $dm?>/images/logo_file.png?d=20171020" />
-    <meta property="og:width" content="200" />
-    <meta property="og:height" content="100" />
+    <meta property="og:image" content="<?php echo $dm?>/images/logo_file_thum.png?d=20171020" />
+    <meta property="og:width" content="400" />
+    <meta property="og:height" content="210" />
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
