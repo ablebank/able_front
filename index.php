@@ -11,7 +11,7 @@
     <meta name="robots" content="index, follow, noodp" />
     <meta name="author" content="able-project.io" />
     <meta name="copyright" content="(c) 2017 able-project.io. All rights reserved" />
-    <meta name="description" content="ABLE PROJECT는 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 블록체인 전문 은행입니다. 스마트 컨트랙트를 기반으로 채권, 마이닝, 알트코인 트레이딩, NPL부동산 등의 다양한 금융상품 서비스를 제공합니다." />
+    <meta name="description" content="ABLE PROJECT는 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 블록체인 전문 은행입니다. 마이닝, 트레이딩, NPL부동산 등의 다양한 금융상품 서비스를 제공합니다." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:url" content="https://www.able-project.io/" />
     <meta property="og:type" content="website" />
