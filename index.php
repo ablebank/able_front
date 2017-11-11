@@ -17,9 +17,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="ABLE-PROJECT" />
     <meta property="og:description" content="Asia's First Global Block Chain Expert Bank" />
-    <meta property="og:image" content="<?php echo $dm?>/images/logo_file_thum.png?d=2017102011" />
+    <meta property="og:image" content="<?php echo $dm?>/images/logo_file_thum.v1.png?d=2017102011" />
     <meta property="og:width" content="400" />
-    <meta property="og:height" content="210" />
+    <meta property="og:height" content="103" />
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
