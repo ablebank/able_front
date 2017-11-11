@@ -14,7 +14,7 @@ $etheraddr = isset($_POST["myEthAddr"]) ? $_POST["myEthAddr"] : false;
 $etheraddr = '0x09B687Fe98491cB1C0ad9Fc957b29e209c845364';
 
 $httpConfig = array(
-    "url" => $apiHost.'etherscan/api/account/txbalance', //url
+    "url" => $apiHost.'/etherscan/api/account/txbalance', //url
     "headers" => array('Accept' => 'application/json'), //send header
     "data" => array('etheraddr'=>$etheraddr) //post send data
 );
