@@ -59,8 +59,11 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
             0x09B687Fe98491cB1C0ad9Fc957b29e209c845364
         </div>
 
-        <p>
-            <?php echo $user["email"]?>님은 <span class="send-eth">4</span> ETH 를 기부하였습니다. BITBANK 거래소에서 받으실 TOKEN 개수는 <span class="recive-token">20000</span> ABLE 입니다.
+        <p class="send-box">
+            <?php echo $user["email"]?>님은 <span class="send-eth">4</span> ETH 를 기부하였습니다. BITBANK 거래소에서 받으실 TOKEN 개수는 <span class="receive-token">20000</span> ABLE 입니다.
+        </p>
+        <p class="receive-box">
+            BITBANK 거래소에서 받으실 TOKEN 개수는 <span class="receive-token">20000</span> ABLE 입니다.
         </p>
         <!--<div class="addr-action-box">
             <a href="https://etherscan.io/address/<?php echo $user["myEthAddr"]?>" class="btn addr-info-btn" target="_blank">내 주소 조회하기</a>
@@ -78,6 +81,9 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
     //ajax
     var myEthAddr = "<?php echo $user["myEthAddr"]?>";
 
+    var sendEth = document.querySelector(".send-eth");
+    var receiveToken = document.querySelector(".receive-token");
+
     urls = "/gateway/getSend_eth.php";
 
     $.ajax({
@@ -88,15 +94,17 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
         },
         dataType: 'json',
         success: function(d){
-            console.log(d)
+            console.log(d);
+
 
             if(d.resultCode == 200 ){
                 //change check todo
-
-            }else{
-                alert("로그인에 실패하였습니다\n다시 시도 해주세요");
-                return false;
+                sendEth.value = sendEth.toString();
+                receiveToken.value = receiveToken.toString();
             }
+        },
+        error: function(d){
+            alert('error');
         }
     });
 </script>

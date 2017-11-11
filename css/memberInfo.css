@@ -58,6 +58,24 @@ body{
     color:white;
 }
 
+.send-box{
+    font-size: 14px;
+}
+
+.receive-box{
+    font-size: 14px;
+}
+
+.send-eth{
+    color: #062DAE;
+    font-size:2rem;
+}
+
+.receive-token{
+    color: #062DAE;
+    font-size:2rem;
+}
+
 @media screen and (max-width: 1024px) {
     .loginForm{
         width:100%;
