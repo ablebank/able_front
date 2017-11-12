@@ -1,8 +1,11 @@
 <?php
 header("Content-Type: application/octet-stream");
 
-$file = "/library/able_white_paper.pdf";
-header("Content-Disposition: attachment; filename=" . urlencode($file));
+
+$file = dirname(__DIR__).'/library/able_white_paper.pdf';
+$fileName = 'able_white_paper.pdf';
+
+header("Content-Disposition: attachment; filename=" . $fileName);
 header("Content-Type: application/octet-stream");
 header("Content-Type: application/download");
 header("Content-Description: File Transfer");
