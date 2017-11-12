@@ -118,13 +118,6 @@
 <script src="<?php echo $dm?>/js/md5.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/library/build/js/countrySelect.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/member/signup.js?d=20171028001211211" type="text/javascript"></script>
-<script type="text/javascript">
-    $("#country").countrySelect();
-
-    var as = document.querySelector(".phone-code");
-    console.log(as);
-
-</script>
 </body>
 
 </html>
