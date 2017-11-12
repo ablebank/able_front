@@ -144,6 +144,10 @@ body .white{
   color:white;
 }
 
+.container-fluid{
+  padding-left:100px;
+  padding-right:100px;
+}
 /*
 ======================================
 text-common
