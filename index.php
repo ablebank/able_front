@@ -105,8 +105,13 @@
 
           <div>
               <a href="#" onclick="alert('11월15일 20시 이후 공개채팅방을 개설합니다.');return false;" id="kakaoTalk_v1"><span>Join KaKao Talk</span></a>
-              <a href="#" onclick="alert('11월15일 20시 이후\n로그인과 회원가입이 참여가 가능합니다.');return false;" id="signIn"><span>Sign In</span></a>
+              <?php if($dm == "http://dev.able-project.io"){?>
+                  <a href="/member/login.php" id="signIn"><span>SIGN IN</span></a>
+              <?php }else{?>
+                  <a href="#" onclick="alert('11월15일 20시 이후\n로그인과 회원가입이 참여가 가능합니다.');return false;" id="signIn"><span>Sign In</span></a>
+              <?php }?>
           </div>
+
         </div>
       </div>
     </div>
