@@ -66,7 +66,7 @@
             <li><a href="#roadmap">ROADMAP</a></li>
             <li><a href="#team">TEAM</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><a href="https://s3.ap-northeast-2.amazonaws.com/able-project/ABLE+Project+White+Paper.pdf" class="beta-styles" style="color: black" target="_blank">WHITEPAPER</a></li>
+            <li><a href="http://<?php echo $dm?>/library/whitepaper.php" class="beta-styles" style="color: black" target="_blank">WHITEPAPER</a></li>
           </ul>
         </nav>
         <a href="#" class="nav-toggle">Menu<span></span></a>
