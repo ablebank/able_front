@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>ABLE</title>
-    <meta name="Keywords" content="암호화폐, 은행, 예금, 자산관리, 전문은행, 에이블, kblcokchain, able, cryptocoin mining, cryptocurrency, bitcoin, ethereum, ico, blockchain, bank, project, able-project, able_project, able.io" />
+    <meta name="Keywords" content="암호화폐, 은행, 예금, 자산관리, 전문은행, 에이블, 에이블 프로젝트, kblcokchain, able, cryptocoin mining, cryptocurrency, bitcoin, ethereum, ico, blockchain, bank, project, able-project, able_project, able.io" />
     <meta name="robots" content="index, follow, noodp" />
     <meta name="author" content="able-project.io" />
     <meta name="copyright" content="(c) 2017 able-project.io. All rights reserved" />
