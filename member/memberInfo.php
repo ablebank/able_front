@@ -30,7 +30,7 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/memberInfo.css?d=2017101101021" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/memberInfo.css?d=2017101101332" />
 </head>
 
 <body class="login">
