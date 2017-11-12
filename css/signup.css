@@ -129,6 +129,10 @@ form label{
     border:solid 1px #848484;
     color:white;
 }
+#box-3 .input-group-addon{
+    background-color: #fff;
+}
+
 .input-group-btn .btn:hover{
     width:90px;
     height:40px;

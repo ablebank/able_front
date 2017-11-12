@@ -157,6 +157,7 @@ var SignUpJs = {
         smsSendBtn.addEventListener('click',function(){
             //vali
             var targetEl = document.querySelector("#box-3");
+            var countryEl = document.querySelector(".phone-code");
             var inputEl = document.querySelector("#phoneNumber");
 
             if(inputEl.value.length == 0){
@@ -183,7 +184,7 @@ var SignUpJs = {
                     phoneNumber: inputEl.value,
                     mail_key: self.authKey,
                     timestamp: self.timestamp,
-                    country: 82
+                    country: countryEl.selectedOptions[0].value
                 },
                 dataType: 'json',
                 success: function(d){

@@ -28,6 +28,7 @@
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/library/build/css/countrySelect.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/signup.css?d=2017102811122121212" />
 </head>
 
@@ -59,9 +60,14 @@
                     </div>
                 </div>
 
-
                 <label>SMS</label>
                 <div class="input-group" id="box-3">
+                    <span class="input-group-addon">
+                       <select name="country" class="phone-code">
+                           <option value="82" selected>KR</option>
+                           <option value="81">JPN</option>
+                       </select>
+                    </span>
                     <input id="phoneNumber" type="text" class="form-control" name="phoneNumber" placeholder="휴대폰번호를 입력하세요( - 제외)" required="required">
                     <div class="input-group-btn">
                         <span class="btn smsSendBtn">문자 전송</span>
@@ -110,7 +116,15 @@
 <script src="<?php echo $dm?>/js/js.cookie.min.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/jquery.validate.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/md5.js" type="text/javascript"></script>
+<script src="<?php echo $dm?>/library/build/js/countrySelect.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/member/signup.js?d=20171028001211211" type="text/javascript"></script>
+<script type="text/javascript">
+    $("#country").countrySelect();
+
+    var as = document.querySelector(".phone-code");
+    console.log(as);
+
+</script>
 </body>
 
 </html>
