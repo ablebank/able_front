@@ -29,7 +29,7 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/library/build/css/countrySelect.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/signup.css?d=2017102811122121212" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/signup.css?d=20171028092" />
 </head>
 
 <body class="signup">
