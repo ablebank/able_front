@@ -184,7 +184,7 @@ var SignUpJs = {
                     phoneNumber: inputEl.value,
                     mail_key: self.authKey,
                     timestamp: self.timestamp,
-                    country: countryEl.selectedOptions[0].value
+                    country: parseInt(countryEl.selectedOptions[0].value)
                 },
                 dataType: 'json',
                 success: function(d){
