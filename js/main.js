@@ -228,7 +228,7 @@ function exchangeAble(eth){
 	var ableTokenValue = 4940;
 	var totalAbleToken = ableTokenValue * eth;
 
-	return Math.ceil(totalAbleToken);
+	return Math.floor(totalAbleToken);
 }
 
 
