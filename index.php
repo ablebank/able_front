@@ -989,6 +989,17 @@
   <script src="<?php echo $dm?>/js/scrollSpy.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/scrollto.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/anim_scroll.js" type="text/javascript"></script>
-
+<script type="text/javascript">
+    $scope.touchMove = function(e) {
+        e.preventDefault();
+        var tObj = canvas.getActiveObject();
+        if(!tObj){
+            $scope.doubleTapEvent = true;
+        }
+    };
+    $scope.scroll_Off = function(){
+        $scope.doubleTapEvent = false;
+    }
+</script>
 </body>
 </html>
