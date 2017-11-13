@@ -107,11 +107,11 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
             <div class="portlet-title">
                 <div class="caption">
                     <i class="glyphicon glyphicon-unchecked"></i>
-                    <span class="caption-subject text-uppercase"> RECIVE ABLE TOKEN</span>
+                    <span class="caption-subject text-uppercase"> RECIEVE ABLE TOKEN</span>
                 </div>
             </div>
             <div class="portlet-body">
-                <h5>받으실 ABLE 토큰 갯수는 총 <span class="receive-token"></span><span class="font-up"> ABLE</span> 입니다.</h5>
+                <h5>받으실 ABLE 토큰 개수는 총 <span class="receive-token"></span><span class="font-up"> ABLE</span> 입니다.</h5>
             </div>
         </div>
 
