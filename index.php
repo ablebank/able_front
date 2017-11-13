@@ -112,14 +112,14 @@
               <?php }?>
           </div>
 
-          <!--<div class="coin-limit-box">
+          <div class="coin-limit-box">
               <span class="coin-limit-box-title">READY 29,640,000 ABLE&nbsp;&nbsp;|&nbsp;&nbsp;1ETH = 4940 ABLE</span>
               <div class="progress-coin">
                   <span class="use-progess"></span>
                   <span class="avail-progess"></span>
               </div>
               <span class="use-text"><span class="current-able-token">2964000</span> ABLE</span>
-          </div>-->
+          </div>
         </div>
       </div>
     </div>
