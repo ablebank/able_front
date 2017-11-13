@@ -95,11 +95,11 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
             <div class="portlet-title">
                 <div class="caption">
                     <i class="glyphicon glyphicon-unchecked"></i>
-                    <span class="caption-subject text-uppercase"> SEND ETH</span>
+                    <span class="caption-subject text-uppercase"> SEND ETHER</span>
                 </div>
             </div>
             <div class="portlet-body">
-                <h5>기부하신 금액은 총 <span class="send-eth"></span><span class="font-up"> ETH</span> 입니다.</h5>
+                <h5>기부하신 금액은 총 <span class="send-eth"></span><span class="font-up"> ETHER</span> 입니다.</h5>
             </div>
         </div>
 
