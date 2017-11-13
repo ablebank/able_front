@@ -201,7 +201,7 @@ function getSendEth(){
                 //change check todo
 				if(d.balance != 0){
                     exchangeAbleToken = exchangeAble(d.balance);
-                    albeTokenText.innerText(exchangeAbleToken);
+                    albeTokenText.innerText = exchangeAbleToken;
 
                     useWidth = ableToken / (maxAbleToken / 100) * multiplePer;
 					availWidth = 100 - useWidth;
