@@ -141,7 +141,7 @@
             <br>
             주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
             <br><br>
-            대기자금은 Minning, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
+            대기자금은 Mining, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
             <br>
             ABLE PROJECT의 <span>수익</span>을 <span>극대화</span> 시켜줍니다.
             <br><br>
@@ -163,7 +163,7 @@
                     ABLE PROJECT는 암호화폐기반 예금/대출상품의 설계(Smart Contract)를 통해
                     주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
                     <br><br>
-                    대기자금은 Minning, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
+                    대기자금은 Mining, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
                     ABLE PROJECT의 <span>수익</span>을 <span>극대화</span> 시켜줍니다.
                     <br><br>
                     ABLE PROJECT는 암호화폐의 금융화 안전한 관리 이외 VR, AI, 바이오 등
