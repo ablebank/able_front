@@ -205,7 +205,8 @@ function getSendEth(){
 
                     useWidth = ableToken / (maxAbleToken / 100) * multiplePer;
 					availWidth = 100 - useWidth;
-
+					console.log(useWidth)
+                    console.log(availWidth)
                     useProgess.style.width = useWidth+"%";
                     availProgess.style.width = availWidth+"%";
 				}
@@ -225,24 +226,11 @@ function getSendEth(){
 function exchangeAble(eth){
 	//0.1 = 494 , 0.01 49.4 , 0.001 4.94
 	var ableTokenValue = 4940;
-	var totalAbleToken = ableTokenValue * Math.ceil(eth);
+	var totalAbleToken = ableTokenValue * eth;
 
-	return totalAbleToken;
+	return Math.ceil(totalAbleToken);
 }
 
-function progessWidth(buyAbleToken){
-
-	var availAbleToken = 29640000;
-
-	var useWidth = 0;
-	var availWidth = 0;
-
-	useWidth = 29640000 / buyAbleToken; //지급될 토큰수량 %
-	availWidth = 100 - useWidth;
-
-	console.log(useWidth);
-    console.log(availWidth);
-}
 
 var ie_ver = get_version_of_IE();
 
