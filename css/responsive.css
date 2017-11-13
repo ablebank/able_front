@@ -210,7 +210,12 @@ mainSection
 .coin-limit-box .use-text{
   font-size:1.1rem;
 }
-
+.coin-limit-box .use-progess{
+  height:15px;
+}
+.coin-limit-box .avail-progess{
+  height:15px;
+}
 /*==============================
 about
 ===============================*/
