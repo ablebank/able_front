@@ -44,7 +44,7 @@
   <script src="<?php echo $dm?>/js/canvas-init.js"></script>
   <!-- Custom styles for this template -->
 </head>
-<body>
+<body onload="startup()">
 <script type="text/javascript">
     var mouseX = 0, mouseY = 0,
         windowHalfX = window.innerWidth / 2,
@@ -1073,13 +1073,15 @@
             ongoingTouches.splice(idx, 1);  // remove it; we're done
         }
     }
-    
-    var el = document.getElementsByTagName("canvas")[0];
-    el.addEventListener("touchstart", handleStart, false);
-    el.addEventListener("touchend", handleEnd, false);
-    el.addEventListener("touchcancel", handleCancel, false);
-    el.addEventListener("touchmove", handleMove, false);
-    log("initialized.");
+
+    function startup() {
+        var el = document.getElementsByTagName("canvas")[0];
+        el.addEventListener("touchstart", handleStart, false);
+        el.addEventListener("touchend", handleEnd, false);
+        el.addEventListener("touchcancel", handleCancel, false);
+        el.addEventListener("touchmove", handleMove, false);
+        log("initialized.");
+    }
 </script>
 </body>
 </html>
