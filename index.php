@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=20170925131411" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513141" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=201709251323212" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
@@ -45,7 +45,6 @@
   <!-- Custom styles for this template -->
 </head>
 <body>
-<div class="scroll-wrapper">
 <script type="text/javascript">
     var mouseX = 0, mouseY = 0,
         windowHalfX = window.innerWidth / 2,
@@ -54,7 +53,6 @@
     init();
     animate();
 </script>
-</div>
   <section id="mainSection">
     <header id="header">
       <div class="header-content clearfix">
