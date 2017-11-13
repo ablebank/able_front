@@ -30,7 +30,7 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/memberInfo.css?d=2017101101332" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $dm?>/css/memberInfo.css?d=201710110134" />
 </head>
 
 <body class="login">
@@ -41,32 +41,78 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
         </a>
         <h5>YOUR ACCOUNT INFORMATION</h5>
     </div>
+
     <div class="loginForm">
-        <label>Email</label>
-        <div id="box-1" class="input-group">
-            <?php echo $user["email"]?>
-        </div>
-        <label>Phone</label>
-        <div id="box-2" class="input-group">
-            <?php echo $user["phone"]?>
-        </div>
-        <label>My Ether Wallet Address</label>
-        <div id="box-3" class="input-group">
-            <?php echo $user["myEthAddr"]?>
-        </div>
-        <label>ABLE Ether Wallet Address</label>
-        <div id="box-4" class="input-group">
-            0x09B687Fe98491cB1C0ad9Fc957b29e209c845364
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="glyphicon glyphicon-unchecked"></i>
+                    <span class="caption-subject text-uppercase"> EMAIL</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <h5><?php echo $user["email"]?></h5>
+            </div>
         </div>
 
-        <label>SEND ETH</label>
-        <div id="box-4" class="input-group">
-            기부하신 금액은 총 <span class="send-eth"></span><span class="font-up"> ETH</span> 입니다.
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="glyphicon glyphicon-unchecked"></i>
+                    <span class="caption-subject text-uppercase"> PHONE</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <h5><?php echo $user["phone"]?></h5>
+            </div>
         </div>
 
-        <label>RECIVE ABLE</label>
-        <div id="box-4" class="input-group">
-            받으실 ABLE 토큰 갯수는 총 <span class="receive-token"></span><span class="font-up"> ABLE</span> 입니다.
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="glyphicon glyphicon-unchecked"></i>
+                    <span class="caption-subject text-uppercase"> MY ETHER WALLET ADDRESS</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <h5><?php echo $user["myEthAddr"]?></h5>
+            </div>
+        </div>
+
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="glyphicon glyphicon-unchecked"></i>
+                    <span class="caption-subject text-uppercase"> ABLE ETHER WALLET ADDRESS</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <h5>0x09B687Fe98491cB1C0ad9Fc957b29e209c845364</h5>
+            </div>
+        </div>
+
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="glyphicon glyphicon-unchecked"></i>
+                    <span class="caption-subject text-uppercase"> SEND ETH</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <h5>기부하신 금액은 총 <span class="send-eth"></span><span class="font-up"> ETH</span> 입니다.</h5>
+            </div>
+        </div>
+
+        <div class="portlet endBox">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="glyphicon glyphicon-unchecked"></i>
+                    <span class="caption-subject text-uppercase"> RECIVE ABLE TOKEN</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <h5>받으실 ABLE 토큰 갯수는 총 <span class="receive-token"></span><span class="font-up"> ABLE</span> 입니다.</h5>
+            </div>
         </div>
 
         <div class="addr-action-box">
@@ -98,8 +144,6 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
         },
         dataType: 'json',
         success: function(d){
-            console.log(d);
-
 
             if(d.resultCode == 200 ){
                 //change check todo

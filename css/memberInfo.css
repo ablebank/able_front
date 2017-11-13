@@ -20,9 +20,9 @@ body{
 }
 
 .loginForm {
-    font-size:1.4rem;
+    font-size:1.6rem;
     background-color: white;
-    width: 30%;
+    width: 35%;
     margin: 40px auto 20px auto;
     padding: 30px;
     overflow: hidden;
@@ -30,12 +30,31 @@ body{
     border-top:solid 1px #ddd;
     border-bottom:solid 1px #ddd;
 }
-.loginForm label{
-    margin-top:30px;
+.portlet{
+    padding-top:20px;
+    padding-bottom:20px;
 }
-.loginForm h4{
-    text-align:center;
+
+.portlet{
+    border-bottom:solid 1px #d9d9d9;
 }
+
+.endBox{
+    border-bottom:solid 0px white;
+}
+
+.portlet .caption i {
+    color: #e26a6a;
+}
+.portlet .caption{
+    font-size:1.5rem;
+    font-weight: 500;
+}
+.portlet .portlet-body h5{
+    font-size:1.8rem;
+    font-weight: 300;
+}
+
 .addr-action-box{
     margin-top:30px;
 }
