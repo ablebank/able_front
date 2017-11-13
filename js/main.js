@@ -174,6 +174,34 @@ function canvasFix(){
     canvasEl.style.width = mainEl.scrollWidth+"px";
 }
 
+///////////////////////////
+//get Use able Eth
+///////////////////////////
+function getSendEth(){
+    urls = "/gateway/current_eth.php";
+
+    $.ajax({
+        url: urls,
+        method: 'POST',
+        dataType: 'json',
+        success: function(d){
+
+            if(d.resultCode == 200 ){
+                //change check todo
+				console.log(d);
+
+                return false;
+            }else{
+                alert("로그인에 실패하였습니다\n다시 시도 해주세요");
+                return false;
+            }
+        },
+		error: function(e){
+        	alert("error");
+		}
+    });
+}
+
 var ie_ver = get_version_of_IE();
 
 if(ie_ver == "11.0"){
@@ -183,3 +211,4 @@ if(ie_ver == "11.0"){
 
 getTimeIcoDate();
 canvasFix();
+getSendEth();
