@@ -990,16 +990,12 @@
   <script src="<?php echo $dm?>/js/scrollto.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/anim_scroll.js" type="text/javascript"></script>
 <script type="text/javascript">
-    $scope.touchMove = function(e) {
-        e.preventDefault();
-        var tObj = canvas.getActiveObject();
-        if(!tObj){
-            $scope.doubleTapEvent = true;
-        }
-    };
-    $scope.scroll_Off = function(){
-        $scope.doubleTapEvent = false;
-    }
+    var el = document.getElementsByTagName("canvas")[0];
+    el.addEventListener("touchstart", handleStart, false);
+    el.addEventListener("touchend", handleEnd, false);
+    el.addEventListener("touchcancel", handleCancel, false);
+    el.addEventListener("touchmove", handleMove, false);
+    log("initialized.");
 </script>
 </body>
 </html>
