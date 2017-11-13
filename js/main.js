@@ -178,6 +178,18 @@ function canvasFix(){
 //get Use able Eth
 ///////////////////////////
 function getSendEth(){
+	var useWidth = 0; //모금액
+	var availWidth = 100; //가용금액
+    var ableToken = 4940; //1 eth 개수
+    var maxAbleToken = 29640000; //6000 eth 개수
+	var multiplePer = 6; //100%기준으로 전체 토큰량이 몇 배수인지
+
+	var reciveEthToken = 0;
+	var exchangeAbleToken = 0;
+	var useProgess = document.querySelector(".use-progess");
+    var availProgess = document.querySelector(".avail-progess");
+    var albeTokenText = document.querySelector(".current-able-token");
+
     urls = "/gateway/current_eth.php";
 
     $.ajax({
@@ -185,10 +197,18 @@ function getSendEth(){
         method: 'POST',
         dataType: 'json',
         success: function(d){
-
             if(d.resultCode == 200 ){
                 //change check todo
-				console.log(d);
+				if(d.balance != 0){
+                    exchangeAbleToken = exchangeAble(d.balance);
+                    albeTokenText.innerText(exchangeAbleToken);
+
+                    useWidth = ableToken / (maxAbleToken / 100) * multiplePer;
+					availWidth = 100 - useWidth;
+
+                    useProgess.style.width = useWidth+"%";
+                    availProgess.style.width = availWidth+"%";
+				}
 
                 return false;
             }else{
@@ -202,6 +222,28 @@ function getSendEth(){
     });
 }
 
+function exchangeAble(eth){
+	//0.1 = 494 , 0.01 49.4 , 0.001 4.94
+	var ableTokenValue = 4940;
+	var totalAbleToken = ableTokenValue * Math.ceil(eth);
+
+	return totalAbleToken;
+}
+
+function progessWidth(buyAbleToken){
+
+	var availAbleToken = 29640000;
+
+	var useWidth = 0;
+	var availWidth = 0;
+
+	useWidth = 29640000 / buyAbleToken; //지급될 토큰수량 %
+	availWidth = 100 - useWidth;
+
+	console.log(useWidth);
+    console.log(availWidth);
+}
+
 var ie_ver = get_version_of_IE();
 
 if(ie_ver == "11.0"){
@@ -212,3 +254,4 @@ if(ie_ver == "11.0"){
 getTimeIcoDate();
 canvasFix();
 getSendEth();
+exchangeAble();

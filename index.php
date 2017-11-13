@@ -118,7 +118,7 @@
                   <span class="use-progess"></span>
                   <span class="avail-progess"></span>
               </div>
-              <span class="use-text">2964000 ABLE</span>
+              <span class="use-text"><span class="current-able-token">2964000</span> ABLE</span>
           </div>-->
         </div>
       </div>
