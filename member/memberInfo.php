@@ -95,7 +95,7 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
             <div class="portlet-title">
                 <div class="caption">
                     <i class="glyphicon glyphicon-unchecked"></i>
-                    <span class="caption-subject text-uppercase"> SEND ETHER</span>
+                    <span class="caption-subject text-uppercase"> SENT ETHER</span>
                 </div>
             </div>
             <div class="portlet-body">
@@ -107,7 +107,7 @@ $user["myEthAddr"] = isset($_POST["HmyEthAddr"]) ? $_POST["HmyEthAddr"] : "";
             <div class="portlet-title">
                 <div class="caption">
                     <i class="glyphicon glyphicon-unchecked"></i>
-                    <span class="caption-subject text-uppercase"> RECIEVE ABLE TOKEN</span>
+                    <span class="caption-subject text-uppercase"> RECEIVE ABLE TOKEN</span>
                 </div>
             </div>
             <div class="portlet-body">
