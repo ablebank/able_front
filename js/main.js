@@ -204,7 +204,7 @@ function getSendEth(){
                     albeTokenText.innerText = exchangeAbleToken;
 
                     useWidth = (ableToken / maxAbleToken) / 100;
-					availWidth = 100 - Math.ceil(useWidth);
+					availWidth = 100 - Math.floor(useWidth);
 
                     useProgess.style.width = useWidth+"%";
                     availProgess.style.width = availWidth+"%";
