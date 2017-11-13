@@ -440,7 +440,7 @@ ul li {
 	캔버스 셋팅
 ========================================================================== */
 body .webGl{
-  position:absolute;
+  /*position:absolute;*/
   overflow-y: hidden;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
