@@ -205,7 +205,8 @@ function getSendEth(){
 
                     useWidth = (ableToken / maxAbleToken) / 100;
 					availWidth = 100 - Math.floor(useWidth);
-
+					console.log(useWidth);
+                    console.log(availWidth);
                     useProgess.style.width = useWidth+"%";
                     availProgess.style.width = availWidth+"%";
 				}
