@@ -441,10 +441,15 @@ ul li {
 ========================================================================== */
 body .webGl{
   position:absolute;
+  overflow-y: hidden;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
-
+canvas{
+  overflow-y: hidden;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
 
 /* ==========================================================================
     $main box
