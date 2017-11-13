@@ -203,10 +203,9 @@ function getSendEth(){
                     exchangeAbleToken = exchangeAble(d.balance);
                     albeTokenText.innerText = exchangeAbleToken;
 
-                    useWidth = ableToken / (maxAbleToken / 100) * multiplePer;
+                    useWidth = ableToken / (maxAbleToken / 100;
 					availWidth = 100 - useWidth;
-					console.log(useWidth)
-                    console.log(availWidth)
+					
                     useProgess.style.width = useWidth+"%";
                     availProgess.style.width = availWidth+"%";
 				}
