@@ -656,7 +656,7 @@ body .webGl{
 }
 .no-box .box-container__digit:after {
   content: ":";
-  margin-left: 12px;
+  margin-left: 33px;
 }
 .no-box .box-container__digit-last:after {
   content: "";
