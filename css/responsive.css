@@ -198,6 +198,18 @@ mainSection
 #mainSection .signIn{
   margin-top:20px;
 }
+#kakaoTalk_v1{
+  width:100%;
+}
+#signIn{
+  width:100%;
+}
+.coin-limit-box span{
+  font-size:1.1rem;
+}
+.coin-limit-box .use-text{
+  font-size:1.1rem;
+}
 
 /*==============================
 about

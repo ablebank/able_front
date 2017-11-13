@@ -670,6 +670,45 @@ body .webGl{
   color: #fff;
 }
 
+.coin-limit-box{
+  text-align:left;
+  margin-top:10%;
+}
+.coin-limit-box span{
+  color:white;
+  font-size:2rem;
+}
+.coin-limit-box .able-max-coin{
+  /*color:#d35400;*/
+  color:#009FE2;
+}
+.coin-limit-box p{
+  display:inline-block;
+  border:solid 1px blue;
+}
+.coin-limit-box .use-progess{
+  display:inline-block;
+  width:90%;
+  height:30px;
+  background-color: #d35400;
+}
+.coin-limit-box .avail-progess{
+  margin-top:10px;
+  display:inline-block;
+  width:10%;
+  height:30px;
+  margin-left:-7px;
+  background-color: white;
+}
+
+.coin-limit-box .use-text{
+  display:inline-block;
+  text-align:right;
+  width:100%;
+  font-size:1.4rem;
+  margin-left:-7px;
+  vertical-align: top;
+}
 /* ==========================================================================
 	$about
 ========================================================================== */
