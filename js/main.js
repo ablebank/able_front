@@ -181,7 +181,7 @@ function getSendEth(){
 	var useWidth = 0; //모금액
 	var availWidth = 100; //가용금액
     var ableToken = 4940; //1 eth 개수
-    var maxAbleToken = 29640000; //6000 eth 개수
+    var maxAbleToken = 2964000; //6000 eth 개수
 	var multiplePer = 6; //100%기준으로 전체 토큰량이 몇 배수인지
 
 	var reciveEthToken = 0;
