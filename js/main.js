@@ -241,5 +241,4 @@ if(ie_ver == "11.0"){
 
 getTimeIcoDate();
 canvasFix();
-getSendEth();
-exchangeAble();
+//getSendEth();
