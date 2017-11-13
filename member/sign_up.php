@@ -117,7 +117,7 @@
 <script src="<?php echo $dm?>/js/jquery.validate.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/js/md5.js" type="text/javascript"></script>
 <script src="<?php echo $dm?>/library/build/js/countrySelect.js" type="text/javascript"></script>
-<script src="<?php echo $dm?>/js/member/signup.js?d=201710280012112331" type="text/javascript"></script>
+<script src="<?php echo $dm?>/js/member/signup.js?d=20171028003" type="text/javascript"></script>
 </body>
 
 </html>

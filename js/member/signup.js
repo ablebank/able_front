@@ -254,7 +254,7 @@ var SignUpJs = {
                         self.timestamp = d.timestamp;
                         self.smsAuthTrue = true;
 
-                        alert("문자 인증에 성공하였습니다\n패스워드를 설정해주세요");
+                        alert("문자 인증에 성공하였습니다\n마이 이더 월렛 지갑주소를 넣어주세요");
 
                         //change check box step todo
                     }else{
