@@ -963,7 +963,7 @@
           <!--<a href="#" target="_blank"><img class="box-2" src="<?php echo $dm?>/images/partner/pa-08.png" /></a>-->
           <a href="javascript:"><img class="box-3" src="<?php echo $dm?>/images/partner/pa-06.png" /></a>
           <a href="javascript:"><img class="box-4" src="<?php echo $dm?>/images/partner/pa-05.jpg" /></a>
-          <a href="javascript:"><img class="box-5" src="<?php echo $dm?>/images/partner/pa-07.gif" /></a>
+          <!--<a href="javascript:"><img class="box-5" src="<?php echo $dm?>/images/partner/pa-07.gif" /></a>-->
           <a href="javascript:"><img class="box-6" src="<?php echo $dm?>/images/partner/pa-03.gif" /></a>
           <a href="javascript:"><img class="box-7" src="<?php echo $dm?>/images/partner/pa-04.jpg" /></a>
         </div>
