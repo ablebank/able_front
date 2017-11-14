@@ -76,7 +76,9 @@ form label{
     color:white;
     height:50px;
 }
-
+.form-actions .btn{
+    color:white;
+}
 .authBox{
     background-color: white;
     -webkit-border-radius: 7px;

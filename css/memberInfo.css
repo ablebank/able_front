@@ -58,6 +58,9 @@ body{
 .addr-action-box{
     margin-top:30px;
 }
+.addr-action-box .btn{
+    color:white;
+}
 .addr-info-btn {
     display:block;
     color:white;

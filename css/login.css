@@ -90,6 +90,9 @@ form h4{
 .signInBtn:hover {
     color:white;
 }
+.form-actions .btn {
+    color:white;
+}
 
 .create-account{
     position:relative;
