@@ -102,7 +102,7 @@ var icoSec = document.getElementById("clock-sec");
 
 function getTimeIcoDate(){
     var dat1 = new Date(); //현재날짜
-	var dat2 = new Date(2017,10,15,20,0,0);
+	var dat2 = new Date(2017,11,15,20,0,0);
 
     var diff = dat2 - dat1; //날짜 빼기
 

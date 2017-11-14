@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513142" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513144" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=2017092514" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
@@ -68,7 +68,7 @@
             <li><a href="#roadmap">ROADMAP</a></li>
             <li><a href="#team">TEAM</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><a href="<?php echo $dm?>/library/whitepaper.php" class="beta-styles" style="color: black" target="_blank">WHITEPAPER</a></li>
+            <!--<li><a href="<?php echo $dm?>/library/whitepaper.php" class="beta-styles" style="color: black" target="_blank">WHITEPAPER</a></li>-->
           </ul>
         </nav>
         <a href="#" class="nav-toggle">Menu<span></span></a>
@@ -106,11 +106,11 @@
           </div>
 
           <div>
-              <a href="#" onclick="alert('11월15일 20시 이후 공개채팅방을 개설합니다.');return false;" id="kakaoTalk_v1"><span>Join KaKao Talk</span></a>
+              <a href="#" onclick="alert('12월15일 20시 이후 공개채팅방을 개설합니다.');return false;" id="kakaoTalk_v1"><span>Join KaKao Talk</span></a>
               <?php if($dm == "http://dev.able-project.io"){?>
                   <a href="/member/login.php" id="signIn"><span>SIGN IN</span></a>
               <?php }else{?>
-                  <a href="#" onclick="alert('11월15일 20시 이후\n로그인과 회원가입이 참여가 가능합니다.');return false;" id="signIn"><span>Sign In</span></a>
+                  <a href="#" onclick="alert('12월15일 20시 이후\n로그인과 회원가입이 참여가 가능합니다.');return false;" id="signIn"><span>Sign In</span></a>
               <?php }?>
           </div>
 
@@ -365,7 +365,7 @@
           <div class="col-lg-5 col-md-5 col-xs-5 text-right td-03">2<span class="font-down">ED</span></div>
         </div>
         <div class="row margin-20">
-          <div class="col-lg-2 col-md-2 col-xs-2 text-left td-01">PRESALE<br><span class="font-down">(17.11.15)</span></div>
+          <div class="col-lg-2 col-md-2 col-xs-2 text-left td-01">PRESALE<br><span class="font-down">(17.12.15)</span></div>
             <div class="col-lg-5 col-md-5 col-xs-5 text-right td-02">6,000 ETH<br><span class="color-navi">1ETH = 4,940 ABL</span></div>
             <div class="col-lg-5 col-md-5 col-xs-5 text-right td-03">24,000 ETH<br><span class="color-navi">1ETH = 4,750 ABL</span></div>
         </div>
@@ -790,7 +790,7 @@
            </div>
            <div id="6_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               11월 15일 20시 홈페이지를 통해 첫 번째 Pre-sale에 참여할 수 있습니다.
+               12월 15일 20시 홈페이지를 통해 첫 번째 Pre-sale에 참여할 수 있습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -840,12 +840,12 @@
              </div>
              <div id="10_accordion_child" class="faq_accordion_child"></div>
            </div>
-           <div id="10_accordion_block" class="gone faq_accordion_block">
+           <!--<div id="10_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
                2018년 1월 비트뱅크(BITBANK) 상장에 상장되며, 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
-           </div>
+           </div>-->
 
            <div id="11_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
@@ -987,7 +987,7 @@
   <script src="<?php echo $dm?>/js/jquery.waypoints.min.js"></script>
   <script src="<?php echo $dm?>/js/fadeInScroll.jQuery.js"></script>
   <script src="<?php echo $dm?>/js/modernizr.js"></script>
-  <script src="<?php echo $dm?>/js/main.js?d=20171020113443232313"></script>
+  <script src="<?php echo $dm?>/js/main.js?d=20171020113443243"></script>
   <script src="<?php echo $dm?>/js/scrollSpy.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/scrollto.js" type="text/javascript"></script>
   <script src="<?php echo $dm?>/js/anim_scroll.js" type="text/javascript"></script>

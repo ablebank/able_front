@@ -663,11 +663,11 @@ body .webGl{
 }
 .no-box .box-container__digit:after {
   content: ":";
-  margin-left: 33px;
+  margin-left: 16px;
 }
 .no-box .box-container__digit-last:after {
   content: "";
-  margin-left: 12px;
+  margin-left: 16px;
 }
 .no-box .box-container__description {
   font-family: "Oxygen", "Sans-Serif";

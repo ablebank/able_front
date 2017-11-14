@@ -696,6 +696,9 @@ partner
   #platform .container-fluid{
     width:85%;
   }
+  #platform .imageBox{
+    margin-top:50px;
+  }
   #platform .imageBox img{
     width:85%;
     margin:0 auto;
