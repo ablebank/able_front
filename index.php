@@ -156,7 +156,7 @@
                 <span class="main-text-type01">
                     <span class="main-font-up">A</span>pplying<br />
                     <span class="main-font-up">BL</span>ockchain to<br />
-                    <span class="main-font-up">E</span>xtend the finace
+                    <span class="main-font-up">E</span>xtend the finance
                 </span>
                 <span class="main-text-type02"><span>ABLE PROJECT</span>는 세계최대<br />"블록체인 전문은행"을 설립 합니다.</span>
                 <p class="sub-text">
