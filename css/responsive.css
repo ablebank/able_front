@@ -389,29 +389,334 @@ partner
 /*==============================
 partner
 ===============================*/
-#asSeenIn .box-1{
-  margin:20px;
-  height:60px;
+  #asSeenIn .box-1{
+    margin:20px;
+    height:60px;
+  }
+  #asSeenIn .box-2{
+    margin:20px;
+  }
+  #asSeenIn .box-3{
+    margin:20px;
+  }
+  #asSeenIn .box-4{
+    margin:20px;
+  }
+  #asSeenIn .box-5{
+    margin:20px;
+    height:20px;
+  }
+  #asSeenIn .box-6{
+    margin:20px;
+    height:40px;
+  }
+  #asSeenIn .box-7{
+    margin:20px;
+    height:40px;
+  }
 }
-#asSeenIn .box-2{
-  margin:20px;
+
+
+/*content font size*/
+/* 데스크탑 브라우저 가로 */
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  /*about*/
+  #about .container-fluid{
+    width:100%;
+  }
+  #about .main-text-type01{
+    font-size:2.2rem;
+  }
+  #about .main-text-type02{
+    font-size:2.0rem;
+  }
+  #about #desktop-view-box p{
+    font-size:1.7rem;
+  }
+  #about #about-img-block .re-image01{
+    width:90%;
+  }
+
+  /*preview*/
+  #video .container-fluid{
+    width:100%;
+  }
+  #video iframe{
+    height:400px;
+  }
+  #video .video-text-box{
+    margin-top:10px;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  #video .main-text{
+    font-size:3.5rem;
+  }
+  #video p{
+    font-size:1.7rem;
+  }
+
+  /*needs*/
+  #needs .main-text{
+    font-size:2.5rem;
+  }
+  #needs p{
+    font-size:1.7rem;
+  }
+
+  /*business structure*/
+  #structure .container-fluid{
+    width:100%;
+  }
+  #structure .main-text{
+    font-size:3.5rem;
+  }
+
+  #structure p{
+    font-size:1.7rem;
+    line-height: 25px;
+  }
+
+  /*service*/
+  #service .container-fluid{
+    width:100%;
+  }
+  #service h3{
+    font-size:3rem;
+  }
+  #service p{
+    font-size:1.6rem;
+  }
+
+  /*platform arc*/
+  #platform .container-fluid{
+    width:100%;
+  }
+  #platform h3{
+    font-size:2.2rem;
+  }
+  #platform h4{
+    font-size:2.2rem;
+  }
+  #platform p{
+    font-size:1.7rem;
+  }
+  #platform .imageBox{
+    width:85%;
+    margin:0 auto;
+  }
+
+  /*tokenSale*/
+  #Sale .td-01{
+    text-align:left;
+  }
+
+  /*team*/
+  #team .section-title{
+    font-size:4rem;
+  }
 }
-#asSeenIn .box-3{
-  margin:20px;
+
+
+/* 데스크탑 브라우저 가로 */
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
+  /*about*/
+  #about .container-fluid{
+    width:85%;
+  }
+  #about .main-text-type01{
+    font-size:2.2rem;
+  }
+  #about .main-text-type02{
+    font-size:2.0rem;
+  }
+  #about #desktop-view-box p{
+    font-size:1.7rem;
+  }
+  #about #about-img-block .re-image01{
+    width:90%;
+  }
+
+  /*preview*/
+  #video .container-fluid{
+    width:85%;
+  }
+  #video iframe{
+    height:400px;
+  }
+  #video .video-text-box{
+    margin-top:10px;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  #video .main-text{
+    font-size:3.5rem;
+  }
+  #video p{
+    font-size:1.7rem;
+  }
+
+  /*needs*/
+  #needs .main-text{
+    font-size:2.5rem;
+  }
+  #needs p{
+    font-size:1.7rem;
+  }
+
+  /*business structure*/
+  #structure .container-fluid{
+    width:85%;
+  }
+  #structure .main-text{
+    font-size:3.5rem;
+  }
+
+  #structure p{
+    font-size:1.7rem;
+    line-height: 25px;
+  }
+
+  /*service*/
+  #service .container-fluid{
+    width:85%;
+  }
+  #service h3{
+    font-size:3rem;
+  }
+  #service p{
+    font-size:1.6rem;
+  }
+
+  /*platform arc*/
+  #platform .container-fluid{
+    width:85%;
+  }
+  #platform h3{
+    font-size:2.2rem;
+  }
+  #platform h4{
+    font-size:2.2rem;
+  }
+  #platform p{
+    font-size:1.7rem;
+  }
+  #platform .imageBox{
+    width:85%;
+    margin:0 auto;
+  }
+
+  /*tokenSale*/
+  #Sale .td-01{
+    text-align:left;
+  }
+
+  /*team*/
+  #team .section-title{
+    font-size:4rem;
+  }
 }
-#asSeenIn .box-4{
-  margin:20px;
-}
-#asSeenIn .box-5{
-  margin:20px;
-  height:20px;
-}
-#asSeenIn .box-6{
-  margin:20px;
-  height:40px;
-}
-#asSeenIn .box-7{
-  margin:20px;
-  height:40px;
-}
+
+
+/*content font size*/
+/* 데스크탑 브라우저 가로 */
+@media screen and (min-width: 1680px) and (max-width: 2400px) {
+  /*about*/
+  #about .main-text-type01{
+    font-size:2.2rem;
+  }
+  #about .main-text-type02{
+    font-size:2.0rem;
+  }
+  #about #desktop-view-box p{
+    font-size:1.7rem;
+  }
+
+  #about .container-fluid{
+    width:75%;
+  }
+
+
+  /*preview*/
+  #video .container-fluid{
+    width:75%;
+  }
+  #video iframe{
+    height:400px;
+  }
+
+  #video .video-text-box{
+    margin-top:10px;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  #video .main-text{
+    font-size:3.5rem;
+  }
+  #video p{
+    font-size:1.7rem;
+  }
+
+  /*needs*/
+  #needs .main-text{
+    font-size:2.5rem;
+  }
+  #needs p{
+    font-size:1.7rem;
+  }
+
+  /*business structure*/
+  #structure .container-fluid{
+    width:75%;
+  }
+  #structure .main-text{
+    font-size:3.5rem;
+  }
+
+  #structure p{
+    font-size:1.7rem;
+    line-height: 25px;
+  }
+
+  /*service*/
+  #service .container-fluid{
+    width:75%;
+  }
+  #service h3{
+    font-size:3rem;
+  }
+  #service p{
+    font-size:1.6rem;
+  }
+
+  /*platform arc*/
+  #platform .container-fluid{
+    width:85%;
+  }
+  #platform .imageBox img{
+    width:85%;
+    margin:0 auto;
+  }
+  #platform h3{
+    font-size:2.2rem;
+  }
+  #platform h4{
+    font-size:2.2rem;
+  }
+  #platform p{
+    font-size:1.7rem;
+  }
+
+  /*tokenSale*/
+  #Sale .td-01{
+    text-align:left;
+  }
+
+  /*team*/
+  #team .section-title{
+    font-size:4rem;
+  }
 }

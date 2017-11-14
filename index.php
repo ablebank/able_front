@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513141111" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=2017092513232122" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513142" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=2017092514" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
@@ -209,10 +209,10 @@
       <div class="divider"></div>
       <p class="margin-90">
         <span class="main-text">현재 암호화폐시장이 안정될수록 거래소보다 "전문은행"이 절실히 필요해 질 것입니다</span><br><br>
-        ABLE은 블록체인 뱅크 플랫폼으로써 강화된 보안, 편리한 환전, 거치형 예금 상품 등<br>
+        ABLE은 블록체인 뱅크 플랫폼으로써 강화된 보안, 편리한 환전, 거치형 예금 상품 등
         접근성이 뛰어난 뱅크 플랫폼을 지향하고 있습니다.
         <br><br>
-        앞으로 뱅크 플랫폼은 계속 성장 할 것입니다.<br>
+        앞으로 뱅크 플랫폼은 계속 성장 할 것입니다.
         ABLE은 국내, 싱가포르, 아시아 전 국가로 지점을 확대하고, 초기시장을 선점할 것입니다.
         <br>
       </p>
@@ -225,7 +225,7 @@
       <h2>Business structure</h2>
       <div class="divider"></div>
       <div class="row margin-90">
-        <div class="col-md-6">
+        <div class="col-md-6 business-box-img">
           <img src="<?php echo $dm?>/images/image2-n.png" class="re-image01 margin-center" />
         </div>
         <div id="desktop-view-box" class="col-md-6 text-center col-box">
@@ -317,7 +317,7 @@
         <h2>PLATFORM ARCHITECTURE</h2>
         <div class="divider"></div>
         <h3>이더리움 스마트컨트랙트에 기반하여 금융상품과 거래내역을 메인넷에 기록하며 고객의 자산운용과 투명성을 극대화 합니다.</h3>
-        <div class="row">
+        <div class="row type-box-wrap">
           <div class="col-md-6 col-sm-12 type-box">
             <h4>ABLE Application</h4>
             <p>
@@ -388,7 +388,7 @@
           <div class="row limit-box">
             <div class="col-xs-4 col-sm-4 col-md-4">
               <div style="color:#fff;background-color:#1f2537;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
-              <div style="color:#fff;background-color:#30384f;width:80%;height:20px;line-height:25px;text-align:center">5%</div>
+              <div style="color:#fff;background-color:#30384f;width:80%;height:20px;line-height:22px;text-align:center">5%</div>
               <div style="color:#fff;background-color:#5b74b9;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
               <div style="color:#fff;background-color:#394f74;width:80%;height:60px;line-height:60px;text-align:center">15%</div>
               <div style="color:#fff;background-color:#1dc5c8;width:80%;height:240px;line-height:240px;text-align:center">60%</div>
@@ -424,8 +424,8 @@
               <div style="color:#fff;background-color:#6f7d8f;width:80%;height:240px;line-height:240px;text-align:center">60%</div>
               <div style="color:#fff;background-color:#5b74b9;width:80%;height:40px;line-height:45px;text-align:center">10%</div>
               <div style="color:#fff;background-color:#394f74;width:80%;height:40px;line-height:45px;text-align:center">10%</div>
-              <div style="color:#fff;background-color:#30384f;width:80%;height:20px;line-height:25px;text-align:center">5%</div>
-              <div style="color:#fff;background-color:#636b81;width:80%;height:20px;line-height:25px;text-align:center">5%</div>
+              <div style="color:#fff;background-color:#30384f;width:80%;height:20px;line-height:22px;text-align:center">5%</div>
+              <div style="color:#fff;background-color:#636b81;width:80%;height:20px;line-height:22px;text-align:center">5%</div>
               <div style="color:#fff;background-color:#1f2537;width:80%;height:40px;line-height:40px;text-align:center">10%</div>
             </div>
             <div class="col-xs-8 col-sm-8 col-md-8 color-define-zone">
@@ -716,7 +716,7 @@
            <div class="divider"></div>
          </div>
 
-         <div class="col-lg-12 ">
+         <div class="col-lg-12 margin-90">
             <div id="1_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
                 ABLE Project란 무엇인가요?
