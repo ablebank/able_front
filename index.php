@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513144" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513155" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=2017092514" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
@@ -83,7 +83,7 @@
           <h1 style="margin-top: 30px;">The Global Block Chain Dedicated Bank</h1>
           <p>Asia's First Global Block Chain Expert Bank</p>
 
-          <div class="no-box">
+          <!--<div class="no-box">
             <div class="box__title">Token PreSale Event will start in:</div>
             <div class="box-container">
               <div class="box-container__box">
@@ -103,14 +103,14 @@
                 <div class="box-container__description">seconds</div>
               </div>
             </div>
-          </div>
+          </div>-->
 
           <div>
-              <a href="#" onclick="alert('12월15일 20시 이후 공개채팅방을 개설합니다.');return false;" id="kakaoTalk_v1"><span>Join KaKao Talk</span></a>
+              <a href="#" id="kakaoTalk_v1"><span>Join KaKao Talk</span></a>
               <?php if($dm == "http://dev.able-project.io"){?>
                   <a href="/member/login.php" id="signIn"><span>SIGN IN</span></a>
               <?php }else{?>
-                  <a href="#" onclick="alert('12월15일 20시 이후\n로그인과 회원가입이 참여가 가능합니다.');return false;" id="signIn"><span>Sign In</span></a>
+                  <a href="#" id="signIn"><span>Sign In</span></a>
               <?php }?>
           </div>
 

@@ -239,6 +239,6 @@ if(ie_ver == "11.0"){
     //console.log(canvasEl);
 }
 
-getTimeIcoDate();
+//getTimeIcoDate();
 canvasFix();
 //getSendEth();
