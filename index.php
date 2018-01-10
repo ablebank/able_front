@@ -80,8 +80,8 @@
           <div style="clear: both;">
             <img src="<?php echo $dm?>/images/logo_file.png" class="main-block-logo" alt="able bank">
           </div>
-          <h1 style="margin-top: 30px;">The Global Block Chain Dedicated Bank</h1>
-          <p>Asia's First Global Block Chain Expert Bank</p>
+          <h1 style="margin-top: 30px;">The Global Block Chain Professional Bank</h1>
+          <p>Asia's First Global Block Chain Professional Bank</p>
 
           <!--<div class="no-box">
             <div class="box__title">Token PreSale Event will start in:</div>
@@ -147,8 +147,6 @@
             <br><br>
             ABLE PROJECT는 암호화폐의 금융화 안전한 관리 이외 VR, AI, 바이오 등<br>
             <span>4차 산업혁명시대를 이끌어갈 새로운 인프라를 조성할 것입니다.</span>
-            <br><br>
-            ABLE Coin은 ERC-20토큰으로 Pre-Sales 및 ICO를 통해 발행됩니다
           </p>
         </div>
         <div id="mobile-view-box" class="col-md-6 text-center col-box">
@@ -193,8 +191,8 @@
           <h3 class="white main-text">ABLE PROJECT</h3>
           <div class="sub-text margin-40">
               <div>
-                  <p class="text-left"><span>ABLE Project</span>는 최초의 블록체인 전문은행으로 VR, AI 로봇 등 4차 산업혁명 기업들과 연계하고 있습니다. 그리고 협력 거래소 <span>BIT BANK</span>를 통해 ABLE 코인의 빠른 거래소 상장을 보장합니다.</p>
-                  <p class="text-left">ABLE Project를 통해 이용자는 암호화폐의 <span>예금, 대출, 자산운용</span>이 가능하며, 알트코인이 무료환전 혜택을 누릴 수 있습니다. ABLE Project는 기부자에게 매년 은행수익의 40%를 배분합니다.</p>
+                  <p class="text-left"><span>ABLE Project</span>는 최초의 블록체인 전문은행으로 VR, AI 로봇 등 4차 산업혁명 기업들과 연계를 진행하고 있습니다.</p>
+                  <p class="text-left">ABLE Project를 통해 이용자는 암호화폐의 <span>예금, 대출, 자산운용</span>이 가능하며, ABLE Project는 수익을 통해 ABLE의 가치를 높일 예정입니다.</p>
               </div>
           </div>
         </div>
@@ -238,10 +236,6 @@
             <p>
               블록체인을 기반으로 <span>스마트 계약</span>을 활용하여 <span>은행서비스</span>와<br>
               <span>다양한 자산운용 상품</span>을 제공합니다.
-            </p>
-            <p>
-              ABLE Project 기부자는 은행 및 자산운용에서 <span>발생한 수익</span>을<br>
-              지분에 비례하여 <span>분배</span> 받습니다.
             </p>
             <p>
               ICO를 참가한 기부자는 AIR-DROP, VIP 카드발급, PAYBACK 등<br>
@@ -365,7 +359,7 @@
           <div class="col-lg-5 col-md-5 col-xs-5 text-right td-03">2<span class="font-down">ED</span></div>
         </div>
         <div class="row margin-20">
-          <div class="col-lg-2 col-md-2 col-xs-2 text-left td-01">PRESALE<br><span class="font-down">(17.12.15)</span></div>
+          <div class="col-lg-2 col-md-2 col-xs-2 text-left td-01">PRESALE<br><span class="font-down"></span></div>
             <div class="col-lg-5 col-md-5 col-xs-5 text-right td-02">6,000 ETH<br><span class="color-navi">1ETH = 4,940 ABL</span></div>
             <div class="col-lg-5 col-md-5 col-xs-5 text-right td-03">24,000 ETH<br><span class="color-navi">1ETH = 4,750 ABL</span></div>
         </div>
