@@ -74,14 +74,14 @@
         <a href="#" class="nav-toggle">Menu<span></span></a>
       </div>
     </header>
-    <div class="container-fluid">
+    <div class="container">
       <div class="col-md-10 col-md-offset-1">
         <div class="banner-text text-center">
           <div style="clear: both;">
             <img src="<?php echo $dm?>/images/logo_file.png" class="main-block-logo" alt="able bank">
           </div>
           <h1 style="margin-top: 30px;">The Global Block Chain Professional Bank</h1>
-          <p>Asia's First Global Block Chain Professional Bank</p>
+          <p>Asia's First Block Chain Bank</p>
 
           <!--<div class="no-box">
             <div class="box__title">Token PreSale Event will start in:</div>
@@ -129,7 +129,7 @@
 
   <!-- about able -->
   <section id="about" class="section">
-    <div class="container-fluid text-center">
+    <div class="container text-center">
       <h2>ABOUT</h2>
       <div class="divider"></div>
       <div class="row margin-90">
@@ -180,12 +180,12 @@
 
   <!-- video preview -->
   <section id="video" class="section">
-    <div class="container-fluid text-center">
-      <h2 class="white">Preview</h2>
+    <div class="container text-center">
+      <h2 class="white">PREVIEW</h2>
       <div class="divider"></div>
       <div class="row margin-90">
         <div class="col-md-6 video-box">
-          <iframe width="100%" src="https://www.youtube.com/embed/LEGOpjdu638" frameborder="0" allowfullscreen class="margin-center"></iframe>
+          <iframe width="100%" style="height:340px" src="https://www.youtube.com/embed/LEGOpjdu638" frameborder="0" allowfullscreen class="margin-center"></iframe>
         </div>
         <div class="col-md-6 video-text-box">
           <h3 class="white main-text">ABLE PROJECT</h3>
@@ -202,7 +202,7 @@
 
   <!-- needs -->
   <section id="needs" class="section">
-    <div class="container-fluid text-center">
+    <div class="container text-center">
       <h2>NEEDS</h2>
       <div class="divider"></div>
       <p class="margin-90">
@@ -219,8 +219,8 @@
 
   <!-- structure 구조 -->
   <section id="structure" class="section">
-    <div class="container-fluid text-center">
-      <h2>Business structure</h2>
+    <div class="container text-center">
+      <h2>BUSINESS STRUCTURE</h2>
       <div class="divider"></div>
       <div class="row margin-90">
         <div class="col-md-6 business-box-img">
@@ -267,35 +267,35 @@
 
   <!-- 에이블 SERVICE -->
   <section id="service" class="section">
-    <div class="container-fluid">
+    <div class="container">
       <div class="features-text text-center">
         <h2>SERVICE</h2>
         <div class="divider"></div>
       </div>
       <div class="row margin-90">
-        <div class="col-md-4 col-sm-4 text-center type-box">
-          <i class="material-icons" style="font-size:60px;color:#0028ac">account_balance</i>
+        <div class="col-md-12 col-sm-12 text-center type-box">
+          <i class="material-icons" style="font-size:60px;color:#f04848">account_balance</i>
           <div class="features-content">
-            <h3>Banking services</h3>
+            <h3>BANKING SERVICES</h3>
             <p>
               현시대에서 블록체인은 미래를 바꿀 기술 중 하나로 꼽히고 있습니다. ABLE project는 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 블록체인 전문 은행입니다. 블록체인 시스템의 투명성, 불변성, 보안 및 신뢰성을 기반으로 은행순수익의 40%를 프로젝트 참여자들에게 공유합니다. ABLE Project는 블록체인 스마트 컨트랙트를 기반으로 암호화폐 예금 및 대출 서비스를 실현하며, 암호화폐 자산관리 서비스로  벤처투자, 채권, 마이닝, 알트코인 트레이딩, NPL부동산, ICO 등의 다양한 금융상품 서비스를 제공합니다.
             </p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-4 text-center type-box">
-          <i class="material-icons" style="font-size:60px;color:#0028ac">trending_up</i>
+        <div class="col-md-12 col-sm-12 text-center type-box margin-60">
+          <i class="material-icons" style="font-size:60px;color:#f04848">trending_up</i>
           <div class="features-content">
-            <h3>Asset Management</h3>
+            <h3>ASSET MANAGEMENT</h3>
             <p>
               ABLE은 18년 1분기에 파트너사인 소셜 거래소 비트뱅크에 상장될 예정입니다. ICO 이후 상장까지 시간을 단축시켜 ABLE 자산관리의 어려움을 최소화 합니다.
               Pre-Sale과 ICO로 발행된 토큰은 비트뱅크 거래소의 지갑에 전송되기 때문에 ICO이후 거래소 지갑으로 전송해야 하는 번거로움과 개인 월넷의 해킹위험을 방지할 수 있습니다.
             </p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-4 text-center type-box">
-          <i class="material-icons" style="font-size:60px;color:#0028ac">lock</i>
+        <div class="col-md-12 col-sm-12 text-center type-box margin-60">
+          <i class="material-icons" style="font-size:60px;color:#f04848">lock</i>
           <div class="features-content">
-            <h3>Security And Stability</h3>
+            <h3>SECURITY AND STABILITY</h3>
             <p>
               모든 서비스는 아마존클라우드(AWS)에 올려 보관됩니다. AWS 클라우드가 제공하는 각종 보안 서비스를 활용합니다. 암호화폐 보관은 콜드월렛에서 코인환전은 핫월렛에서 진행하는 분리저장시스템을 활용합니다. AWS 클라우드의 VPC(Virtual Private Cloud)에 핫월렛의 프라이빗키(Private key, 비트코인 거래를 위해 개인임을 식별할 수 있는 암호화된 가상 열쇠)의 일부만 올려두는 보안 정책을 사용합니다.
             </p>
@@ -306,7 +306,7 @@
   </section>
 
   <section id="platform" class="section">
-    <div class="container-fluid">
+    <div class="container">
       <div>
         <h2>PLATFORM ARCHITECTURE</h2>
         <div class="divider"></div>
@@ -616,13 +616,6 @@
 
               <div class="row">
                 <div class="col-md-3 dev-tum">
-                  <div class="nameBox">JY. Kim</div>
-                  <div class="catBox">Team Leader</div>
-                  <p class="jobBox">
-                    개발팀 총 책임자로 인프라 엔지니어, 업무 인프라 아키텍처 설계 및 트러블 슈팅에 관한 10년 이상의 다양한 경험을 갖고 있다. ABLE PROJECT의 서버, 운영체제, 네트워크 스토리지 등 총괄하여 관리하고 있다.
-                  </p>
-                </div>
-                <div class="col-md-3 dev-tum">
                   <div class="nameBox">J.A Beak</div>
                   <div class="catBox">Infra engineer</div>
                   <p class="jobBox">
@@ -641,22 +634,8 @@
                       심플하고 가독성이 높은 UI를 지향하고 스타일.
                   </p>
                 </div>
-                <div class="col-md-3 dev-tum">
-                    <div class="nameBox">D.S NGung</div>
-                    <div class="catBox">Server Engineer</div>
-                    <p class="jobBox">
-                        웹개발자로 13년간 소셜커머스/음악플랫폼/ERP 등의 서비스 및 관리 경험을 통하여 현재는 ABLE PROJECT의 Backend Architecture를 설계하고 Application의 기능적인 부분을 전담하고 있다.
-                    </p>
-                </div>
               </div>
               <div class="row">
-                <div class="col-md-3 dev-tum">
-                  <div class="nameBox">M.J Lee</div>
-                  <div class="catBox">Designer</div>
-                  <p class="jobBox">
-                      웹, 모바일, UI/UX 등 다양한 분야에 대한 디자인 경험이 있다. 대기업 팀장 등 여러 그룹에서 프로젝트 활동을 하였으며 K-blockchains의 모든 부분에 대한 디자인을 담당하고 있다.
-                  </p>
-                </div>
               </div>
             </div>
             <div id="acc-4">
@@ -666,13 +645,6 @@
               </div>
 
               <div class="row">
-                <div class="col-md-3 dev-tum">
-                  <div class="nameBox">SANG YEON HA</div>
-                  <div class="catBox">Finance Specialis</div>
-                  <p class="jobBox">
-                    금융분야 전문가로 은행시스템 및 상품개발자로 시중은행에서 근무한 경험을 가지고 있다. 이를 바탕으로 다양한 상품투자가 가능한 블록체인 전문은행을 구현하고 있다.
-                  </p>
-                </div>
                 <div class="col-md-3 dev-tum">
                   <div class="nameBox">J.S Kim</div>
                   <div class="catBox">Finance Specialis</div>

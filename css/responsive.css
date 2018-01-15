@@ -535,7 +535,7 @@ partner
     font-size:1.7rem;
   }
   #about #about-img-block .re-image01{
-    width:90%;
+    width:68%;
   }
 
   /*preview*/
@@ -626,12 +626,13 @@ partner
   /*about*/
   #about .main-text-type01{
     font-size:2.2rem;
+    font-family: Helvetica;
   }
   #about .main-text-type02{
     font-size:2.0rem;
   }
   #about #desktop-view-box p{
-    font-size:1.7rem;
+    font-size:1.4rem;
   }
 
   #about .container-fluid{
@@ -648,24 +649,27 @@ partner
   }
 
   #video .video-text-box{
-    margin-top:10px;
+    margin-top:25px;
     padding-left:5%;
     padding-right:5%;
   }
 
   #video .main-text{
-    font-size:3.5rem;
+    font-size:3rem;
+    letter-spacing: 4px;
   }
   #video p{
-    font-size:1.7rem;
+    font-size:1.4rem;
+    line-height: 2.8rem;
   }
 
   /*needs*/
   #needs .main-text{
-    font-size:2.5rem;
+    font-size:2rem;
   }
   #needs p{
-    font-size:1.7rem;
+    font-size:1.4rem;
+    line-height: 1.7rem;
   }
 
   /*business structure*/
@@ -673,12 +677,13 @@ partner
     width:75%;
   }
   #structure .main-text{
-    font-size:3.5rem;
+    font-size:3rem;
+    letter-spacing: 4px;
   }
 
   #structure p{
-    font-size:1.7rem;
-    line-height: 25px;
+    font-size:1.4rem;
+    line-height: 2.2rem;
   }
 
   /*service*/
@@ -686,10 +691,11 @@ partner
     width:75%;
   }
   #service h3{
-    font-size:3rem;
+    font-size:2.2rem;
+    font-family:Helvetica;
   }
   #service p{
-    font-size:1.6rem;
+    font-size:1.4rem;
   }
 
   /*platform arc*/
@@ -704,13 +710,13 @@ partner
     margin:0 auto;
   }
   #platform h3{
-    font-size:2.2rem;
+    font-size:1.8rem;
   }
   #platform h4{
     font-size:2.2rem;
   }
   #platform p{
-    font-size:1.7rem;
+    font-size:1.4rem;
   }
 
   /*tokenSale*/
@@ -720,6 +726,7 @@ partner
 
   /*team*/
   #team .section-title{
-    font-size:4rem;
+    font-size:3rem;
+    font-family: Helvetica;
   }
 }

@@ -1,12 +1,65 @@
+/*
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,400italic,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Oxygen:100,200,300,400,400italic,500,600,700');
 @import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+*/
+/* import */
+/*@import url("default.css");*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face { /* 나눔고딕 Regular */
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face { /* 나눔고딕 Bold */
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff2) format('woff2'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff) format('woff'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face { /* 나눔고딕 ExtraBold */
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff2) format('woff2'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff) format('woff'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+@font-face { /* 나눔고딕 ExtraBold */
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 800;
+  url(../fonts/Helvetical.ttf) format('truetype');
+}
 
 /* ==========================================================================
 typo
 ========================================================================== */
+
 body{
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+  url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');
   /*font-family: "Nanum Gothic", sans-serif;
   font-weight:100;*/
 }
@@ -19,16 +72,16 @@ h1 {
   font-size: 65px;
   color: #2d3033;}
 h2 {
-  font-size: 6rem;
-  color: #2d3033;
-  font-weight: 300;
-  font-family: 'Oxygen', "Raleway", sans-serif;
-  text-transform: uppercase;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  font-family:Helvetica;
 }
 h3 {
-  font-size: 28px;
+  font-size: 2.8rem;
+  font-family:Helvetica;
   color: #2d3033;
-  font-weight: 300;}
+  font-weight: 300;
+}
 h4 {
   font-size: 20px;
   color: #2d3033;
@@ -67,7 +120,7 @@ a {
 }
 .re-image01{
   display:block;
-  max-width:80%;
+  max-width:70%;
   height:auto;
 }
 .margin-center{
@@ -230,9 +283,8 @@ a:hover, a:focus {
   -webkit-transition: background-color, color, 0.3s;
   transition: background-color, color, 0.3s; }
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  color: #6c7279; }
+
+}
 ul, ol {
   margin: 0;
   padding: 0; }
@@ -309,7 +361,7 @@ ul li {
   display: inline-block; }
 .navigation a {
   color: rgba(255, 255, 255, 0.75);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   margin-left: 40px;
   text-transform: uppercase;}
@@ -472,12 +524,12 @@ body .webGl{
 }
 .banner-text h1 {
   color: #fff;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 500;
 }
 .banner-text p {
   color: #fff;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
@@ -616,6 +668,7 @@ body .webGl{
   margin-top: 100px;
   margin-bottom: 100px;
   max-width: 100%;
+  font-family:Helvetica;
 }
 
 .box__title {
@@ -724,6 +777,9 @@ body .webGl{
 }
 #about h2 {
   color: black;
+  text-transform: uppercase;
+  font-family: 'Helvetica';
+  letter-spacing: 4px;
 }
 #about span {
   font-family: "Oxygen", "Sans-Serif";
@@ -751,7 +807,7 @@ body .webGl{
   color: black;
   font-size: 2rem;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 2.5rem;
   text-align: center;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
@@ -773,12 +829,12 @@ body .webGl{
   $preview
 ========================================================================== */
 #video {
-  background-color: #434757;
+  background-color: #2a3239;
+}
+#video h2{
+  letter-spacing: 4px;
 }
 
-.video-box{
-  padding-left:5%;
-}
 #video iframe{
   height:480px;
 }
@@ -806,10 +862,11 @@ body .webGl{
   $needs
 ========================================================================== */
 #needs {
-  background-color: #434757;
+  background-color: #2a3239;
 }
 #needs h2 {
   color: white;
+  letter-spacing: 4px;
 }
 #needs span {
   font-weight: 500;
@@ -917,8 +974,7 @@ body .webGl{
   background-color: #fff;
 }
 #service p {
-  font-weight: 300;
-  line-height:30px;
+  line-height:2.2rem;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -953,7 +1009,8 @@ body .webGl{
 ========================================================================== */
 #platform {
   text-align: center;
-  background-color: #434757;
+  /*background-color: #434757;*/
+  background-color: #2a3239;
 }
 #platform h2 {
   text-align: center;
@@ -991,7 +1048,7 @@ body .webGl{
    font-size: 1.8rem;
    font-style: normal;
    font-weight: 300!important;
-   line-height: 1.8;
+   line-height: 2.2rem;
    text-align: justify;
    margin-top:20px;
    -moz-text-align-last: left;
@@ -1038,18 +1095,18 @@ body .webGl{
 
 #Sale .td-01{
   color:black;
-  font-size:2.5rem;
+  font-size:1.6rem;
 }
 #Sale .td-02{
   color:black;
-  font-size:2.5rem;
+  font-size:1.6rem;
 }
 #Sale .td-03{
   color:black;
-  font-size:2.5rem;
+  font-size:1.6rem;
 }
 #Sale .font-down{
-  font-size:1.7rem;
+  font-size:1.6rem;
 }
 #Sale .border-box{
   border-bottom:solid 2px black;
@@ -1078,7 +1135,7 @@ body .webGl{
   margin-top:15px;
 }
 #Sale .color-box-text{
-  font-size:14px;
+  font-size:1.4rem;
   color:#2d3033;
   padding-left:10px;
   vertical-align: top;
@@ -1088,7 +1145,7 @@ body .webGl{
 	$Roadmap
 ========================================================================== */
 #roadmap {
-  background-color: #434757;
+  background-color: #2a3239;
 }
 #roadmap h2 {
   color: #fff;
@@ -1102,7 +1159,7 @@ body .webGl{
 #roadmap p {
   color: #fff;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 1.4rem;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -1110,7 +1167,7 @@ body .webGl{
 }
 #roadmap h3 {
   height: 47px;
-  font-size: 24px;
+  font-size: 2rem;
   border:solid 1px white;
   color:white;
   -webkit-border-radius:35px;
@@ -1133,7 +1190,7 @@ body .webGl{
 	$Team
 ========================================================================== */
 #team {
-  background-color: #434757;
+  background-color: #2a3239;
 }
 #team h2 {
   color: #fff;
@@ -1173,19 +1230,21 @@ body .webGl{
   filter: none;
 }
 #team .nameBox{
-  font-size:20px;
+  font-size:1.6rem;
+  font-family: Helvetica;
   text-align:left;
   color:white;
 }
 #team .catBox{
   padding-top:5px;
-  font-size:18px;
+  font-family: Helvetica;
+  font-size:1.6rem;
   text-align:left;
   color:white;
 }
 #team .jobBox{
   padding-top:20px;
-  font-size:14px;
+  font-size:1.4rem;
   text-align:left;
   color:white;
 }
