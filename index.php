@@ -80,7 +80,7 @@
           <div style="clear: both;">
             <img src="<?php echo $dm?>/images/logo_file.png" class="main-block-logo" alt="able bank">
           </div>
-          <h1 style="margin-top: 80px;">The Global Block Chain Dedicated Bank</h1>
+          <h1 style="margin-top: 100px;">The Global Block Chain Dedicated Bank</h1>
           <p>Asia's First Block Chain Bank</p>
 
           <!--<div class="no-box">
@@ -359,22 +359,11 @@
             <div class="col-lg-3 col-md-3 col-xs-3 text-right td-04">3<span class="font-down">ST</span></div>
         </div>
         <div class="row margin-20">
-            <div class="col-lg-3 col-md-3 col-xs-3 text-left td-01">PRESALE<br><span class="font-down"></span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-left td-01">PRESALE<br><span class="font-down">(토큰뱅크)</span></div>
             <div class="col-lg-3 col-md-3 col-xs-3 text-right td-02">2,000 ETH<br><span class="color-navi">1ETH = 100,000 ABE</span></div>
             <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">3,000 ETH<br><span class="color-navi">1ETH =  90,000 ABE</span></div>
             <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">4,000 ETH<br><span class="color-navi">1ETH =  80,000 ABE</span></div>
         </div>
-        <div class="row margin-20">
-            <div class="col-lg-3 col-md-3 col-xs-3 text-left td-01">ICO</div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-02">15,000 ETH<br><span class="color-navi">1ETH = 40,000 ABE</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03"><br><span class="color-navi"></span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-04"><span class="font-down"></span></div>
-        </div>
-        <!--<div class="row margin-20">
-          <div class="col-lg-4 col-md-4 col-xs-4 text-left td-01">TOKEN SUPPLY</div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-02">120,000 ETH<span>*</span></div>
-          <div class="col-lg-4 col-md-4 col-xs-4 text-right td-03">800,000 ETH<span>*</span></div>
-        </div>-->
       </div>
     </div>
     <div class="container bottom-box">
@@ -511,170 +500,6 @@
     </div>
   </section>
 
-  <!-- 커뮤니티 -->
-  <!--<section id="ask" class="section">
-    <div class="container">
-      <div class="col-md-12  text-center">
-        <h2>COMMUNITY</h2>
-        <div class="divider"></div>
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 30px;">
-          <a href="http://blog.naver.com/kblockchain/221115119554" target="_blank">
-            <img src="<?php echo $dm?>/images/socials/blog.jpg" alt="Blog"  />
-          </a>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 30px;">
-          <a href="https://www.facebook.com/Kblockchains/" target="_blank">
-            <img src="<?php echo $dm?>/images/socials/fb.png" alt="Facebook"  />
-          </a>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 30px;">
-          <a href="https://twitter.com/kblockchains" target="_blank">
-            <img src="<?php echo $dm?>/images/socials/twitter.png" alt="Twitter"  />
-          </a>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 30px;">
-          <a href="https://kblockchain.slack.com/" target="_blank">
-            <img src="<?php echo $dm?>/images/socials/slack.png" alt="Slack"  />
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>-->
-
-  <section id="team" class="section">
-    <div class="container">
-      <div class="col-md-12  text-center">
-        <h2>TEAM</h2>
-        <div class="divider"></div>
-        <div class="col-sm-12 col-lg-12">
-          <div class="contents">
-            <div id="acc-1">
-              <div class="title sub0 on">
-                <div class="section-title">ABLE PROJECT</div>
-                <span class="b img"></span>
-              </div>
-
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="imageBox ceo"></div>
-                  <div class="nameBox">M.S KIM</div>
-                  <div class="catBox">CEO / Founder </div>
-                  <p class="jobBox">국세 공무원 출신으로 공군장교를 거쳐 삼성 재무팀에서 근무했다. NPL부동산 및 자산운용 전문가로 커뮤니티(사자후의 투자연구소)를 운영하고 있다. 블록체인 관련 다양한 경험을 보유하고 있으며 K-Blockchains의 CEO이다.</p>
-                </div>
-                <!--<div class="col-md-3">
-                  <div class="imageBox cto"></div>
-                  <div class="nameBox">Y.D YOON</div>
-                  <div class="catBox">CTO</div>
-                  <p class="jobBox">유니스트에서 컴퓨터공학 및 전자공학을 전공하고, 카이스트에서 Internet of Things (IoT) 연구를 통해 석사학위를 받았다. 이후 IoT 오픈 소스 플랫폼인 Open Language for Internet of Things (OLIOT) 개발에 참여하고 관리 중이다.
-                      현재 카이스트에서 박사과정 중으로 Blockchain을 적용한 IoT 플랫폼 연구를 수행 중이다.</p>
-                </div>-->
-                <div class="col-md-3">
-                  <div class="imageBox cfo"></div>
-                  <div class="nameBox">Sukyu Cheah</div>
-                  <div class="catBox">CFO</div>
-                  <p class="jobBox">University of California, San Diego와 고려대학교 경제학과를 졸업하였다. 삼성 재무팀에서 감사, 결산등의 업무를 맡아 프로젝트를 진행한 경력이 있으며 회사 내 재무, 회계업무 등을 총괄하고 있다.</p>
-                </div>
-              </div>
-            </div>
-            <div id="acc-2">
-              <div class="title sub0 on">
-                <div class="section-title">BIT BANK</div>
-                <span class="b img"></span>
-              </div>
-
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="imageBox bit-ceo"></div>
-                  <div class="nameBox">JW. NHO</div>
-                  <div class="catBox">CEO / Founder </div>
-                  <p class="jobBox">
-                      삼성전자에서 사용자 경험에 대한 개발연구 및 디자인을 하며 다양한 서비스를 만들어낸 경험이 있다. 가상화폐 트레이딩 및 마이닝을 하며 블록체인 연구소를 설립하고 소셜 트레이딩 가상화폐 거래소 비트뱅크를 창업하였다. 현재는 블록체인 관련 특허 및 강의 진행중에 있다.
-                  </p>
-                </div>
-                <div class="col-md-3">
-                  <div class="imageBox bit-cso"></div>
-                  <div class="nameBox">HANNA GANG</div>
-                  <div class="catBox">CSO</div>
-                  <p class="jobBox">
-                      소셜 트레이딩 서비스 ‘비트뱅크’에서 고객을 관찰해 가치를 발굴하고, 이를 서비스에 융합하거나 미디어를 통해 고객에게 전달하는 일을 하고 있다. IT 컨설팅 회사에 근무했으며, 은행, 보험, 캐피탈 등 다양한 금융 분야의 고객 경험을 분석하고, 전략 및 서비스 설계로 반영하는 일을 했다. 경제연구원에서 객원 칼럼니스트로 활동하고 있다.
-                  </p>
-                </div>
-                <div class="col-md-3">
-                  <div class="imageBox bit-cto"></div>
-                  <div class="nameBox">PHILGOO KANG</div>
-                  <div class="catBox">CTO</div>
-                  <p class="jobBox">
-                      한양대학교에서 컴퓨터공학과를 전공했다. SK계열사에서 CTO로 신규 결제 플랫폼 총괄하고, 인테리어 소셜네트워크 서비스까지 구축한 경험이 있다. 비트뱅크 CTO로 기술적 부분에 대한 효과적 활용을 위해 연구하고 있다.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--<div id="acc-3">
-              <div class="title sub0 on">
-                <div class="section-title">DEVELOPMENT DEPARTMENT</div>
-                <span class="b img"></span>
-              </div>
-
-              <div class="row">
-                <div class="col-md-3 dev-tum">
-                  <div class="nameBox">J.A Beak</div>
-                  <div class="catBox">Infra engineer</div>
-                  <p class="jobBox">
-                    Database와 WAS 전문가로서 8년동안 근무하였으며 차세대 ERP 및 각종 프로젝트에 참여하였다. ABLE PROJECT의 인프라 아키텍쳐 설계 및 트러블 슈팅, 튜닝을 담당하고 있다.
-                  </p>
-                </div>
-                <div class="col-md-3 dev-tum">
-                  <div class="nameBox">J.W LEE</div>
-                  <div class="catBox">Front Engineer</div>
-                  <p class="jobBox">
-                      음원스트리밍 서비스 APPLICATION 프로젝트를 진행 및 완료.
-                      이후 여러 스타트업을 통해 기획/개발/투자에 참여하였다.
-                      주로 소셜커머스, 주차관련 서비스를 개발 하였으며, O2O 사업에 관심이 많다.
-                      현재 REACT+REDUX SAGA를 활용한 APPLICATION 개발에
-                      관심을 갖고 몰두 중이다.
-                      심플하고 가독성이 높은 UI를 지향하고 스타일.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-              </div>
-            </div>-->
-            <!--<div id="acc-4">
-              <div class="title sub0 on">
-                <div class="section-title">PLANNING & MARKETING DEPARTMENT</div>
-                <span class="b img"></span>
-              </div>
-
-              <div class="row">
-                <div class="col-md-3 dev-tum">
-                  <div class="nameBox">J.S Kim</div>
-                  <div class="catBox">Finance Specialis</div>
-                  <p class="jobBox">
-                    관세사로 경영학을 전공하였고 국제무역 및 외환거래에 대한 프로젝트 경험이 있다. 회사의 수익구조에 관한 합리적 의사결정을 위해 다양한 방법으로 기획하고 분석한다
-                  </p>
-                </div>
-                <div class="col-md-3 dev-tum">
-                    <div class="nameBox">D.P Lim</div>
-                    <div class="catBox">Finance Specialist</div>
-                    <p class="jobBox">
-                        주로 FMI그룹과 하베스트에서 대체 투자와 공모주를 진행하였으며 그 외 자산관리에 대한 경험이 있다. 이를 활용하여 블록체인과 결합한 상품 개발에 주력하고 있다
-                    </p>
-                </div>
-                <div class="col-md-3 dev-tum">
-                  <div class="nameBox">Erin Woo</div>
-                  <div class="catBox">Marketer</div>
-                  <p class="jobBox">
-                    마케팅 총 책임자로 B2B 및 B2C에 대한 마케팅 전문가이다. 다양한 분야에서 10년 이상의마케팅 활동 경험이 있으며 ABLE PROJECT의 소셜미디어, 프로젝트 관리, 기획 및 집행 등을 총괄하고 있다.
-                  </p>
-                </div>
-              </div>-->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- faq -->
   <section id="faq" class="section">
      <div class="container">
@@ -692,11 +517,10 @@
             </div>
             <div id="1_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12" style="margin-top:20px;">
-                ABLE PROJECT는 블록체인 상에서 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 아시아 최초의 뱅크 솔루션입니다.
+                ABLE PROJECT는 블록체인 상에서 암호화폐의 예금 및 대출, 자산운용 서비스를 제공하는 아시아 최초의 뱅크 솔루션입니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
-
             <div id="2_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
                 참가자에 대한 국적제한이 있는지요?
@@ -718,7 +542,7 @@
             </div>
             <div id="3_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12" style="margin-top:20px;">
-                1차 Pre-Sale은 30%, 2차 Pre-Sale은 25%의 추가 코인을 배분 받을수 있습니다.
+                1차 Pre-Sale은 25%, 2차 Pre-Sale은 11%의 추가 코인을 배분 받을수 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
@@ -731,7 +555,7 @@
             </div>
             <div id="4_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12" style="margin-top:20px;">
-                Pre-Sale 2회, ICO 2회 총 4회의 구매 기회가 있습니다.
+                Pre-Sale 3회, ICO 1회 총 4회의 구매 기회가 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
@@ -749,7 +573,7 @@
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
-           <div id="6_accordion_btn" class="list-group faq_accordion_item">
+           <!--<div id="6_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
                ABLE PROJECT 참여는 언제부터 시작하나요?
              </div>
@@ -760,7 +584,7 @@
                12월 15일 20시 홈페이지를 통해 첫 번째 Pre-sale에 참여할 수 있습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
-           </div>
+           </div>-->
 
            <div id="7_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
@@ -770,7 +594,7 @@
            </div>
            <div id="7_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               Pre-Sale로 약 1억 4천만 개, ICO에서 약 2억5천만 개의 코인이 발행되며, 하드캡은 1억개입니다.
+               Pre-Sale로 약 270,000 ABE, ICO에서 약 600,000,000 ABE 코인이 발행 예정입니다. 유통 코인 목표 개수는 1,500,000,000 ABE 입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -800,20 +624,6 @@
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
-
-             <!--<div id="10_accordion_btn" class="list-group faq_accordion_item">
-               <div class="list-group-item faq_accordion_btn">
-                 거래소는 언제부터 사용가능한가요?
-               </div>
-               <div id="10_accordion_child" class="faq_accordion_child"></div>
-             </div>
-             <div id="10_accordion_block" class="gone faq_accordion_block">
-               <div class="col-lg-12" style="margin-top:20px;">
-                 2018년 1월 비트뱅크(BITBANK) 상장에 상장되며, 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
-               </div>
-               <div class="clearfix" style="margin-bottom:30px;"></div>
-             </div>-->
-
            <div id="11_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
                언제 메인넷이 진행되나요?
@@ -827,7 +637,7 @@
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
 
-           <div id="12_accordion_btn" class="list-group faq_accordion_item">
+           <!--<div id="12_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
                홈페이지에서 본인인증을 할수 없게 되면 ABLE PROJECT에 참여하기 어려운가요?
              </div>
@@ -838,8 +648,9 @@
                본인인증 없어도 참여 가능합니다. 다만, 향후 본인인증을 할 수 없을 시 불이익이 있을 수 있습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
-           </div>
-           <div id="13_accordion_btn" class="list-group faq_accordion_item">
+           </div>-->
+
+           <!--<div id="13_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
                본인인증 방식은 어떻게 되나요?
              </div>
@@ -850,7 +661,7 @@
                E-mail이나 휴대폰 인증을 통해 본인인증을 할 수 있습니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
-           </div>
+           </div>-->
 
            <div id="14_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
@@ -884,7 +695,7 @@
            </div>
            <div id="16_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-                 마이이더월렛(MyEtherWallet)만 가능하며, 회원가입시 등록한 지갑주소로만 참여 가능합니다.
+                 마이이더월렛(MyEtherWallet) 만 가능하며, 회원가입시 등록한 지갑주소로만 참여 가능합니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -910,7 +721,7 @@
            </div>
            <div id="18_accordion_block" class="gone faq_accordion_block">
                <div class="col-lg-12" style="margin-top:20px;">
-                   AI, VR 등 4차산업과 관련된 곳의 결제수단과 ABLE뱅크 내에서 스마트컨트랙트 기능을 하는 도구로 쓰입니다.
+                   ABLE뱅크 내에서 자산운용상과 서비스를 결제하는 용도로 이용되며, 그 외에 AI, VR 등 4차산업과 관련된 곳의 결제수단으로도 활용 예정입니다.
                </div>
                <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -920,23 +731,6 @@
 
 
   <!-- partner -->
-  <section id="asSeenIn" class="section">
-    <div class="container">
-      <div class="text-center">
-        <h2>PARTNER & CUSTMOR</h2>
-        <div class="divider"></div>
-        <div class="col-sm-12 col-lg-12 col-xs-12 margin-90">
-          <a href="javascript:"><img class="box-1" src="<?php echo $dm?>/images/partner/pa-011.png" /></a>
-          <!--<a href="#" target="_blank"><img class="box-2" src="<?php echo $dm?>/images/partner/pa-08.png" /></a>-->
-          <a href="javascript:"><img class="box-3" src="<?php echo $dm?>/images/partner/pa-06.png" /></a>
-          <a href="javascript:"><img class="box-4" src="<?php echo $dm?>/images/partner/pa-05.jpg" /></a>
-          <!--<a href="javascript:"><img class="box-5" src="<?php echo $dm?>/images/partner/pa-07.gif" /></a>-->
-          <a href="javascript:"><img class="box-6" src="<?php echo $dm?>/images/partner/pa-03.gif" /></a>
-          <a href="javascript:"><img class="box-7" src="<?php echo $dm?>/images/partner/pa-04.jpg" /></a>
-        </div>
-      </div>
-    </div>
-  </section>
   <footer class="footer">
     <div class="footer-top">
       <div class="container">
