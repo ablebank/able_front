@@ -360,9 +360,9 @@
         </div>
         <div class="row margin-20">
             <div class="col-lg-3 col-md-3 col-xs-3 text-left td-01">PRESALE<br><span class="font-down">(토큰뱅크)</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-02">2,000 ETH<br><span class="color-navi">1ETH = 100,000 ABE</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">3,000 ETH<br><span class="color-navi">1ETH =  90,000 ABE</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">4,000 ETH<br><span class="color-navi">1ETH =  80,000 ABE</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-02">2,000 ETH<br><span class="color-navi">1ETH = 100,000 ABL</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">3,000 ETH<br><span class="color-navi">1ETH =  90,000 ABL</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">4,000 ETH<br><span class="color-navi">1ETH =  80,000 ABL</span></div>
         </div>
       </div>
     </div>
@@ -594,7 +594,7 @@
            </div>
            <div id="7_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               Pre-Sale로 약 270,000 ABE, ICO에서 약 600,000,000 ABE 코인이 발행 예정입니다. 유통 코인 목표 개수는 1,500,000,000 ABE 입니다.
+               Pre-Sale로 약 790,000,000 ABL, ICO에서 약 710,000,000 ABL 코인이 발행 예정입니다. 유통 코인 목표 개수는 1,500,000,000 ABL 입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -708,20 +708,20 @@
            </div>
            <div id="17_accordion_block" class="gone faq_accordion_block">
                <div class="col-lg-12" style="margin-top:20px;">
-                   시중은행들은 금융권 규제 때문에 신규 진입이 굉장히 어렵습니다. 오히려 저희에게 투자를 하는 형태가 될것입니다.
+                   시중은행들은 금융권 규제 때문에 신규 진입이 굉장히 어렵습니다. 오히려 ABLE에 투자를 하는 형태가 될것입니다.
                </div>
                <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
 
            <div id="18_accordion_btn" class="list-group faq_accordion_item">
                <div class="list-group-item faq_accordion_btn">
-                   ABLE의 사용처는 어디인가요?
+                   ABLE의 토큰 용도는 어떻게 되나요?
                </div>
                <div id="18_accordion_child" class="faq_accordion_child"></div>
            </div>
            <div id="18_accordion_block" class="gone faq_accordion_block">
                <div class="col-lg-12" style="margin-top:20px;">
-                   ABLE뱅크 내에서 자산운용상과 서비스를 결제하는 용도로 이용되며, 그 외에 AI, VR 등 4차산업과 관련된 곳의 결제수단으로도 활용 예정입니다.
+                   ABLE뱅크 내에서 스마트 컨트렉트를 기반으로 자산운용과 서비스를 결제하는 시스템 구성요소로 이용되며, 그 외에 AI, VR 등 4차산업과 관련된 곳의 결제수단으로도 활용 예정입니다.
                </div>
                <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
