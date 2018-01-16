@@ -516,7 +516,7 @@ body .webGl{
   margin: 0 auto;
 }
 .banner-text {
-  padding-top: 26%;
+  padding-top: 18%;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */

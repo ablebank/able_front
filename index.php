@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=20170925131551" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=20170925141" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=201709251315511" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=201709251412" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
@@ -80,7 +80,7 @@
           <div style="clear: both;">
             <img src="<?php echo $dm?>/images/logo_file.png" class="main-block-logo" alt="able bank">
           </div>
-          <h1 style="margin-top: 30px;">The Global Block Chain Dedicated Bank</h1>
+          <h1 style="margin-top: 80px;">The Global Block Chain Dedicated Bank</h1>
           <p>Asia's First Block Chain Bank</p>
 
           <!--<div class="no-box">
