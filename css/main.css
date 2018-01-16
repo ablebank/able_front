@@ -77,7 +77,7 @@ h2 {
   font-family:Helvetica;
 }
 h3 {
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-family:Helvetica;
   color: #2d3033;
   font-weight: 300;
@@ -115,7 +115,7 @@ a {
 }
 .re-image100{
   display:block;
-  max-width:100%;
+  max-width:70%;
   height:auto;
 }
 .re-image01{
@@ -786,12 +786,12 @@ body .webGl{
   font-weight: 500;
 }
 #about .main-text-type01 {
-  font-family: "Oxygen", "Sans-Serif";
-  font-size:2.8rem;
+  font-family: 'Helvetica';
+  font-size: 2rem;
 }
 #about .main-text-type02 {
   display: block;
-  font-size:2.4rem;
+  font-size:1.8rem;
 }
 #about .about-small {
   font-size:16px;
@@ -805,7 +805,7 @@ body .webGl{
 }
 #about p {
   color: black;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 300;
   line-height: 2.5rem;
   text-align: center;
@@ -845,11 +845,12 @@ body .webGl{
 }
 
 #video .main-text{
-  font-size:4rem;
+  font-family: Helvetica;
+  font-size:3rem;
 }
 
 #video p{
-  font-size:2rem;
+  font-size:1.4rem;
   font-weight:100;
   line-height:2.5rem;
   padding-top:20px;
@@ -872,7 +873,7 @@ body .webGl{
   font-weight: 500;
 }
 #needs .main-text {
-  font-size:2.4rem;
+  font-size:1.8rem;
   font-weight:400;
 }
 #needs .about-small {
@@ -887,7 +888,7 @@ body .webGl{
 }
 #needs p {
   color: white;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.6rem;
   text-align: center;
@@ -911,13 +912,13 @@ body .webGl{
 }
 
 #structure .main-text{
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 #structure p{
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 300;
-  line-height: 35px;
+  line-height: 2.2rem;
   padding-top: 15px;
   color:black;
 }
@@ -974,6 +975,7 @@ body .webGl{
   background-color: #fff;
 }
 #service p {
+  font-size:1.4rem;
   line-height:2.2rem;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
@@ -1019,7 +1021,7 @@ body .webGl{
   text-transform: uppercase;
 }
 #platform h3 {
-  font-size:2.8rem;
+  font-size:1.6rem;
   color: #fff;
   font-weight: 200;
   margin-top:80px;
@@ -1033,7 +1035,7 @@ body .webGl{
 }
 
 #platform h4 {
-  font-size:2.2rem;
+  font-size:1.6rem;
   color: #fff;
   font-weight: 500;
 }
@@ -1044,8 +1046,7 @@ body .webGl{
 }
 #platform p {
    color: #ccc;
-  /*margin-top: 25px;*/
-   font-size: 1.8rem;
+   font-size: 1.4rem;
    font-style: normal;
    font-weight: 300!important;
    line-height: 2.2rem;

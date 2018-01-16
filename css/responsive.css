@@ -131,7 +131,7 @@ mainSection
 ===============================*/
 #mainSection .main-block-logo{
   display: block;
-  max-width: 80%;
+  max-width: 65%;
   margin: 0 auto;
 }
 
@@ -143,14 +143,14 @@ mainSection
 }
 .banner-text h1 {
   color: #fff;
-  font-size: 1.9rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
 .banner-text p {
   color: #fff;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 1.5;
@@ -512,7 +512,7 @@ partner
     font-size:1.4rem;
   }
   #platform .imageBox{
-    width:66%;
+    width:100%;
     margin:0 auto;
   }
 
@@ -616,7 +616,7 @@ partner
     font-size:1.4rem;
   }
   #platform .imageBox{
-    width:70%;
+    width:100%;
     margin:0 auto;
   }
 
