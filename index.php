@@ -801,18 +801,18 @@
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
 
-           <div id="10_accordion_btn" class="list-group faq_accordion_item">
-             <div class="list-group-item faq_accordion_btn">
-               거래소는 언제부터 사용가능한가요?
+             <!--<div id="10_accordion_btn" class="list-group faq_accordion_item">
+               <div class="list-group-item faq_accordion_btn">
+                 거래소는 언제부터 사용가능한가요?
+               </div>
+               <div id="10_accordion_child" class="faq_accordion_child"></div>
              </div>
-             <div id="10_accordion_child" class="faq_accordion_child"></div>
-           </div>
-           <!--<div id="10_accordion_block" class="gone faq_accordion_block">
-             <div class="col-lg-12" style="margin-top:20px;">
-               2018년 1월 비트뱅크(BITBANK) 상장에 상장되며, 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
-             </div>
-             <div class="clearfix" style="margin-bottom:30px;"></div>
-           </div>-->
+             <div id="10_accordion_block" class="gone faq_accordion_block">
+               <div class="col-lg-12" style="margin-top:20px;">
+                 2018년 1월 비트뱅크(BITBANK) 상장에 상장되며, 2018년 상반기에는 비트렉스 및 주요 거래소에 상장예정입니다.
+               </div>
+               <div class="clearfix" style="margin-bottom:30px;"></div>
+             </div>-->
 
            <div id="11_accordion_btn" class="list-group faq_accordion_item">
              <div class="list-group-item faq_accordion_btn">
