@@ -115,7 +115,7 @@ a {
 }
 .re-image100{
   display:block;
-  max-width:70%;
+  max-width:85%;
   height:auto;
 }
 .re-image01{
@@ -1070,7 +1070,7 @@ body .webGl{
 
 #platform .imageBox{
   position:relative;
-  margin-top:100px;
+  margin-top:40px;
 }
 
 /* ==========================================================================
