@@ -330,8 +330,8 @@ ul li {
 #header .header-content {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
-  max-width: 1170px;
-  padding: 40px 0;
+  max-width: 1280px;
+  padding: 20px 40px;
   width: 100%;
   -moz-transition: padding 0.3s;
   -o-transition: padding 0.3s;
@@ -345,7 +345,7 @@ ul li {
 }
 #header.fixed .header-content {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 25px 0; }
+  padding: 25px 25px; }
 #header.fixed .nav-toggle {
   top: 18px; }
 .navigation.open {
@@ -516,7 +516,7 @@ body .webGl{
   margin: 0 auto;
 }
 .banner-text {
-  padding-top: 15%;
+  padding-top: 26%;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -851,7 +851,7 @@ body .webGl{
 #video p{
   font-size:2rem;
   font-weight:100;
-  line-height:35px;
+  line-height:2.5rem;
   padding-top:20px;
   color:white;
 }
@@ -889,7 +889,7 @@ body .webGl{
   color: white;
   font-size: 2rem;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 1.6rem;
   text-align: center;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
@@ -918,7 +918,7 @@ body .webGl{
   font-size: 2rem;
   font-weight: 300;
   line-height: 35px;
-  padding-top: 20px;
+  padding-top: 15px;
   color:black;
 }
 #structure span{

@@ -80,7 +80,7 @@
           <div style="clear: both;">
             <img src="<?php echo $dm?>/images/logo_file.png" class="main-block-logo" alt="able bank">
           </div>
-          <h1 style="margin-top: 30px;">The Global Block Chain Professional Bank</h1>
+          <h1 style="margin-top: 30px;">The Global Block Chain Dedicated Bank</h1>
           <p>Asia's First Block Chain Bank</p>
 
           <!--<div class="no-box">
@@ -105,14 +105,14 @@
             </div>
           </div>-->
 
-          <div>
+          <!--<div>
               <a href="#" id="kakaoTalk_v1"><span>Join KaKao Talk</span></a>
               <?php if($dm == "http://dev.able-project.io"){?>
                   <a href="/member/login.php" id="signIn"><span>SIGN IN</span></a>
               <?php }else{?>
                   <a href="#" id="signIn"><span>Sign In</span></a>
               <?php }?>
-          </div>
+          </div>-->
 
           <!--<div class="coin-limit-box">
               <span class="coin-limit-box-title">READY 29,640,000 ABLE&nbsp;&nbsp;|&nbsp;&nbsp;1ETH = 4940 ABLE</span>
@@ -135,7 +135,7 @@
       <div class="row margin-90">
         <div id="desktop-view-box" class="col-md-6 text-center col-box">
           <p class="align-middle">
-            <span class="main-text-type01">"<span class="main-font-up">A</span>pplying <span class="main-font-up">BL</span>ockchain to <span class="main-font-up">E</span>xtend the finace"</span><br><br>
+            <span class="main-text-type01">"<span class="main-font-up">A</span>pplying <span class="main-font-up">BL</span>ockchain to <span class="main-font-up">E</span>xtend the finance"</span><br><br>
             <span class="main-text-type02"><span>ABLE PROJECT</span>는 세계최대 "블록체인 전문은행"을 설립 합니다.</span><br />
             ABLE PROJECT는 암호화폐기반 예금/대출상품의 설계(Smart Contract)를 통해
             <br>
@@ -185,7 +185,7 @@
       <div class="divider"></div>
       <div class="row margin-90">
         <div class="col-md-6 video-box">
-          <iframe width="100%" style="height:340px" src="https://www.youtube.com/embed/LEGOpjdu638" frameborder="0" allowfullscreen class="margin-center"></iframe>
+          <iframe width="100%" style="height:340px" src="https://www.youtube.com/embed/z_CwMI6fxtc" frameborder="0" allowfullscreen class="margin-center"></iframe>
         </div>
         <div class="col-md-6 video-text-box">
           <h3 class="white main-text">ABLE PROJECT</h3>
@@ -206,13 +206,12 @@
       <h2>NEEDS</h2>
       <div class="divider"></div>
       <p class="margin-90">
-        <span class="main-text">현재 암호화폐시장이 안정될수록 거래소보다 "전문은행"이 절실히 필요해 질 것입니다</span><br><br>
-        ABLE은 블록체인 뱅크 플랫폼으로써 강화된 보안, 편리한 환전, 거치형 예금 상품 등
-        접근성이 뛰어난 뱅크 플랫폼을 지향하고 있습니다.
-        <br><br>
-        앞으로 뱅크 플랫폼은 계속 성장 할 것입니다.
-        ABLE은 국내, 싱가포르, 아시아 전 국가로 지점을 확대하고, 초기시장을 선점할 것입니다.
-        <br>
+        <span class="main-text">현재 암호화폐시장이 안정될수록 거래소보다 "뱅크"가 필요해 질 것입니다</span><br><br>
+          <p>태동단계의 암호화폐 시장의 변동성은 시장이 성숙해질수록 줄어들게 됩니다.</p>
+          <p>ABLE은 현재의 불안한 변동성에 대비하고, 미래의 성숙된 시장에서 안정적인 수익을 얻을 수 있는 뱅킹솔루션을 제안합니다.</p>
+          <p>ABLE은 블록체인 뱅크 플랫폼으로써 강화된 보안, 편리한 환전, 거치형 예금 상품 등 접근성이 뛰어난 뱅크 플랫폼을 지향하고 있습니다</p>
+          <p>에스토니아 법인을 시작으로 싱가포르 등 아시아 전 국가에 지점을 확대하여 아시아 최초이자 최대 블록체인뱅크 서비스를 제공할것입니다.</p>
+          <br>
       </p>
     </div>
   </section>
@@ -462,39 +461,38 @@
         <div class="divider"></div>
         <div class="row margin-90">
           <div class="col-sm-3 col-lg-3 roadmapBox">
-            <h3>2017. 4Q</h3>
-            <p class="text-left">
-              <span class="text-cicle"></span><span class="text-left-padding">대기자금 비트코인 & 부동산<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중심 투자</span>
-            </p>
-          </div>
-          <div class="col-sm-3 col-lg-3 roadmapBox">
-            <h3>2018. 1Q</h3>
-            <p class="text-left">
-              <span class="text-cicle"></span><span class="text-left-padding">거래소상장(BITBANK)</span><br>
-              <span class="text-cicle"></span><span class="text-left-padding">대기자금 투자수익 월별 배분 시작</span>
-            </p>
-          </div>
-          <div class="col-sm-3 col-lg-3 roadmapBox">
             <h3>2018. 2Q</h3>
             <p class="text-left">
-              <span class="text-cicle"></span><span class="text-left-padding">블록체인 전문은행 오픈<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(예금,대출 서비스 시작)</span>
+              <span class="text-cicle"></span><span class="text-left-padding">Pre-Sale (토큰뱅크 예정)</span>
             </p>
           </div>
           <div class="col-sm-3 col-lg-3 roadmapBox">
-            <h3>2018. 3Q</h3>
+            <h3>2018. 3,4Q</h3>
+            <p class="text-left">
+              <span class="text-cicle"></span><span class="text-left-padding">국내,외 거래소 상장</span>
+            </p>
+          </div>
+          <div class="col-sm-3 col-lg-3 roadmapBox">
+            <h3>2019. 1Q</h3>
+            <p class="text-left">
+              <span class="text-cicle"></span><span class="text-left-padding">블록체인 전문은행 오픈 (예금)</span>
+            </p>
+          </div>
+          <div class="col-sm-3 col-lg-3 roadmapBox">
+            <h3>2019. 2Q</h3>
             <p class="text-left">
               <span class="text-cicle"></span><span class="text-left-padding">자산운용 금융상품 서비스 시작</span>
             </p>
           </div>
 
           <div class="col-sm-3 col-lg-3 roadmapBox">
-            <h3>2018. 4Q</h3>
+            <h3>2019. 3Q</h3>
             <p class="text-left">
-              <span class="text-cicle"></span><span class="text-left-padding">ABLE BANK 수익배분</span>
+              <span class="text-cicle"></span><span class="text-left-padding">ABLE BANK 수익활용</span>
             </p>
           </div>
           <div class="col-sm-3 col-lg-3 roadmapBox">
-            <h3>2019</h3>
+            <h3>2019. 4Q</h3>
             <p class="text-left">
               <span class="text-cicle"></span><span class="text-left-padding">PoS 기반 ABLE 메인네트워크 개발</span>
             </p>
@@ -502,7 +500,7 @@
           <div class="col-sm-3 col-lg-3 roadmapBox">
             <h3>2020</h3>
             <p class="text-left">
-              <span class="text-cicle"></span><span class="text-left-padding">PoS 기반 ABLE 메인네트워크<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;오픈 및 PoS 보상</span>
+              <span class="text-cicle"></span><span class="text-left-padding">메인네트워크 오픈 및 PoS 보상</span>
             </p>
           </div>
         </div>
@@ -511,7 +509,7 @@
   </section>
 
   <!-- 커뮤니티 -->
-  <section id="ask" class="section">
+  <!--<section id="ask" class="section">
     <div class="container">
       <div class="col-md-12  text-center">
         <h2>COMMUNITY</h2>
@@ -538,7 +536,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <section id="team" class="section">
     <div class="container">
@@ -608,7 +606,7 @@
                 </div>
               </div>
             </div>
-            <div id="acc-3">
+            <!--<div id="acc-3">
               <div class="title sub0 on">
                 <div class="section-title">DEVELOPMENT DEPARTMENT</div>
                 <span class="b img"></span>
@@ -637,8 +635,8 @@
               </div>
               <div class="row">
               </div>
-            </div>
-            <div id="acc-4">
+            </div>-->
+            <!--<div id="acc-4">
               <div class="title sub0 on">
                 <div class="section-title">PLANNING & MARKETING DEPARTMENT</div>
                 <span class="b img"></span>
@@ -666,7 +664,7 @@
                     마케팅 총 책임자로 B2B 및 B2C에 대한 마케팅 전문가이다. 다양한 분야에서 10년 이상의마케팅 활동 경험이 있으며 ABLE PROJECT의 소셜미디어, 프로젝트 관리, 기획 및 집행 등을 총괄하고 있다.
                   </p>
                 </div>
-              </div>
+              </div>-->
             </div>
           </div>
         </div>
@@ -821,7 +819,7 @@
            </div>
            <div id="11_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               2019년에 PoS 기반 ABLE 전용 메인네트워크를 개발할 예정입니다.
+               2019년에 PoS 기반 ABLE 전용 메인네트워크를 개발할 예정이며, 2020년에 오픈 합니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
