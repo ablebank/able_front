@@ -385,14 +385,22 @@ about
   font-size:1.2rem;
 }
 #Sale .td-02{
-  font-size:1.2rem;
+  font-size:1rem;
 }
 #Sale .td-03{
-  font-size:1.2rem;
+  font-size:1rem;
 }
 #Sale .font-down{
   font-size:1.1rem;
 }
+
+/*==============================
+partner
+===============================*/
+#roadmap .roadmapBox {
+  height: 140px;
+}
+
 /*==============================
 partner
 ===============================*/
