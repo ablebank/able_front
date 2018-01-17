@@ -66,7 +66,7 @@
             <li><a href="#platform">PLATFORM</a></li>
             <li><a href="#Sale">TOKEN SALE</a></li>
             <li><a href="#roadmap">ROADMAP</a></li>
-            <li><a href="#team">TEAM</a></li>
+            <!--<li><a href="#team">TEAM</a></li>-->
             <li><a href="#faq">FAQ</a></li>
             <!--<li><a href="<?php echo $dm?>/library/whitepaper.php" class="beta-styles" style="color: black" target="_blank">WHITEPAPER</a></li>-->
           </ul>
