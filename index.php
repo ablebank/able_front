@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=20170925131551111111" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=201709251412111111111" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513155111111111" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=20170925141211111111111" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
 
@@ -46,6 +46,7 @@
 </head>
 <body>
 <script type="text/javascript">
+    //main webGl 모바일 실행 여부
     if(!iOS()){
         var mouseX = 0, mouseY = 0,
             windowHalfX = window.innerWidth / 2,
@@ -185,7 +186,7 @@
       <div class="divider"></div>
       <div class="row margin-90">
         <div class="col-md-6 video-box">
-          <iframe width="100%" style="height:310px" src="https://www.youtube.com/embed/z_CwMI6fxtc" frameborder="0" allowfullscreen class="margin-center"></iframe>
+          <iframe width="100%" class="iframeBox" src="https://www.youtube.com/embed/z_CwMI6fxtc" frameborder="0" allowfullscreen class="margin-center"></iframe>
         </div>
         <div class="col-md-6 video-text-box">
           <h3 class="white main-text">ABLE PROJECT</h3>
