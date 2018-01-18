@@ -185,7 +185,7 @@
       <div class="divider"></div>
       <div class="row margin-90">
         <div class="col-md-6 video-box">
-          <iframe width="100%" style="height:340px" src="https://www.youtube.com/embed/z_CwMI6fxtc" frameborder="0" allowfullscreen class="margin-center"></iframe>
+          <iframe width="100%" style="height:310px" src="https://www.youtube.com/embed/z_CwMI6fxtc" frameborder="0" allowfullscreen class="margin-center"></iframe>
         </div>
         <div class="col-md-6 video-text-box">
           <h3 class="white main-text">ABLE PROJECT</h3>
