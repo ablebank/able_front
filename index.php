@@ -142,10 +142,6 @@
             <br>
             주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
             <br><br>
-            대기자금은 Mining, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
-            <br>
-            ABLE PROJECT의 <span>수익</span>을 <span>극대화</span> 시켜줍니다.
-            <br><br>
             ABLE PROJECT는 암호화폐의 금융화 안전한 관리 이외 VR, AI, 바이오 등<br>
             <span>4차 산업혁명시대를 이끌어갈 새로운 인프라를 조성할 것입니다.</span>
           </p>
@@ -161,9 +157,6 @@
                 <p class="sub-text">
                     ABLE PROJECT는 암호화폐기반 예금/대출상품의 설계(Smart Contract)를 통해
                     주체적으로 <span>암호화폐시장</span>의 <span>유동성</span>을 <span>제고</span>할 것입니다.
-                    <br><br>
-                    대기자금은 Mining, Trading, IB(NPL, Derivatives 등)에 <span class="color-text">분산운용</span>하여
-                    ABLE PROJECT의 <span>수익</span>을 <span>극대화</span> 시켜줍니다.
                     <br><br>
                     ABLE PROJECT는 암호화폐의 금융화 안전한 관리 이외 VR, AI, 바이오 등
                     <span>4차 산업혁명시대를 이끌어갈 새로운 인프라를 조성할 것입니다.</span>
@@ -278,7 +271,7 @@
           <div class="features-content">
             <h3>BANKING SERVICES</h3>
             <p>
-              현시대에서 블록체인은 미래를 바꿀 기술 중 하나로 꼽히고 있습니다. ABLE project는 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 블록체인 전문 은행입니다. 블록체인 시스템의 투명성, 불변성, 보안 및 신뢰성을 기반으로 은행순수익의 40%를 프로젝트 참여자들에게 공유합니다. ABLE Project는 블록체인 스마트 컨트랙트를 기반으로 암호화폐 예금 및 대출 서비스를 실현하며, 암호화폐 자산관리 서비스로  벤처투자, 채권, 마이닝, 알트코인 트레이딩, NPL부동산, ICO 등의 다양한 금융상품 서비스를 제공합니다.
+              현시대에서 블록체인은 미래를 바꿀 기술 중 하나로 꼽히고 있습니다. ABLE project는 암호화폐의 예금 및 대출, 자산관리 서비스를 제공하는 블록체인 전문 은행입니다. ABLE Project는 블록체인 스마트 컨트랙트를 기반으로 암호화폐 예금 및 대출 서비스를 실현하며, 암호화폐 자산관리 서비스로 다양한 금융상품 서비스를 제공합니다.
             </p>
           </div>
         </div>
@@ -287,8 +280,7 @@
           <div class="features-content">
             <h3>ASSET MANAGEMENT</h3>
             <p>
-              ABLE은 18년 1분기에 파트너사인 소셜 거래소 비트뱅크에 상장될 예정입니다. ICO 이후 상장까지 시간을 단축시켜 ABLE 자산관리의 어려움을 최소화 합니다.
-              Pre-Sale과 ICO로 발행된 토큰은 비트뱅크 거래소의 지갑에 전송되기 때문에 ICO이후 거래소 지갑으로 전송해야 하는 번거로움과 개인 월넷의 해킹위험을 방지할 수 있습니다.
+              ABLE은 18년 1분기에 파트너사인 토큰뱅크에 프리세일을 진행할 예정입니다. ABLE 토큰만으로 다양한 금융상품을 이용할 수 있습니다.
             </p>
           </div>
         </div>
@@ -541,19 +533,6 @@
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
 
-            <div id="3_accordion_btn" class="list-group faq_accordion_item">
-              <div class="list-group-item faq_accordion_btn">
-                Pre-Sale 참여시 ICO와 비교해 어떤 혜택이 있나요?
-              </div>
-              <div id="3_accordion_child" class="faq_accordion_child"></div>
-            </div>
-            <div id="3_accordion_block" class="gone faq_accordion_block">
-              <div class="col-lg-12" style="margin-top:20px;">
-                1차 Pre-Sale은 25%, 2차 Pre-Sale은 11%의 추가 코인을 배분 받을수 있습니다.
-              </div>
-              <div class="clearfix" style="margin-bottom:30px;"></div>
-            </div>
-
             <div id="4_accordion_btn" class="list-group faq_accordion_item">
               <div class="list-group-item faq_accordion_btn">
                 토큰 구매 기회는 총 몇번 인가요?
@@ -575,7 +554,7 @@
             </div>
             <div id="5_accordion_block" class="gone faq_accordion_block">
               <div class="col-lg-12" style="margin-top:20px;">
-                ABLE PROJECT 홈페이지(https://www.able-project.io)를 통해서 참여할 수 있습니다.
+                Pre-sale 기간은 토큰뱅크를 통해 참여하실 수 있습니다.
               </div>
               <div class="clearfix" style="margin-bottom:30px;"></div>
             </div>
@@ -601,7 +580,7 @@
            </div>
            <div id="7_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               Pre-Sale로 약 790,000,000 ABL, ICO에서 약 710,000,000 ABL 코인이 발행 예정입니다. 유통 코인 목표 개수는 1,500,000,000 ABL 입니다.
+               Pre-Sale로 약 790,000,000 ABL, ICO에서 약 710,000,000 ABL 코인이 발행 예정입니다. 유통 코인 개수는 1,500,000,000 ABL 입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -678,7 +657,7 @@
            </div>
            <div id="14_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-               참여금액은 제한이 없습니다.
+               현재 미정입니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
@@ -702,7 +681,7 @@
            </div>
            <div id="16_accordion_block" class="gone faq_accordion_block">
              <div class="col-lg-12" style="margin-top:20px;">
-                 마이이더월렛(MyEtherWallet) 만 가능하며, 회원가입시 등록한 지갑주소로만 참여 가능합니다.
+                 이더리움 관련 지갑은 모두 참여 가능합니다.
              </div>
              <div class="clearfix" style="margin-bottom:30px;"></div>
            </div>
