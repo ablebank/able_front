@@ -361,9 +361,9 @@
         </div>
         <div class="row margin-20">
             <div class="col-lg-3 col-md-3 col-xs-3 text-left td-01">PRESALE<br><span class="font-down">(토큰뱅크)</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-02">2,000 ETH<br><span class="color-navi">1ETH = 100,000 ABL</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">3,000 ETH<br><span class="color-navi">1ETH =  90,000 ABL</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">4,000 ETH<br><span class="color-navi">1ETH =  80,000 ABL</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-02">2,000 ETH<br><span class="color-navi">1ETH = 100,000 ABLE</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">3,000 ETH<br><span class="color-navi">1ETH =  90,000 ABLE</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">4,000 ETH<br><span class="color-navi">1ETH =  80,000 ABLE</span></div>
         </div>
       </div>
     </div>
