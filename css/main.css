@@ -1474,7 +1474,7 @@ body .webGl{
   background-color: #262b36;
   padding-top: 30px; }
 .footer .footer-col {
-  margin-bottom: 50px; }
+  margin-bottom: 22px; }
 .footer h5 {
   color: #fff;
   margin-bottom: 20px;
@@ -1498,7 +1498,12 @@ body .webGl{
 .footerSocials>div {
   padding: 10px;
 }
-
+.footer .logo h2{
+  color:#FFF;
+}
+.footer .address h5{
+  color:#FFF;
+}
 .animated {
   visibility: visible; }
 

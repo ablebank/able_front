@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="<?php echo $dm?>/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/flexslider.css" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/animate.min.css" />
-    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=2017092513155111111111111111" />
+    <link rel="stylesheet" href="<?php echo $dm?>/css/main.css?d=201709251315511111111111111111" />
     <link rel="stylesheet" href="<?php echo $dm?>/css/responsive.css?d=201709251412111111111111111" />
     <link rel="shortcut icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="<?php echo $dm?>/favicon.ico" type="image/x-icon" />
@@ -720,9 +720,14 @@
   <footer class="footer">
     <div class="footer-top">
       <div class="container">
-        <div class="footer-col center">
-          <h5>ABLE</h5>
+        <div class="footer-col center logo">
+          <h2>ABLE</h2>
         </div>
+      </div>
+      <div class="container address">
+          <h5>Nation : Estonia</h5>
+          <h5>Registry code : 14406869</h5>
+          <h5>Harju maakond, Tallinn, Nõmme linnaosa, Rännaku pst 12, 10917</h5>
       </div>
       <div class="container">
         <p>&copy; Copyright 2017 - ABLE PROJECT</p>
