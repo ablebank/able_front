@@ -446,7 +446,7 @@
         <div class="divider"></div>
         <div class="row margin-90">
           <div class="col-sm-3 col-lg-3 roadmapBox">
-            <h3>2018. 2Q</h3>
+            <h3>2018. 1Q</h3>
             <p class="text-left">
               <span class="text-cicle"></span><span class="text-left-padding">Pre-Sale (토큰뱅크 예정)</span>
             </p>
