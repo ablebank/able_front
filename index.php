@@ -347,9 +347,9 @@
 
         <div class="row margin-90">
             <div class="col-lg-3 col-md-3 col-xs-3 text-left td-01"></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-02">1<span class="font-down">ST</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">2<span class="font-down">ST</span></div>
-            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-04">3<span class="font-down">ST</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-02">1<span class="font-down">st</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-03">2<span class="font-down">nd</span></div>
+            <div class="col-lg-3 col-md-3 col-xs-3 text-right td-04">3<span class="font-down">rd</span></div>
         </div>
         <div class="row margin-20">
             <div class="col-lg-3 col-md-3 col-xs-3 text-left td-01">PRESALE<br><span class="font-down">(토큰뱅크)</span></div>
