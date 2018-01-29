@@ -561,13 +561,13 @@ include(dirname(__FILE__).'/library/common.php'); //domain check
                                 <div class="catBox">CEO / Founder </div>
                                 <p class="jobBox">국세 공무원 출신으로 공군장교를 거쳐 삼성 재무팀에서 근무했다. NPL부동산 및 자산운용 전문가로 커뮤니티(사자후의 투자연구소)를 운영하고 있다. 블록체인 관련 다양한 경험을 보유하고 있으며 K-Blockchains의 CEO이다.</p>
                             </div>
-                            <!--<div class="col-md-3">
+                            <div class="col-md-3">
                               <div class="imageBox cto"></div>
                               <div class="nameBox">Y.D YOON</div>
                               <div class="catBox">CTO</div>
                               <p class="jobBox">유니스트에서 컴퓨터공학 및 전자공학을 전공하고, 카이스트에서 Internet of Things (IoT) 연구를 통해 석사학위를 받았다. 이후 IoT 오픈 소스 플랫폼인 Open Language for Internet of Things (OLIOT) 개발에 참여하고 관리 중이다.
                                   현재 카이스트에서 박사과정 중으로 Blockchain을 적용한 IoT 플랫폼 연구를 수행 중이다.</p>
-                            </div>-->
+                            </div>
                             <div class="col-md-3">
                                 <div class="imageBox cfo"></div>
                                 <div class="nameBox">Sukyu Cheah</div>
@@ -609,7 +609,7 @@ include(dirname(__FILE__).'/library/common.php'); //domain check
                             </div>
                         </div>
                     </div>
-                    <!--<div id="acc-3">
+                    <div id="acc-3">
                       <div class="title sub0 on">
                         <div class="section-title">DEVELOPMENT DEPARTMENT</div>
                         <span class="b img"></span>
@@ -638,8 +638,8 @@ include(dirname(__FILE__).'/library/common.php'); //domain check
                       </div>
                       <div class="row">
                       </div>
-                    </div>-->
-                    <!--<div id="acc-4">
+                    </div>
+                    <div id="acc-4">
                       <div class="title sub0 on">
                         <div class="section-title">PLANNING & MARKETING DEPARTMENT</div>
                         <span class="b img"></span>
@@ -667,7 +667,7 @@ include(dirname(__FILE__).'/library/common.php'); //domain check
                             마케팅 총 책임자로 B2B 및 B2C에 대한 마케팅 전문가이다. 다양한 분야에서 10년 이상의마케팅 활동 경험이 있으며 ABLE PROJECT의 소셜미디어, 프로젝트 관리, 기획 및 집행 등을 총괄하고 있다.
                           </p>
                         </div>
-                      </div>-->
+                      </div>
                 </div>
             </div>
         </div>
