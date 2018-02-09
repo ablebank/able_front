@@ -945,7 +945,7 @@ include(dirname(__FILE__).'/library/common.php'); //domain check
             </div>
         </div>
         <div class="container">
-            <p>&copy; Copyright 2017 - ABLE PROJECT</p>
+            <p>&copy; Copyright 2017 - ABLE PROJECT..</p>
         </div>
     </div>
 </footer>
